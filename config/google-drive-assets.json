@@ -1,0 +1,41 @@
+{
+  "provider": "google_drive",
+  "root_folder_id": "1aaFZNwaCAPVZO6lBx66UHiZhaS5KXjIO",
+  "root_folder_url": "https://drive.google.com/drive/folders/1aaFZNwaCAPVZO6lBx66UHiZhaS5KXjIO",
+  "projects": {
+    "chicken-nanban-001": {
+      "folder_id": "1PpfpfckKvY7Qk7E1lzr67lO2MbL90dCZ",
+      "folder_url": "https://drive.google.com/drive/folders/1PpfpfckKvY7Qk7E1lzr67lO2MbL90dCZ",
+      "expected_images": [
+        "page-01.png",
+        "page-02.png",
+        "page-03.png",
+        "page-04.png",
+        "page-05.png"
+      ],
+      "upload_status": "uploaded_to_google_drive",
+      "files": [
+        {
+          "name": "page-01.png",
+          "file_id": "19UmUoACJBgg-9trAvLSrnMaQBtNSJ0Ql"
+        },
+        {
+          "name": "page-02.png",
+          "file_id": "17ioig0qNQuQQf8pWZDng7dx_BGNKYwSG"
+        },
+        {
+          "name": "page-03.png",
+          "file_id": "1d26Q5wVsNCOaUJpL61bD5KJM3kivaDjJ"
+        },
+        {
+          "name": "page-04.png",
+          "file_id": "1NxCYndrHR6YOwPPCsXrJbfxWBUUOd9Ju"
+        },
+        {
+          "name": "page-05.png",
+          "file_id": "1BlOr2gMQsREScyPa2CJu3joUs8-0kOD3"
+        }
+      ]
+    }
+  }
+}
