@@ -1,0 +1,20 @@
+name: Validate storyboards
+on:
+  push:
+    paths:
+      - "projects/**/storyboard.json"
+      - "scripts/validate_storyboard.py"
+      - ".github/workflows/validate.yml"
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: |
+          for f in projects/*/storyboard.json; do
+            python scripts/validate_storyboard.py "$f"
+          done
