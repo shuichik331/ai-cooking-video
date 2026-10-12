@@ -30,7 +30,8 @@ TRANSITIONS = {
     "published": set(),
 }
 
-SCENE_STATUSES = ("pending", "generating", "generated", "approved", "rejected")
+# provisional: production review passed and the user accepted it tentatively; final approval still pending.
+SCENE_STATUSES = ("pending", "generating", "generated", "provisional", "approved", "rejected")
 
 
 class StatusError(Exception):
@@ -110,14 +111,14 @@ def set_scene(project, scene_id, status, asset_path=None, approved=None, note=No
     if status not in SCENE_STATUSES:
         raise StatusError(f"unknown scene status {status!r}")
     entry = scenes[scene_id]
-    if status in ("generated", "approved"):
+    if status in ("generated", "provisional", "approved"):
         path = asset_path or entry.get("asset_path")
         if not path or not resolve_asset(path).is_file():
             raise StatusError(f"{scene_id}: {status} requires an existing asset file, got {path!r}")
         entry["asset_path"] = str(path)
     if status == "approved":
         approved = True
-    if status in ("pending", "generating", "rejected"):
+    if status in ("pending", "generating", "generated", "provisional", "rejected"):
         approved = False
     entry["status"] = status
     if approved is not None:

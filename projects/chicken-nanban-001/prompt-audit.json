@@ -1,0 +1,2940 @@
+{
+  "project_id": "chicken-nanban-001",
+  "excluded": [
+    "s01"
+  ],
+  "scenes": [
+    {
+      "scene_id": "s01",
+      "findings": []
+    },
+    {
+      "scene_id": "s02",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s03",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s04",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s05",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s06",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s07",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s08",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s09",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s10",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s11",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s12",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s13",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "wide-panel",
+          "text": "wide bottom-row panel (~2:1): a 9:16 start image keeps under half the width; confirm which part to keep"
+        }
+      ]
+    },
+    {
+      "scene_id": "s14",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "wide-panel",
+          "text": "wide bottom-row panel (~2:1): a 9:16 start image keeps under half the width; confirm which part to keep"
+        }
+      ]
+    },
+    {
+      "scene_id": "s15",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'wide or establishing, as storyboard'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s16",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s17",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "high",
+          "code": "open-discrepancy",
+          "text": "Image: bare fingers lower a flour-coated piece into the oil. prompts.json: 'battered chicken being carefully lowered into hot oil with tongs'. Utensil (and batter look) differ."
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s18",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s19",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "high",
+          "code": "open-discrepancy",
+          "text": "Image: bare fingers add pieces to the hot oil. prompts.json: 'Close hands adding the next chicken pieces with tongs'. Utensil differs (also a hand-safety concern)."
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s20",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s21",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s22",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s23",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s24",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s25",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "high",
+          "code": "open-discrepancy",
+          "text": "Image: chopsticks lift a piece above the frying pan, no rack in frame. prompts.json: 'Tongs lifting fully cooked golden chicken onto wire rack'. Utensil and destination differ."
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s26",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "recorded-discrepancy",
+          "text": "Use storyboard.json timing 0:25–0:26 (start 25s, end 26s). Image text left as-is; corrected image still requested from ChatGPT."
+        }
+      ]
+    },
+    {
+      "scene_id": "s27",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "wide-panel",
+          "text": "wide bottom-row panel (~2:1): a 9:16 start image keeps under half the width; confirm which part to keep"
+        }
+      ]
+    },
+    {
+      "scene_id": "s28",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "wide-panel",
+          "text": "wide bottom-row panel (~2:1): a 9:16 start image keeps under half the width; confirm which part to keep"
+        }
+      ]
+    },
+    {
+      "scene_id": "s29",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'wide or establishing, as storyboard'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s30",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s31",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s32",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s33",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s34",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s35",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s36",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s37",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s38",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s39",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s40",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s41",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        },
+        {
+          "severity": "low",
+          "code": "wide-panel",
+          "text": "wide bottom-row panel (~2:1): a 9:16 start image keeps under half the width; confirm which part to keep"
+        }
+      ]
+    },
+    {
+      "scene_id": "s42",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "wide-panel",
+          "text": "wide bottom-row panel (~2:1): a 9:16 start image keeps under half the width; confirm which part to keep"
+        }
+      ]
+    },
+    {
+      "scene_id": "s43",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'wide or establishing, as storyboard'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s44",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s45",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s46",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s47",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s48",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s49",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s50",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s51",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s52",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s53",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s54",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s55",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        },
+        {
+          "severity": "low",
+          "code": "wide-panel",
+          "text": "wide bottom-row panel (~2:1): a 9:16 start image keeps under half the width; confirm which part to keep"
+        }
+      ]
+    },
+    {
+      "scene_id": "s56",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        },
+        {
+          "severity": "low",
+          "code": "wide-panel",
+          "text": "wide bottom-row panel (~2:1): a 9:16 start image keeps under half the width; confirm which part to keep"
+        }
+      ]
+    },
+    {
+      "scene_id": "s57",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'wide or establishing, as storyboard'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s58",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s59",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s60",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s61",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s62",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s63",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'close-up or macro matching panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s64",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s65",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s66",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s67",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s68",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        }
+      ]
+    },
+    {
+      "scene_id": "s69",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "face-visible",
+          "text": "protagonist's face is visible in the panel: needs the identity reference (s03_face)"
+        },
+        {
+          "severity": "low",
+          "code": "wide-panel",
+          "text": "wide bottom-row panel (~2:1): a 9:16 start image keeps under half the width; confirm which part to keep"
+        }
+      ]
+    },
+    {
+      "scene_id": "s70",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "recipe-sentence",
+          "text": "contains the whole-recipe sentence from global_prompt (caused the 4-shot montage in s01 test-01)"
+        },
+        {
+          "severity": "high",
+          "code": "no-single-shot",
+          "text": "no 'single continuous shot / no cuts' instruction"
+        },
+        {
+          "severity": "high",
+          "code": "open-discrepancy",
+          "text": "Image and prompt both show tomatoes, but no tomato appears in the plating sequence s48–s54 or in s67. Continuity question for the creative lead."
+        },
+        {
+          "severity": "medium",
+          "code": "no-exclusions",
+          "text": "no explicit exclusion of other recipe stages, montage, transitions or inserts"
+        },
+        {
+          "severity": "medium",
+          "code": "no-duration",
+          "text": "generation length not stated (s01 pattern: '5 seconds')"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-camera",
+          "text": "camera field is generic: 'match exact framing of storyboard panel'"
+        },
+        {
+          "severity": "medium",
+          "code": "generic-motion",
+          "text": "motion field is shared word-for-word with 68 other cut(s)"
+        },
+        {
+          "severity": "medium",
+          "code": "no-reference-roles",
+          "text": "no test_generation block (start_image / identity reference roles not defined)"
+        },
+        {
+          "severity": "low",
+          "code": "wide-panel",
+          "text": "wide bottom-row panel (~2:1): a 9:16 start image keeps under half the width; confirm which part to keep"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "recipe-sentence": 69,
+    "no-single-shot": 69,
+    "no-exclusions": 69,
+    "no-duration": 69,
+    "generic-camera": 69,
+    "generic-motion": 69,
+    "no-reference-roles": 69,
+    "face-visible": 16,
+    "wide-panel": 10,
+    "open-discrepancy": 4,
+    "recorded-discrepancy": 1
+  }
+}

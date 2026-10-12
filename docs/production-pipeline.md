@@ -35,7 +35,7 @@ Overall flow: `not_started → ready_for_generation → generating → in_review
 | `approved_for_publish` | `publication.approved` is true. This is human signoff. |
 | `published` | A real platform URL is recorded. |
 
-Scene statuses: `pending → generating → generated → approved | rejected`. `generated` and `approved` require an existing, probed clip.
+Scene statuses: `pending → generating → generated → provisional → approved | rejected`. `provisional` means production review passed and the user accepted the clip tentatively; it is not approved and is never rendered as final. `generated` and `approved` require an existing, probed clip.
 
 ## Commands
 

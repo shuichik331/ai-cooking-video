@@ -40,5 +40,23 @@
       ],
       "purpose": "protagonist face/hair/T-shirt reference for the s01 test; upper part of panel s03 only, above the hand and the raw-chicken tray so no ingredient is carried into s01"
     }
+  },
+  "start_image_crops": {
+    "s01": {
+      "from": "s01 box",
+      "page_x_range": [
+        110.0,
+        223.5
+      ],
+      "note": "9:16 centred on protagonist (option B, used in s01-test-02)"
+    },
+    "s03": {
+      "from": "s03 box",
+      "page_x_range": [
+        599.75,
+        713.25
+      ],
+      "note": "9:16 centred on the face; keeps face, hand and raw-chicken tray"
+    }
   }
 }

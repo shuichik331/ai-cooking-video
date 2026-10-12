@@ -9,7 +9,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
 
-from studio import higgsfield, panels, render, scene_sheet, status, test_plan  # noqa: E402
+from studio import higgsfield, panels, prompt_audit, render, scene_sheet, status, test_plan  # noqa: E402
 from studio.project import discover_projects, load_project, write_json  # noqa: E402
 from studio.validate import validate_project  # noqa: E402
 
@@ -341,6 +341,37 @@ class TestPlanTest(TempDirTest):
         self.assertFalse(params["generate_audio"])
         self.assertEqual(plan["cost"]["estimated_credits"], 35)
         self.assertTrue(any("approval" in b for b in plan["blockers"]))
+
+
+class PromptAuditTest(TempDirTest):
+    def test_flags_old_structure_and_passes_single_shot(self):
+        root = make_project(self.tmp)
+        edit_json(root / "prompts.json", lambda d: (
+            d["scenes"][0].update(higgsfield_prompt=f"Scene s01 cooked from raw chicken thigh through frying. {GLOBAL}"),
+            d["scenes"][1].update(higgsfield_prompt="SINGLE CONTINUOUS SHOT, 5 seconds, NO CUTS. Absolutely no montage or transitions.",
+                                  camera="locked macro on the bowl", motion="whisk turns twice", test_generation={}),
+        ))
+        rows = {r["scene_id"]: {f["code"] for f in r["findings"]} for r in prompt_audit.audit(load_project(root))}
+        self.assertIn("recipe-sentence", rows["s01"])
+        self.assertIn("no-single-shot", rows["s01"])
+        self.assertEqual(rows["s02"], set())
+
+    def test_audit_never_writes_prompts(self):
+        root = make_project(self.tmp)
+        before = (root / "prompts.json").read_bytes()
+        prompt_audit.audit(load_project(root))
+        self.assertEqual(before, (root / "prompts.json").read_bytes())
+
+
+class ProvisionalStatusTest(TempDirTest):
+    def test_provisional_requires_file_and_is_not_approved(self):
+        project = load_project(make_project(self.tmp))
+        with self.assertRaises(status.StatusError):
+            status.set_scene(project, "s01", "provisional")
+        clip = Path(self.tmp) / "c.mp4"
+        clip.write_bytes(b"x")
+        status.set_scene(project, "s01", "provisional", asset_path=str(clip))
+        self.assertFalse(project.status["scenes"]["s01"]["approved"])
 
 
 class RealProjectsTest(unittest.TestCase):

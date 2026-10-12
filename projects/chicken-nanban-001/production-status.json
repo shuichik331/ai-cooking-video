@@ -11,7 +11,7 @@
   ],
   "scenes": {
     "s01": {
-      "status": "generated",
+      "status": "provisional",
       "asset_path": "media/chicken-nanban-001/clips/s01_test02_480p.mp4",
       "approved": false,
       "jobs": [
@@ -54,14 +54,14 @@
           "result_file": "media/chicken-nanban-001/clips/s01_test02_480p.mp4"
         }
       ],
-      "updated_at": "2026-10-12T22:27:27+00:00",
+      "updated_at": "2026-10-12T22:34:00+00:00",
       "probe": {
         "duration_seconds": 5.042,
         "width": 480,
         "height": 854,
         "audio": false
       },
-      "note": "s01-test-02 (job 9027cd01): accepted by production review; awaiting human approval. test-01 (job 6c4335a4) rejected, kept in jobs history.",
+      "note": "仮採用・最終承認待ち (user, 2026-10-12): s01-test-02 job 9027cd01, cut 1.5-2.5s. test-01 (6c4335a4) rejected, kept in jobs history.",
       "trim_in_seconds": 1.5,
       "selected_cut": {
         "file": "media/chicken-nanban-001/clips/s01_cut_from_test02.mp4",

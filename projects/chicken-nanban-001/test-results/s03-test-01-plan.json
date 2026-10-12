@@ -1,0 +1,80 @@
+{
+  "project_id": "chicken-nanban-001",
+  "test": "s03-test-01",
+  "status": "blocked: waiting for ChatGPT's revised s03 prompt, then user approval",
+  "purpose": "Check protagonist face consistency (face visible, unlike s01) with the s01 success pattern",
+  "scene": {
+    "id": "s03",
+    "time": [
+      2,
+      3
+    ],
+    "shot": "鶏もも肉を取り出す",
+    "storyboard_panel": "page-01 panel 03: man holding a tray of raw chicken thighs in front of the open fridge, face visible"
+  },
+  "prompt": {
+    "source": "prompts.json s03.higgsfield_prompt AFTER ChatGPT revision (not yet done)",
+    "current_prompt_issues": [
+      "contains the whole-recipe sentence (montage risk, same as s01 test-01)",
+      "no single-shot / no-cuts instruction",
+      "generic camera and motion"
+    ],
+    "current_prompt": "Close view of the same man taking out a tray of raw chicken thigh. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel."
+  },
+  "request": {
+    "tool": "generate_video",
+    "params": {
+      "model": "seedance_2_5",
+      "mode": "omni_reference",
+      "prompt": "<revised s03 higgsfield_prompt, verbatim>",
+      "duration": 5,
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "generate_audio": false,
+      "count": 1,
+      "medias": [
+        {
+          "role": "start_image",
+          "value": "f78ec021-2679-409b-a6eb-eac7d95d14fb"
+        },
+        {
+          "role": "image_references",
+          "value": "0e722b28-105b-483a-bc45-1024d3c90329"
+        }
+      ]
+    }
+  },
+  "references": {
+    "start_image": {
+      "file": "media/chicken-nanban-001/panels/s03_start_9x16_crop.png",
+      "media_id": "f78ec021-2679-409b-a6eb-eac7d95d14fb",
+      "size": "454x808",
+      "content": "face, hand and raw-chicken tray (the tray belongs to s03, so it stays)"
+    },
+    "identity_reference": {
+      "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+      "media_id": "0e722b28-105b-483a-bc45-1024d3c90329",
+      "note": "same canonical face reference as s01"
+    },
+    "evaluation_only": {
+      "file": "media/chicken-nanban-001/panels/s08_face_eval@4x.png",
+      "note": "face from a different panel (s08), not sent to the model; used to judge consistency independently of s03"
+    }
+  },
+  "quote": {
+    "credits": 15,
+    "taken_at": "2026-10-12",
+    "with": "start_image f78ec021 + image_references 0e722b28, current s03 prompt",
+    "balance": 860.73,
+    "note": "re-quote with the revised prompt right before submission"
+  },
+  "acceptance": [
+    "single continuous shot, no cuts (scene score < 0.3)",
+    "framing held: man with tray at the fridge",
+    "face matches s03_face AND s08 panel face (hair, eyes, jaw, age) in every frame",
+    "no later recipe stage (cutting, cooking, eating)",
+    "raw chicken looks raw; tray and hands anatomically sound",
+    "best 1 s window cut (24 frames), trim_in_seconds recorded"
+  ],
+  "approval_needed": "new generation-approval.json (previous approvals consumed)"
+}

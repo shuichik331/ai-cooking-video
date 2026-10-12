@@ -14,6 +14,7 @@
   verify VIDEO [--project P]           ffprobe check against delivery spec and storyboard
   crop-panels PROJECT [--scenes ...]   crop storyboard panels to media/<project>/panels (needs panel-layout.json)
   test-plan PROJECT --scene S          write seedance-test-plan.json for one 5-second proof (no submission)
+  audit-prompts PROJECT [--exclude S]  read-only check of prompts.json against the s01 success pattern
 """
 import argparse
 import json
@@ -22,7 +23,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from studio import higgsfield, panels, render, scene_sheet, status, test_plan  # noqa: E402
+from studio import higgsfield, panels, prompt_audit, render, scene_sheet, status, test_plan  # noqa: E402
 from studio.project import ACTIONABLE_STATUSES, PROJECTS_DIR, discover_projects, load_project, write_json  # noqa: E402
 from studio.validate import validate_project  # noqa: E402
 
@@ -179,6 +180,15 @@ def cmd_test_plan(args):
         print(f"  BLOCKER {b}")
 
 
+def cmd_audit_prompts(args):
+    p = _project(args.project)
+    rows = prompt_audit.audit(p)
+    write_json(p.root / "prompt-audit.json", {"project_id": p.id, "excluded": args.exclude or [], "scenes": rows,
+                                              "summary": prompt_audit.summary([r for r in rows if r["scene_id"] not in (args.exclude or [])])})
+    (p.root / "prompt-audit.md").write_text(prompt_audit.render_markdown(p, rows, tuple(args.exclude or [])), encoding="utf-8")
+    print(json.dumps(prompt_audit.summary([r for r in rows if r["scene_id"] not in (args.exclude or [])]), indent=1))
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -220,6 +230,9 @@ def main(argv=None):
     s = sub.add_parser("test-plan"); s.add_argument("project"); s.add_argument("--scene", required=True)
     s.add_argument("--selected-by"); s.add_argument("--objective", action="append")
     s.set_defaults(fn=cmd_test_plan)
+
+    s = sub.add_parser("audit-prompts"); s.add_argument("project"); s.add_argument("--exclude", nargs="*")
+    s.set_defaults(fn=cmd_audit_prompts)
 
     args = ap.parse_args(argv)
     args.fn(args)
