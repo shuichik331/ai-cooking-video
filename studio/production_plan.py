@@ -56,9 +56,25 @@ def build_prompt(cuts, texts, durations, face, wide_env, global_prompt):
     return " ".join(lines), kept
 
 
+def apply_override(cid, text, overrides):
+    rule = overrides.get(cid)
+    if not rule:
+        return text
+    if "replace" in rule:
+        old, new = rule["replace"]
+        if old not in text:
+            raise ValueError(f"{cid}: override text not found in the original prompt: {old!r}")
+        text = text.replace(old, new)
+    if "append" in rule:
+        text = f"{text} {rule['append']}"
+    return text
+
+
 def build_plan(project, config, sheet):
     pid = project.id
     groups_spec = load_json(project.root / GROUPS_FILE)
+    ov_path = project.root / "generation-overrides.json"
+    overrides = load_json(ov_path)["cut_text"] if ov_path.is_file() else {}
     gp = project.prompts.get("global_prompt", "")
     entries = {e["id"]: e for e in project.prompts["scenes"]}
     face = set(groups_spec["face_visible"])
@@ -72,7 +88,8 @@ def build_plan(project, config, sheet):
         per = round(seconds / len(cuts), 2)
         durations = [per] * len(cuts)
         durations[-1] = round(seconds - per * (len(cuts) - 1), 2)
-        texts = [scene_text(entries[c], gp) for c in cuts]
+        originals = [scene_text(entries[c], gp) for c in cuts]
+        texts = [apply_override(c, t, overrides) for c, t in zip(cuts, originals)]
         has_face = any(c in face for c in cuts)
         has_env = any(c in wide_env for c in cuts)
         prompt, kept = build_prompt(cuts, texts, durations, has_face, has_env, gp)
@@ -90,7 +107,8 @@ def build_plan(project, config, sheet):
             "references": refs,
             "draft_prompt": prompt,
             "prompt_diff": {
-                "kept_verbatim_per_cut": dict(zip(cuts, texts)),
+                "kept_verbatim_per_cut": dict(zip(cuts, originals)),
+                "creative_overrides": {c: t for c, o, t in zip(cuts, originals, texts) if t != o},
                 "kept_verbatim_from_global_prompt": kept,
                 "removed": [s for s in _sentences(gp) if RECIPE_SENTENCE.search(s)],
                 "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions",

@@ -1,14 +1,8 @@
 {
   "project_id": "chicken-nanban-001",
   "overall_status": "not_started",
-  "last_verified_at": "2026-10-12T06:20:58+00:00",
-  "blockers": [
-    "discrepancy s17: Image: bare fingers lower a flour-coated piece into the oil. prompts.json: 'battered chicken being carefully lowered into hot oil with tongs'. Utensil (and batter look) differ. (awaiting creative decision)",
-    "discrepancy s19: Image: bare fingers add pieces to the hot oil. prompts.json: 'Close hands adding the next chicken pieces with tongs'. Utensil differs (also a hand-safety concern). (awaiting creative decision)",
-    "discrepancy s25: Image: chopsticks lift a piece above the frying pan, no rack in frame. prompts.json: 'Tongs lifting fully cooked golden chicken onto wire rack'. Utensil and destination differ. (awaiting creative decision)",
-    "discrepancy s70: Image and prompt both show tomatoes, but no tomato appears in the plating sequence s48–s54 or in s67. Continuity question for the creative lead. (awaiting creative decision)",
-    "generation: no generation-approval.json (paid Higgsfield generation not approved)"
-  ],
+  "last_verified_at": "2026-10-12T23:29:54+00:00",
+  "blockers": [],
   "scenes": {
     "s01": {
       "status": "provisional",
@@ -437,45 +431,40 @@
       "scene": "s17",
       "source": "image-vs-prompts.json",
       "issue": "Image: bare fingers lower a flour-coated piece into the oil. prompts.json: 'battered chicken being carefully lowered into hot oil with tongs'. Utensil (and batter look) differ.",
-      "resolution": null,
-      "decided_by": null,
-      "recorded_at": "2026-10-12T06:20:58+00:00"
+      "resolution": "Use long cooking chopsticks or tongs; hands kept away from hot oil (safety); close composition kept.",
+      "decided_by": "ChatGPT creative-decisions-2026-10-13.md",
+      "recorded_at": "2026-10-12T23:29:54+00:00"
     },
     {
       "scene": "s19",
       "source": "image-vs-prompts.json",
       "issue": "Image: bare fingers add pieces to the hot oil. prompts.json: 'Close hands adding the next chicken pieces with tongs'. Utensil differs (also a hand-safety concern).",
-      "resolution": null,
-      "decided_by": null,
-      "recorded_at": "2026-10-12T06:20:58+00:00"
+      "resolution": "Use long cooking chopsticks or tongs; hands kept away from hot oil (safety); close composition kept.",
+      "decided_by": "ChatGPT creative-decisions-2026-10-13.md",
+      "recorded_at": "2026-10-12T23:29:54+00:00"
     },
     {
       "scene": "s25",
       "source": "image-vs-prompts.json",
       "issue": "Image: chopsticks lift a piece above the frying pan, no rack in frame. prompts.json: 'Tongs lifting fully cooked golden chicken onto wire rack'. Utensil and destination differ.",
-      "resolution": null,
-      "decided_by": null,
-      "recorded_at": "2026-10-12T06:20:58+00:00"
+      "resolution": "Follow storyboard: long cooking chopsticks lifting from pan toward rack; 'tongs' replaced in the derived generation prompt.",
+      "decided_by": "ChatGPT creative-decisions-2026-10-13.md",
+      "recorded_at": "2026-10-12T23:29:54+00:00"
     },
     {
       "scene": "s70",
       "source": "image-vs-prompts.json",
       "issue": "Image and prompt both show tomatoes, but no tomato appears in the plating sequence s48–s54 or in s67. Continuity question for the creative lead.",
-      "resolution": null,
-      "decided_by": null,
-      "recorded_at": "2026-10-12T06:20:58+00:00"
+      "resolution": "No tomatoes; finished dish consistent with s49-s54 (chicken, cabbage, egg tartar, parsley); s70 reference crop excludes the tomatoes.",
+      "decided_by": "ChatGPT creative-decisions-2026-10-13.md",
+      "recorded_at": "2026-10-12T23:29:54+00:00"
     }
   ],
   "validation": {
-    "checked_at": "2026-10-12T06:20:58+00:00",
-    "result": "blocked",
+    "checked_at": "2026-10-12T23:29:54+00:00",
+    "result": "ready",
     "errors": [],
-    "blockers": [
-      "[BLOCKER] discrepancy s17: Image: bare fingers lower a flour-coated piece into the oil. prompts.json: 'battered chicken being carefully lowered into hot oil with tongs'. Utensil (and batter look) differ. (awaiting creative decision)",
-      "[BLOCKER] discrepancy s19: Image: bare fingers add pieces to the hot oil. prompts.json: 'Close hands adding the next chicken pieces with tongs'. Utensil differs (also a hand-safety concern). (awaiting creative decision)",
-      "[BLOCKER] discrepancy s25: Image: chopsticks lift a piece above the frying pan, no rack in frame. prompts.json: 'Tongs lifting fully cooked golden chicken onto wire rack'. Utensil and destination differ. (awaiting creative decision)",
-      "[BLOCKER] discrepancy s70: Image and prompt both show tomatoes, but no tomato appears in the plating sequence s48–s54 or in s67. Continuity question for the creative lead. (awaiting creative decision)"
-    ],
+    "blockers": [],
     "warnings": 2
   },
   "image_verification": {

@@ -60,6 +60,7 @@
           "s04": "Top-down still life of chicken, eggs, onion, rice vinegar, soy sauce and seasonings on wooden counter.",
           "s05": "Close hands placing raw chicken on wooden cutting board."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -119,6 +120,7 @@
           "s07": "Macro of safely trimming connective tissue from raw chicken.",
           "s08": "Same man sprinkling salt and pepper onto chicken pieces."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -172,6 +174,7 @@
           "s10": "Chopsticks rapidly whisk golden egg in glass bowl.",
           "s11": "Close still life of flour arranged on a shallow white dish."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -225,6 +228,7 @@
           "s13": "Chopsticks dipping flour-coated chicken into beaten egg.",
           "s14": "Extreme macro of egg-coated raw chicken, glossy wet batter."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -255,9 +259,7 @@
       ],
       "generate_seconds": 6,
       "estimated_credits": 18,
-      "blocked_by": {
-        "s17": "Image: bare fingers lower a flour-coated piece into the oil. prompts.json: 'battered chicken being carefully lowered into hot oil with tongs'. Utensil (and batter look) differ."
-      },
+      "blocked_by": {},
       "references": [
         {
           "role": "start_image",
@@ -286,13 +288,16 @@
           "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
         }
       ],
-      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s15): Medium shot of same man pouring cooking oil into dark frying pan. Shot 2 (1.50-3.00s, storyboard s16): Macro close-up of chopsticks testing preheated frying oil. Shot 3 (3.00-4.50s, storyboard s17): Close shot of battered chicken being carefully lowered into hot oil with tongs. Shot 4 (4.50-6.00s, storyboard s18): Extreme macro bubbling golden oil around chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s15): Medium shot of same man pouring cooking oil into dark frying pan. Shot 2 (1.50-3.00s, storyboard s16): Macro close-up of chopsticks testing preheated frying oil. Shot 3 (3.00-4.50s, storyboard s17): Close shot of battered chicken being carefully lowered into hot oil with tongs. Hands stay safely away from the hot oil; the piece is lowered with long cooking chopsticks or tongs, never bare fingers near the oil. Keep the close composition and the oil bubbling. Shot 4 (4.50-6.00s, storyboard s18): Extreme macro bubbling golden oil around chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
       "prompt_diff": {
         "kept_verbatim_per_cut": {
           "s15": "Medium shot of same man pouring cooking oil into dark frying pan.",
           "s16": "Macro close-up of chopsticks testing preheated frying oil.",
           "s17": "Close shot of battered chicken being carefully lowered into hot oil with tongs.",
           "s18": "Extreme macro bubbling golden oil around chicken."
+        },
+        "creative_overrides": {
+          "s17": "Close shot of battered chicken being carefully lowered into hot oil with tongs. Hands stay safely away from the hot oil; the piece is lowered with long cooking chopsticks or tongs, never bare fingers near the oil. Keep the close composition and the oil bubbling."
         },
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
@@ -324,9 +329,7 @@
       ],
       "generate_seconds": 6,
       "estimated_credits": 18,
-      "blocked_by": {
-        "s19": "Image: bare fingers add pieces to the hot oil. prompts.json: 'Close hands adding the next chicken pieces with tongs'. Utensil differs (also a hand-safety concern)."
-      },
+      "blocked_by": {},
       "references": [
         {
           "role": "start_image",
@@ -355,13 +358,16 @@
           "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
         }
       ],
-      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s19): Close hands adding the next chicken pieces with tongs. Shot 2 (1.50-3.00s, storyboard s20): Top-down shot of several pieces of chicken frying in a pan. Shot 3 (3.00-4.50s, storyboard s21): Extreme macro of the golden egg-battered crust puffing and crisping. Shot 4 (4.50-6.00s, storyboard s22): Medium profile shot of same man watching pan attentively. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s19): Close hands adding the next chicken pieces with tongs. Hands stay safely away from the hot oil; pieces are added with long cooking chopsticks or tongs, never bare fingers near the oil. Keep the close composition and the oil bubbling. Shot 2 (1.50-3.00s, storyboard s20): Top-down shot of several pieces of chicken frying in a pan. Shot 3 (3.00-4.50s, storyboard s21): Extreme macro of the golden egg-battered crust puffing and crisping. Shot 4 (4.50-6.00s, storyboard s22): Medium profile shot of same man watching pan attentively. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
       "prompt_diff": {
         "kept_verbatim_per_cut": {
           "s19": "Close hands adding the next chicken pieces with tongs.",
           "s20": "Top-down shot of several pieces of chicken frying in a pan.",
           "s21": "Extreme macro of the golden egg-battered crust puffing and crisping.",
           "s22": "Medium profile shot of same man watching pan attentively."
+        },
+        "creative_overrides": {
+          "s19": "Close hands adding the next chicken pieces with tongs. Hands stay safely away from the hot oil; pieces are added with long cooking chopsticks or tongs, never bare fingers near the oil. Keep the close composition and the oil bubbling."
         },
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
@@ -391,9 +397,7 @@
       ],
       "generate_seconds": 5,
       "estimated_credits": 15,
-      "blocked_by": {
-        "s25": "Image: chopsticks lift a piece above the frying pan, no rack in frame. prompts.json: 'Tongs lifting fully cooked golden chicken onto wire rack'. Utensil and destination differ."
-      },
+      "blocked_by": {},
       "references": [
         {
           "role": "start_image",
@@ -411,12 +415,15 @@
           "for": "s25"
         }
       ],
-      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s23): Chopsticks carefully turning a piece of frying chicken. Shot 2 (1.67-3.34s, storyboard s24): Macro of crispy batter gradually turning amber gold. Shot 3 (3.34-5.00s, storyboard s25): Tongs lifting fully cooked golden chicken onto wire rack. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s23): Chopsticks carefully turning a piece of frying chicken. Shot 2 (1.67-3.34s, storyboard s24): Macro of crispy batter gradually turning amber gold. Shot 3 (3.34-5.00s, storyboard s25): Long cooking chopsticks lifting fully cooked golden chicken from the pan toward the wire rack. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
       "prompt_diff": {
         "kept_verbatim_per_cut": {
           "s23": "Chopsticks carefully turning a piece of frying chicken.",
           "s24": "Macro of crispy batter gradually turning amber gold.",
           "s25": "Tongs lifting fully cooked golden chicken onto wire rack."
+        },
+        "creative_overrides": {
+          "s25": "Long cooking chopsticks lifting fully cooked golden chicken from the pan toward the wire rack."
         },
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
@@ -471,6 +478,7 @@
           "s27": "Close shot of remaining battered chicken frying in oil.",
           "s28": "Hero close-up of cooked golden fried chicken cooling on wire rack."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -530,6 +538,7 @@
           "s30": "Macro dark soy sauce streaming into saucepan.",
           "s31": "Macro white granulated sugar added to sweet vinegar soy mixture."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -583,6 +592,7 @@
           "s33": "Macro sweet-and-sour nanban sauce lightly simmering.",
           "s34": "Macro glossy amber nanban sauce lifted with spoon."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -650,6 +660,7 @@
           "s37": "Same man finely dicing onion on wooden cutting board.",
           "s38": "Mayonnaise squeezed into mashed egg and chopped onion."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -717,6 +728,7 @@
           "s41": "Same man tasting a cooled drop of sauce safely from a spoon.",
           "s42": "Two glass bowls of glossy brown nanban sauce and creamy egg tartar side by side."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -778,6 +790,7 @@
           "s45": "Close chopsticks gently tossing cooked chicken in sauce.",
           "s46": "Extreme macro of glossy nanban-coated chicken."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -845,6 +858,7 @@
           "s49": "Tongs arranging glazed chicken next to shredded cabbage on plate.",
           "s50": "Macro adding more glazed pieces into inviting mound."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -906,6 +920,7 @@
           "s53": "Fresh chopped parsley falling over tartar.",
           "s54": "Top-down finished chicken nanban platter, tartar, cabbage garnish."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -962,6 +977,7 @@
           "s55": "Same man carrying finished plate to wooden dining table.",
           "s56": "Same man sitting at table, hands together saying itadakimasu, chicken nanban and rice."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -1029,6 +1045,7 @@
           "s59": "Same man taking a single bite with chopsticks.",
           "s60": "Macro cross section of fully cooked white chicken and crisp golden coating."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -1096,6 +1113,7 @@
           "s63": "Extreme macro of glossy chicken nanban sauce and tartar.",
           "s64": "Spoon lifting chunky fresh egg tartar from bowl."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -1160,6 +1178,7 @@
           "s66": "Wide kitchen dining shot with same man enjoying his home-cooked dinner.",
           "s67": "Close partly eaten chicken nanban plate, remaining cabbage and sauce."
         },
+        "creative_overrides": {},
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
           "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
@@ -1188,9 +1207,7 @@
       ],
       "generate_seconds": 5,
       "estimated_credits": 15,
-      "blocked_by": {
-        "s70": "Image and prompt both show tomatoes, but no tomato appears in the plating sequence s48–s54 or in s67. Continuity question for the creative lead."
-      },
+      "blocked_by": {},
       "references": [
         {
           "role": "start_image",
@@ -1219,12 +1236,15 @@
           "for": "environment"
         }
       ],
-      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s68): Chopsticks picking up the last bite of chicken. Shot 2 (1.67-3.34s, storyboard s69): Same man leaning back with a satisfied relaxed breath. Shot 3 (3.34-5.00s, storyboard s70): Cinematic hero shot of finished chicken nanban with tartar, shredded cabbage and tomatoes. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Keep the room identical to the separate kitchen environment reference. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s68): Chopsticks picking up the last bite of chicken. Shot 2 (1.67-3.34s, storyboard s69): Same man leaning back with a satisfied relaxed breath. Shot 3 (3.34-5.00s, storyboard s70): Cinematic hero shot of finished chicken nanban with egg tartar sauce, shredded cabbage and parsley, the same plating as before; no tomatoes or other new ingredients. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Keep the room identical to the separate kitchen environment reference. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
       "prompt_diff": {
         "kept_verbatim_per_cut": {
           "s68": "Chopsticks picking up the last bite of chicken.",
           "s69": "Same man leaning back with a satisfied relaxed breath.",
           "s70": "Cinematic hero shot of finished chicken nanban with tartar, shredded cabbage and tomatoes."
+        },
+        "creative_overrides": {
+          "s70": "Cinematic hero shot of finished chicken nanban with egg tartar sauce, shredded cabbage and parsley, the same plating as before; no tomatoes or other new ingredients."
         },
         "kept_verbatim_from_global_prompt": [
           "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
@@ -1272,15 +1292,18 @@
     },
     "balance": 860.73
   },
-  "blocked_groups": [
-    "G05",
-    "G06",
-    "G07",
-    "G20"
-  ],
-  "execution_order": [
-    "G01 first as the multi-shot check (fridge, face s03, ingredients, board); stop and report if shots do not follow the 4 panels",
-    "then G02-G20 one at a time, each split, checked and recorded before the next",
-    "groups blocked by open discrepancies wait for ChatGPT's decision: G05, G06, G07, G20"
-  ]
+  "blocked_groups": [],
+  "approval": {
+    "by": "shuichik331 (chat, 2026-10-13)",
+    "scope": "G01-G20, retries of failed cuts only",
+    "baseline_credits": 327,
+    "hard_cap_credits": 537,
+    "rules": [
+      "re-quote every request with its references; stop before any spend that would exceed 537 in total",
+      "G01 is the feasibility gate (ChatGPT rule 7): if the multi-shot method fails, stop and report",
+      "stop and report if the same generation failure repeats",
+      "no SNS publishing"
+    ]
+  },
+  "ledger": []
 }
