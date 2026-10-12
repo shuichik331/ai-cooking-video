@@ -1506,6 +1506,41 @@
       "credits": 18.0,
       "note": "",
       "submitted_at": "2026-10-12T23:51:35+00:00"
+    },
+    {
+      "group": "G19",
+      "job_id": "9d9479d0-c680-4ac7-92ef-a5fa79c73076",
+      "credits": 15.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:53:33+00:00"
+    },
+    {
+      "group": "G20",
+      "job_id": "484443c0-f572-45be-84c5-f212e1355327",
+      "credits": 15.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:54:40+00:00"
+    },
+    {
+      "group": "R-s28",
+      "job_id": "d876f491-352d-4acd-887d-bbbe602175bc",
+      "credits": 12.0,
+      "note": "single-cut retake",
+      "submitted_at": "2026-10-12T23:54:40+00:00"
+    },
+    {
+      "group": "R-s23",
+      "job_id": "2edeaa74-ff6b-4f42-a549-e558cefaa730",
+      "credits": 12.0,
+      "note": "single-cut retake",
+      "submitted_at": "2026-10-12T23:55:51+00:00"
+    },
+    {
+      "group": "R-s32",
+      "job_id": "a3a80c0f-3a12-4831-a037-315180591915",
+      "credits": 12.0,
+      "note": "single-cut retake",
+      "submitted_at": "2026-10-12T23:55:51+00:00"
     }
   ],
   "retake_queue": [
@@ -1523,6 +1558,16 @@
       "cut": "s28",
       "reason": "0.71 s shot and an unscripted man; storyboard shows chicken on the rack only",
       "fallback": null
+    },
+    {
+      "cut": "s43",
+      "reason": "unscripted man behind the rack; storyboard shows chicken only",
+      "fallback": "G13_a1"
+    },
+    {
+      "cut": "s48",
+      "reason": "cabbage grated onto plate (action differs from storyboard: placed with tongs)",
+      "fallback": "G14_a1"
     }
   ]
 }

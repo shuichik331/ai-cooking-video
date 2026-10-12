@@ -33,7 +33,8 @@ for spec, up in zip(specs, uploads):
             break
     print(cut, path.name, code, up["media_id"])
     if code == "200":
-        refs[cut]["media_id"] = up["media_id"]
+        if cut in refs and not f:
+            refs[cut]["media_id"] = up["media_id"]
         ok.append(up["media_id"])
 plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print("CONFIRM", json.dumps(ok))

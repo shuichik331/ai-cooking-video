@@ -2,13 +2,31 @@
   "project_id": "chicken-nanban-001",
   "source": "creative-decisions-2026-10-13.md (ChatGPT). Applied only to derived generation prompts; prompts.json is unchanged.",
   "cut_text": {
-    "s17": {"append": "Hands stay safely away from the hot oil; the piece is lowered with long cooking chopsticks or tongs, never bare fingers near the oil. Keep the close composition and the oil bubbling."},
-    "s19": {"append": "Hands stay safely away from the hot oil; pieces are added with long cooking chopsticks or tongs, never bare fingers near the oil. Keep the close composition and the oil bubbling."},
-    "s25": {"replace": ["Tongs lifting fully cooked golden chicken onto wire rack.", "Long cooking chopsticks lifting fully cooked golden chicken from the pan toward the wire rack."]},
-    "s70": {"replace": ["with tartar, shredded cabbage and tomatoes.", "with egg tartar sauce, shredded cabbage and parsley, the same plating as before; no tomatoes or other new ingredients."]}
+    "s17": {
+      "append": "Hands stay safely away from the hot oil; the piece is lowered with long cooking chopsticks or tongs, never bare fingers near the oil. Keep the close composition and the oil bubbling."
+    },
+    "s19": {
+      "append": "Hands stay safely away from the hot oil; pieces are added with long cooking chopsticks or tongs, never bare fingers near the oil. Keep the close composition and the oil bubbling."
+    },
+    "s25": {
+      "replace": [
+        "Tongs lifting fully cooked golden chicken onto wire rack.",
+        "Long cooking chopsticks lifting fully cooked golden chicken from the pan toward the wire rack."
+      ]
+    },
+    "s70": {
+      "replace": [
+        "with tartar, shredded cabbage and tomatoes.",
+        "with egg tartar sauce, shredded cabbage and parsley, the same plating as before; no tomatoes or other new ingredients."
+      ]
+    }
   },
   "reference_crops": {
     "s55": "manual start-image recrop so the face is kept (approved in the decisions file)",
     "s70": "reference panel cropped to exclude the cherry tomatoes at the right edge"
+  },
+  "retake_rules": {
+    "single_cut": "4 s single continuous shot; storyboard panel 9:16 crop as start frame; cut text verbatim",
+    "no_person_cuts": "for panels that show no person (s28, s32, and the chopsticks close-up s23) the global protagonist sentence is omitted and 'No person in frame' is added, following the storyboard image (reference priority); group generations had added an unscripted man there"
   }
 }
