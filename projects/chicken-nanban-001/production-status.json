@@ -11,8 +11,8 @@
   ],
   "scenes": {
     "s01": {
-      "status": "rejected",
-      "asset_path": "media/chicken-nanban-001/clips/s01_test_480p.mp4",
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/s01_test02_480p.mp4",
       "approved": false,
       "jobs": [
         {
@@ -30,16 +30,48 @@
           "status": "completed",
           "charged_credits_expected": 15,
           "result_file": "media/chicken-nanban-001/clips/s01_test_480p.mp4"
+        },
+        {
+          "job_id": "9027cd01-bf6e-4671-a2ac-1c3bcc1a3e51",
+          "backend": "mcp",
+          "credits": 15,
+          "resolution": "480p",
+          "submitted_at": "2026-10-12T22:22:58+00:00",
+          "purpose": "s01-test-02 (revised prompt; start_image B + s03 face ref)",
+          "quoted_credits": 15,
+          "medias_sent": [
+            {
+              "role": "start_image",
+              "value": "a8d063ab-857e-4176-a197-15898c10e2d7"
+            },
+            {
+              "role": "image_references",
+              "value": "0e722b28-105b-483a-bc45-1024d3c90329"
+            }
+          ],
+          "echoed_params_note": "API echo lists both media under reference_images; start_image handling to be verified from frame 0",
+          "status": "completed",
+          "result_file": "media/chicken-nanban-001/clips/s01_test02_480p.mp4"
         }
       ],
-      "updated_at": "2026-10-12T07:12:48+00:00",
+      "updated_at": "2026-10-12T22:27:27+00:00",
       "probe": {
         "duration_seconds": 5.042,
         "width": 480,
         "height": 854,
         "audio": false
       },
-      "note": "5s test 6c4335a4: model produced a 4-cut recipe montage (egg dip / frying / sauce / eating), no kitchen establishing shot; not usable for s01. See projects/chicken-nanban-001/test-results/s01-test-01.md"
+      "note": "s01-test-02 (job 9027cd01): accepted by production review; awaiting human approval. test-01 (job 6c4335a4) rejected, kept in jobs history.",
+      "trim_in_seconds": 1.5,
+      "selected_cut": {
+        "file": "media/chicken-nanban-001/clips/s01_cut_from_test02.mp4",
+        "frames": "36-59 of 121 (24 frames @24fps)",
+        "source_seconds": [
+          1.5,
+          2.5
+        ],
+        "reason": "single continuous kitchen-wide shot; most stable 1 s window (mean inter-frame change 0.10/255, max 0.22) away from the arm movement at 3.4 s"
+      }
     },
     "s02": {
       "status": "pending",

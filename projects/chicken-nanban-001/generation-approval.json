@@ -1,21 +1,56 @@
 {
   "approved_by": "shuichik331 (chat instruction)",
   "approved_at": "2026-10-12",
-  "scope": "single 5-second Seedance 2.5 proof for s01 only",
+  "scope": "s01-test-02: single 5-second Seedance 2.5 retest for s01",
   "scene_ids": [
     "s01"
   ],
+  "model": "seedance_2_5",
+  "mode": "omni_reference",
   "resolution": "480p",
   "duration_seconds": 5,
+  "aspect_ratio": "9:16",
+  "generate_audio": false,
+  "count": 1,
   "max_credits": 15,
   "references": {
-    "s01": "media/chicken-nanban-001/panels/s01@4x.png (storyboard panel s01, picture area)",
-    "s03_face": "media/chicken-nanban-001/panels/s03_face@4x.png (protagonist face reference, upper part of panel s03)"
+    "start_image": "option B: media/chicken-nanban-001/panels/s01_start_9x16_crop.png",
+    "image_references": "s03_face (media 0e722b28-105b-483a-bc45-1024d3c90329)"
   },
-  "condition": "Stop without generating if the live quote with the uploaded references exceeds max_credits.",
-  "instruction": "正面のコマを加えて、なおかつ 480p で5秒間で作ってほしいです。",
+  "prompt": "prompts.json s01.higgsfield_prompt verbatim; old global_prompt not used",
+  "conditions": [
+    "do not generate if the quote exceeds 15",
+    "priority: hold the s01 kitchen-wide shot for 5 s",
+    "cooking steps or other cuts => record as rejected",
+    "after generation, cut the best 1 second, evaluate and report"
+  ],
+  "history": [
+    {
+      "approved_by": "shuichik331 (chat instruction)",
+      "approved_at": "2026-10-12",
+      "scope": "single 5-second Seedance 2.5 proof for s01 only",
+      "scene_ids": [
+        "s01"
+      ],
+      "resolution": "480p",
+      "duration_seconds": 5,
+      "max_credits": 15,
+      "references": {
+        "s01": "media/chicken-nanban-001/panels/s01@4x.png (storyboard panel s01, picture area)",
+        "s03_face": "media/chicken-nanban-001/panels/s03_face@4x.png (protagonist face reference, upper part of panel s03)"
+      },
+      "condition": "Stop without generating if the live quote with the uploaded references exceeds max_credits.",
+      "instruction": "正面のコマを加えて、なおかつ 480p で5秒間で作ってほしいです。",
+      "consumed": {
+        "job_id": "6c4335a4-b957-41ed-bbda-de7dbd7aefb1",
+        "credits": 15,
+        "at": "2026-10-12",
+        "note": "Approval used in full; a new approval is required for any further generation."
+      }
+    }
+  ],
   "consumed": {
-    "job_id": "6c4335a4-b957-41ed-bbda-de7dbd7aefb1",
+    "job_id": "9027cd01-bf6e-4671-a2ac-1c3bcc1a3e51",
     "credits": 15,
     "at": "2026-10-12",
     "note": "Approval used in full; a new approval is required for any further generation."

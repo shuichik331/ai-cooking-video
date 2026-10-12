@@ -1,7 +1,7 @@
 {
   "project_id": "chicken-nanban-001",
   "test": "s01-test-02",
-  "status": "awaiting_user_approval",
+  "status": "executed",
   "previous_test": "s01-test-01 (job 6c4335a4, rejected; clip kept at media/chicken-nanban-001/clips/s01_test_480p.mp4)",
   "prompt_source": "prompts.json scenes[s01].higgsfield_prompt (commit 56ba4ac), used verbatim; global_prompt NOT appended",
   "request": {
@@ -37,7 +37,7 @@
     },
     "B": {
       "file": "media/chicken-nanban-001/panels/s01_start_9x16_crop.png",
-      "media_id": null,
+      "media_id": "a8d063ab-857e-4176-a197-15898c10e2d7",
       "size": "454x808 (9:16)",
       "note": "9:16 crop of the same panel centred on the protagonist (page-01 x≈110–223). Keeps counter, shelves, lamp, table and chair; drops refrigerator (right) and window/plant (left). Needs a free upload."
     }
@@ -64,5 +64,6 @@
     "no cooking/food action",
     "protagonist matches s03 face reference",
     "storyboard illustration style"
-  ]
+  ],
+  "result": "test-results/s01-test-02.md"
 }
