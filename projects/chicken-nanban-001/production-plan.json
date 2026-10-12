@@ -23,22 +23,26 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s02_start_9x16.png",
-          "for": "s02"
+          "for": "s02",
+          "media_id": "58e910d8-a112-4f70-9db7-44f7c42af65e"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s03@4x.png",
-          "for": "s03"
+          "for": "s03",
+          "media_id": "e7f752af-216f-45a2-b831-30407e23f6c4"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s04@4x.png",
-          "for": "s04"
+          "for": "s04",
+          "media_id": "f2e99460-ddf2-42f3-a98f-083f85bd21ca"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s05@4x.png",
-          "for": "s05"
+          "for": "s05",
+          "media_id": "c1253127-aa17-4fbd-826b-ed9ef9cda4ed"
         },
         {
           "role": "image_references",
@@ -49,7 +53,8 @@
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/review/s01_accepted_frame.png",
-          "for": "environment"
+          "for": "environment",
+          "media_id": "38f9027d-ca87-440d-969a-59ce95251e14"
         }
       ],
       "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s02): Over shoulder view, same man opening his refrigerator. Shot 2 (1.50-3.00s, storyboard s03): Close view of the same man taking out a tray of raw chicken thigh. Shot 3 (3.00-4.50s, storyboard s04): Top-down still life of chicken, eggs, onion, rice vinegar, soy sauce and seasonings on wooden counter. Shot 4 (4.50-6.00s, storyboard s05): Close hands placing raw chicken on wooden cutting board. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Keep the room identical to the separate kitchen environment reference. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
@@ -94,17 +99,20 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s06_start_9x16.png",
-          "for": "s06"
+          "for": "s06",
+          "media_id": "71fe7d75-6500-457a-b0bb-fe41bd9c6f4a"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s07@4x.png",
-          "for": "s07"
+          "for": "s07",
+          "media_id": "bca51d8b-945e-42f4-8baa-ac23dd423752"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s08@4x.png",
-          "for": "s08"
+          "for": "s08",
+          "media_id": "8a2c5d17-eda4-4f93-9384-a4b2296f8f06"
         },
         {
           "role": "image_references",
@@ -154,17 +162,20 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s09_start_9x16.png",
-          "for": "s09"
+          "for": "s09",
+          "media_id": "d11420c9-8690-499e-a3b3-f6e53b2368ad"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s10@4x.png",
-          "for": "s10"
+          "for": "s10",
+          "media_id": "1905f620-8bda-4e7b-b9c4-bdf9e5d8d6fc"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s11@4x.png",
-          "for": "s11"
+          "for": "s11",
+          "media_id": "f216996a-c4e1-48bd-802d-2eeadb262346"
         }
       ],
       "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s09): Macro hands cracking egg into transparent mixing bowl. Shot 2 (1.67-3.34s, storyboard s10): Chopsticks rapidly whisk golden egg in glass bowl. Shot 3 (3.34-5.00s, storyboard s11): Close still life of flour arranged on a shallow white dish. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
@@ -208,17 +219,20 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s12_start_9x16.png",
-          "for": "s12"
+          "for": "s12",
+          "media_id": "763b2ade-39a6-47f7-8ed6-90221b0c6c30"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s13@4x.png",
-          "for": "s13"
+          "for": "s13",
+          "media_id": "d7f8b2a9-9179-4c1c-8642-e5744520bac2"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s14@4x.png",
-          "for": "s14"
+          "for": "s14",
+          "media_id": "3af60f37-0f3a-43fd-ba60-ece20c566b42"
         }
       ],
       "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s12): Close hands evenly coating raw chicken pieces with flour. Shot 2 (1.67-3.34s, storyboard s13): Chopsticks dipping flour-coated chicken into beaten egg. Shot 3 (3.34-5.00s, storyboard s14): Extreme macro of egg-coated raw chicken, glossy wet batter. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
@@ -264,22 +278,27 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s15_start_9x16.png",
-          "for": "s15"
+          "for": "s15",
+          "media_id": "68bc11cd-ee0f-4dca-8cc1-6dc1acf3b7d8"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s16@4x.png",
-          "for": "s16"
+          "for": "s16",
+          "media_id": "521adf58-af50-4caf-b828-e8237eaebce7"
         },
         {
           "role": "image_references",
-          "file": "media/chicken-nanban-001/panels/s17@4x.png",
-          "for": "s17"
+          "file": "media/chicken-nanban-001/panels/s17_nohands@4x.png",
+          "for": "s17",
+          "note": "lower part only: no bare fingers over hot oil (creative decision 2026-10-13)",
+          "media_id": "71b54150-43f8-4732-8760-c490af53a8a7"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s18@4x.png",
-          "for": "s18"
+          "for": "s18",
+          "media_id": "b940dc50-261a-4216-8307-55c878ec182c"
         },
         {
           "role": "image_references",
@@ -334,22 +353,27 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s19_start_9x16.png",
-          "for": "s19"
+          "for": "s19",
+          "note": "9:16 crop of the lower part only: no bare fingers over hot oil (creative decision 2026-10-13)",
+          "media_id": "ceb56598-c42e-4892-8d84-2be8d869ab57"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s20@4x.png",
-          "for": "s20"
+          "for": "s20",
+          "media_id": "1afeb0f1-9fdb-46ac-b149-c567e9a778ea"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s21@4x.png",
-          "for": "s21"
+          "for": "s21",
+          "media_id": "f90fb727-2a11-46d5-bab9-3587dc6aab7f"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s22@4x.png",
-          "for": "s22"
+          "for": "s22",
+          "media_id": "a1afd1ac-bc86-4519-9fc5-84897373d302"
         },
         {
           "role": "image_references",
@@ -402,17 +426,20 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s23_start_9x16.png",
-          "for": "s23"
+          "for": "s23",
+          "media_id": "d5289d44-b80b-4d47-9b12-705ee97150bc"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s24@4x.png",
-          "for": "s24"
+          "for": "s24",
+          "media_id": "432a8a24-b2c6-4089-9184-3149562168d8"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s25@4x.png",
-          "for": "s25"
+          "for": "s25",
+          "media_id": "f0cde9f9-88fd-41de-9862-4bb44210f4b4"
         }
       ],
       "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s23): Chopsticks carefully turning a piece of frying chicken. Shot 2 (1.67-3.34s, storyboard s24): Macro of crispy batter gradually turning amber gold. Shot 3 (3.34-5.00s, storyboard s25): Long cooking chopsticks lifting fully cooked golden chicken from the pan toward the wire rack. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
@@ -458,17 +485,20 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s26_start_9x16.png",
-          "for": "s26"
+          "for": "s26",
+          "media_id": "58fee939-6eda-4510-bda3-46ba961d5e4d"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s27@4x.png",
-          "for": "s27"
+          "for": "s27",
+          "media_id": "dc431f88-9d01-48be-af01-21cbe03d5cd4"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s28@4x.png",
-          "for": "s28"
+          "for": "s28",
+          "media_id": "0a26a177-6071-4444-85c6-9091f1a98ea4"
         }
       ],
       "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s26): Macro oil droplets draining from chicken above a wire rack. Shot 2 (1.67-3.34s, storyboard s27): Close shot of remaining battered chicken frying in oil. Shot 3 (3.34-5.00s, storyboard s28): Hero close-up of cooked golden fried chicken cooling on wire rack. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
@@ -512,17 +542,20 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s29_start_9x16.png",
-          "for": "s29"
+          "for": "s29",
+          "media_id": "58885ade-78da-4192-972a-9a917ec85cb4"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s30@4x.png",
-          "for": "s30"
+          "for": "s30",
+          "media_id": "b82dd74c-af97-47d6-bb8e-53edc4fd3388"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s31@4x.png",
-          "for": "s31"
+          "for": "s31",
+          "media_id": "773c62e8-05b0-4521-8245-862e2f18b9e1"
         },
         {
           "role": "image_references",
@@ -572,17 +605,20 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s32_start_9x16.png",
-          "for": "s32"
+          "for": "s32",
+          "media_id": "5e3bd0c0-a55f-4480-8c69-e5057d184802"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s33@4x.png",
-          "for": "s33"
+          "for": "s33",
+          "media_id": "01d75c9f-81f6-4432-8646-284a3569ce35"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s34@4x.png",
-          "for": "s34"
+          "for": "s34",
+          "media_id": "552e0d4f-7471-4b07-9f17-b7a6e8975fcd"
         }
       ],
       "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s32): Side shot of saucepan gently heating on stovetop. Shot 2 (1.67-3.34s, storyboard s33): Macro sweet-and-sour nanban sauce lightly simmering. Shot 3 (3.34-5.00s, storyboard s34): Macro glossy amber nanban sauce lifted with spoon. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
@@ -628,22 +664,26 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s35_start_9x16.png",
-          "for": "s35"
+          "for": "s35",
+          "media_id": "2701a8c0-d74c-4af9-bfe4-f9e3f0490440"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s36@4x.png",
-          "for": "s36"
+          "for": "s36",
+          "media_id": "0792dc20-b101-40fd-b9b6-ddf3ed320b38"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s37@4x.png",
-          "for": "s37"
+          "for": "s37",
+          "media_id": "8e1ed9d0-a63d-4aee-bd9a-8170a87fef7a"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s38@4x.png",
-          "for": "s38"
+          "for": "s38",
+          "media_id": "c77041b4-7ea7-4663-a871-0e0b989a50ba"
         },
         {
           "role": "image_references",
@@ -696,22 +736,26 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s39_start_9x16.png",
-          "for": "s39"
+          "for": "s39",
+          "media_id": "993d748b-cf6e-40bf-80b1-2bba8a295eca"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s40@4x.png",
-          "for": "s40"
+          "for": "s40",
+          "media_id": "6036c303-1e62-4f48-8e13-634a8355fac1"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s41@4x.png",
-          "for": "s41"
+          "for": "s41",
+          "media_id": "1dfde05d-417d-487e-8770-8188ecceba3b"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s42@4x.png",
-          "for": "s42"
+          "for": "s42",
+          "media_id": "5aa83d7a-9fbd-42e7-8899-39be50c645ff"
         },
         {
           "role": "image_references",
@@ -764,22 +808,26 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s43_start_9x16.png",
-          "for": "s43"
+          "for": "s43",
+          "media_id": "be760e3b-3784-4b77-8682-47118472e1f8"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s44@4x.png",
-          "for": "s44"
+          "for": "s44",
+          "media_id": "4546fbc0-ac73-4701-b0d4-d782f251249a"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s45@4x.png",
-          "for": "s45"
+          "for": "s45",
+          "media_id": "8b66d45b-fa09-4af7-b05a-15a448f9c12c"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s46@4x.png",
-          "for": "s46"
+          "for": "s46",
+          "media_id": "f254f0dd-5163-4bd5-b261-66cce93f6b0e"
         }
       ],
       "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s43): Macro crisp golden fried chicken resting on rack. Shot 2 (1.50-3.00s, storyboard s44): Tongs dipping cooked golden chicken into prepared nanban sauce in glass bowl. Shot 3 (3.00-4.50s, storyboard s45): Close chopsticks gently tossing cooked chicken in sauce. Shot 4 (4.50-6.00s, storyboard s46): Extreme macro of glossy nanban-coated chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
@@ -826,22 +874,26 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s47_start_9x16.png",
-          "for": "s47"
+          "for": "s47",
+          "media_id": "7283ff10-8c18-4195-8b82-b943d132794e"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s48@4x.png",
-          "for": "s48"
+          "for": "s48",
+          "media_id": "e96427ac-beb8-4863-b379-ec5f90517eb3"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s49@4x.png",
-          "for": "s49"
+          "for": "s49",
+          "media_id": "4e5184d0-f132-4231-b7aa-98146b77357d"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s50@4x.png",
-          "for": "s50"
+          "for": "s50",
+          "media_id": "b792a5de-546e-4277-b28a-4d8adff39a64"
         },
         {
           "role": "image_references",
@@ -894,22 +946,26 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s51_start_9x16.png",
-          "for": "s51"
+          "for": "s51",
+          "media_id": "2deeec26-4e9b-481c-8896-db9bc90d5e06"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s52@4x.png",
-          "for": "s52"
+          "for": "s52",
+          "media_id": "b9ce8b66-a740-4e4f-942c-4885c6ecbf80"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s53@4x.png",
-          "for": "s53"
+          "for": "s53",
+          "media_id": "8a10394e-d31e-4e51-b8f9-b56b561f25f8"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s54@4x.png",
-          "for": "s54"
+          "for": "s54",
+          "media_id": "7eda9224-933d-4a3d-be6e-9f546e9b0ec6"
         }
       ],
       "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s51): Close shot of shiny nanban sauce drizzled over plated chicken. Shot 2 (1.50-3.00s, storyboard s52): Chunky cream-colored homemade tartar sauce spooned atop chicken. Shot 3 (3.00-4.50s, storyboard s53): Fresh chopped parsley falling over tartar. Shot 4 (4.50-6.00s, storyboard s54): Top-down finished chicken nanban platter, tartar, cabbage garnish. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
@@ -952,12 +1008,14 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s55_start_9x16.png",
-          "for": "s55"
+          "for": "s55",
+          "media_id": "cd26de4d-a2e4-47fa-8947-20d48e26ae7e"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s56@4x.png",
-          "for": "s56"
+          "for": "s56",
+          "media_id": "117352e6-c892-44dd-b52c-83442344383d"
         },
         {
           "role": "image_references",
@@ -968,7 +1026,8 @@
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/review/s01_accepted_frame.png",
-          "for": "environment"
+          "for": "environment",
+          "media_id": "38f9027d-ca87-440d-969a-59ce95251e14"
         }
       ],
       "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 2 shots in 4.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-2.00s, storyboard s55): Same man carrying finished plate to wooden dining table. Shot 2 (2.00-4.00s, storyboard s56): Same man sitting at table, hands together saying itadakimasu, chicken nanban and rice. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Keep the room identical to the separate kitchen environment reference. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
@@ -1013,22 +1072,26 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s57_start_9x16.png",
-          "for": "s57"
+          "for": "s57",
+          "media_id": "97805efb-219a-4588-9e96-04e3edd9b46e"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s58@4x.png",
-          "for": "s58"
+          "for": "s58",
+          "media_id": "fb82e790-68aa-4a2d-9d1d-b6ea13fee024"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s59@4x.png",
-          "for": "s59"
+          "for": "s59",
+          "media_id": "0a3a55af-5bea-44be-b6a9-2ad4523ecb56"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s60@4x.png",
-          "for": "s60"
+          "for": "s60",
+          "media_id": "731f4ab1-fc9a-42c8-aca4-fde58e357a63"
         },
         {
           "role": "image_references",
@@ -1081,22 +1144,26 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s61_start_9x16.png",
-          "for": "s61"
+          "for": "s61",
+          "media_id": "d0c69e3d-6b9a-44c8-ba33-d04ea1f222b1"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s62@4x.png",
-          "for": "s62"
+          "for": "s62",
+          "media_id": "b38b9188-cdb7-445d-8bcd-8385720d8f89"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s63@4x.png",
-          "for": "s63"
+          "for": "s63",
+          "media_id": "a832c870-d984-4ca6-a310-1a8ab3d1d3bd"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s64@4x.png",
-          "for": "s64"
+          "for": "s64",
+          "media_id": "19fc4ef1-fec1-494c-91bd-515c5ae71a5d"
         },
         {
           "role": "image_references",
@@ -1147,17 +1214,20 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s65_start_9x16.png",
-          "for": "s65"
+          "for": "s65",
+          "media_id": "f455c103-01bf-4556-9022-9c517584302c"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s66@4x.png",
-          "for": "s66"
+          "for": "s66",
+          "media_id": "f5e2e575-f9d3-4397-ba4e-a1fb9bd24f10"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s67@4x.png",
-          "for": "s67"
+          "for": "s67",
+          "media_id": "86f736bf-35e7-4265-ba23-bba570bb804e"
         },
         {
           "role": "image_references",
@@ -1168,7 +1238,8 @@
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/review/s01_accepted_frame.png",
-          "for": "environment"
+          "for": "environment",
+          "media_id": "38f9027d-ca87-440d-969a-59ce95251e14"
         }
       ],
       "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s65): Same man drinking water from clear glass. Shot 2 (1.67-3.34s, storyboard s66): Wide kitchen dining shot with same man enjoying his home-cooked dinner. Shot 3 (3.34-5.00s, storyboard s67): Close partly eaten chicken nanban plate, remaining cabbage and sauce. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Keep the room identical to the separate kitchen environment reference. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
@@ -1212,17 +1283,20 @@
         {
           "role": "start_image",
           "file": "media/chicken-nanban-001/panels/s68_start_9x16.png",
-          "for": "s68"
+          "for": "s68",
+          "media_id": "a0ed9206-8ce4-45b3-a476-9aa2fe924432"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s69@4x.png",
-          "for": "s69"
+          "for": "s69",
+          "media_id": "f65dd430-0586-4ef0-a519-abbeb2a7f28b"
         },
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/panels/s70@4x.png",
-          "for": "s70"
+          "for": "s70",
+          "media_id": "dbcfb4e3-3b34-487a-9149-bcafd85a47f2"
         },
         {
           "role": "image_references",
@@ -1233,7 +1307,8 @@
         {
           "role": "image_references",
           "file": "media/chicken-nanban-001/review/s01_accepted_frame.png",
-          "for": "environment"
+          "for": "environment",
+          "media_id": "38f9027d-ca87-440d-969a-59ce95251e14"
         }
       ],
       "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s68): Chopsticks picking up the last bite of chicken. Shot 2 (1.67-3.34s, storyboard s69): Same man leaning back with a satisfied relaxed breath. Shot 3 (3.34-5.00s, storyboard s70): Cinematic hero shot of finished chicken nanban with egg tartar sauce, shredded cabbage and parsley, the same plating as before; no tomatoes or other new ingredients. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Keep the room identical to the separate kitchen environment reference. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
@@ -1312,6 +1387,83 @@
       "credits": 18.0,
       "note": "G01 feasibility gate",
       "submitted_at": "2026-10-12T23:33:13+00:00"
+    },
+    {
+      "group": "G02",
+      "job_id": "29305078-e41f-49f8-98e1-190cee27eb59",
+      "credits": 15.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:40:37+00:00"
+    },
+    {
+      "group": "G03",
+      "job_id": "96cad74a-4121-45fa-98b3-fbdeb5814d21",
+      "credits": 15.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:40:37+00:00"
+    },
+    {
+      "group": "G04",
+      "job_id": "82a98837-e3fb-4e38-837e-61ef57e07600",
+      "credits": 15.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:40:37+00:00"
+    },
+    {
+      "group": "G05",
+      "job_id": "03b195c5-6985-48b8-8dea-0259c4c3cb0d",
+      "credits": 18.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:40:37+00:00"
+    },
+    {
+      "group": "G06",
+      "job_id": "df70473f-55f1-43dd-b583-17042b86eb6b",
+      "credits": 18.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:40:37+00:00"
+    },
+    {
+      "group": "G07",
+      "job_id": "1f92b5a5-e928-4c0d-924c-262b51fe3838",
+      "credits": 15.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:44:43+00:00"
+    },
+    {
+      "group": "G08",
+      "job_id": "7ddf96f0-3ac9-4f9e-b74e-fc7655c16900",
+      "credits": 15.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:44:44+00:00"
+    },
+    {
+      "group": "G09",
+      "job_id": "50f49fbd-3fd1-4662-8cc1-c0ec14c13797",
+      "credits": 15.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:44:44+00:00"
+    },
+    {
+      "group": "G10",
+      "job_id": "776c3be1-137a-4fa7-ba2b-87c2befea57e",
+      "credits": 15.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:44:44+00:00"
+    },
+    {
+      "group": "G11",
+      "job_id": "5612ea39-e6dd-4586-b9e5-164f9c96e768",
+      "credits": 18.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:44:44+00:00"
+    },
+    {
+      "group": "G12",
+      "job_id": "7a498967-aa4a-4968-b064-b1c4d9bf6569",
+      "credits": 18.0,
+      "note": "resubmitted after 429 (no charge for the rejected attempt; balance 860.73->665.73 matches ledger 195)",
+      "submitted_at": "2026-10-12T23:46:33+00:00"
     }
   ]
 }

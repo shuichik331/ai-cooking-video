@@ -21,7 +21,7 @@ p = load_project(root / "projects" / a.project)
 res = json.loads((p.root / "group-results" / f"{a.tag}.json").read_text(encoding="utf-8"))
 rejects = dict(r.split(":", 1) for r in a.reject)
 notes = dict(n.split(":", 1) for n in a.note)
-clip = str(Path(res["path"]).relative_to(root))
+clip = str((root / res["path"]).resolve().relative_to(root)) if not Path(res["path"]).is_absolute() else str(Path(res["path"]).relative_to(root))
 for cid, c in res["cuts"].items():
     e = p.status["scenes"][cid]
     e.setdefault("jobs", []).append({"job_id": a.job_id, "group_attempt": a.tag, "shot_seconds": c.get("shot_seconds")})

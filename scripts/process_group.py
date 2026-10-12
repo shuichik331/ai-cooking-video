@@ -32,7 +32,7 @@ out = root / "projects" / a.project / "group-results"
 out.mkdir(exist_ok=True)
 (out / f"{tag}.json").write_text(json.dumps(res, indent=2) + "\n", encoding="utf-8")
 # review sheet: for each detected shot, first / middle / last frame; storyboard panel on the left
-starts = [0] + shots.detect_cuts(clip)
+starts = [0] + shots.detect_cuts(clip, len(cuts), res["fps"])
 fps = res["fps"]; n = round(info["duration"] * fps)
 bounds = list(zip(starts, starts[1:] + [n]))
 rows = []

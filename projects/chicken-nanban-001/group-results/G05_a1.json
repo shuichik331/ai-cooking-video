@@ -1,0 +1,65 @@
+{
+  "path": "media/chicken-nanban-001/clips/G05_a1.mp4",
+  "fps": 24.0,
+  "shots_found": 4,
+  "shots_expected": 4,
+  "cuts": {
+    "s15": {
+      "shot_seconds": [
+        0.0,
+        1.958
+      ],
+      "trim_in_seconds": 0.292,
+      "frames": [
+        7,
+        30
+      ],
+      "mean_motion": 0.491
+    },
+    "s16": {
+      "shot_seconds": [
+        1.958,
+        3.25
+      ],
+      "trim_in_seconds": 2.042,
+      "frames": [
+        49,
+        72
+      ],
+      "mean_motion": 3.532
+    },
+    "s17": {
+      "shot_seconds": [
+        3.25,
+        4.708
+      ],
+      "trim_in_seconds": 3.542,
+      "frames": [
+        85,
+        108
+      ],
+      "mean_motion": 5.622
+    },
+    "s18": {
+      "shot_seconds": [
+        4.708,
+        6.042
+      ],
+      "trim_in_seconds": 4.792,
+      "frames": [
+        115,
+        138
+      ],
+      "mean_motion": 12.202
+    }
+  },
+  "group": "G05",
+  "attempt": 1,
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DG2LxoqactZoOnt8BEez3KgjFh/hf_20261012_234028_03b195c5-6985-48b8-8dea-0259c4c3cb0d.mp4",
+  "duration": 6.08,
+  "size": [
+    480,
+    854
+  ],
+  "audio": true
+}

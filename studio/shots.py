@@ -19,20 +19,37 @@ def _frames(path, width=160):
     return np.frombuffer(raw, np.uint8).reshape(-1, h, width).astype(np.float32), fps
 
 
-def detect_cuts(path):
-    """Frame indices where a new shot starts (ffmpeg scene detection)."""
+FALLBACK_SCORE = 0.06  # lowest score accepted when a cut between similar-coloured shots is missed
+
+
+def scene_scores(path):
     out = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-vf",
                           "select='gte(scene,0)',metadata=print:key=lavfi.scene_score:file=-", "-f", "null", "-"],
                          capture_output=True, text=True, check=True).stdout
-    scores = [float(line.split("=")[1]) for line in out.splitlines() if "scene_score" in line]
-    return [i for i, s in enumerate(scores) if s > CUT_SCORE]
+    return [float(line.split("=")[1]) for line in out.splitlines() if "scene_score" in line]
+
+
+def detect_cuts(path, expected_shots=None, fps=24.0):
+    """Frame indices where a new shot starts. If fewer than expected are found at the normal
+    threshold, take the strongest remaining peaks (>= FALLBACK_SCORE, >= 0.5 s apart)."""
+    scores = scene_scores(path)
+    cuts = [i for i, s in enumerate(scores) if s > CUT_SCORE]
+    if expected_shots and len(cuts) < expected_shots - 1:
+        gap = round(0.5 * fps)
+        for i in sorted(range(len(scores)), key=lambda k: -scores[k]):
+            if len(cuts) >= expected_shots - 1 or scores[i] < FALLBACK_SCORE:
+                break
+            if i > gap and all(abs(i - c) >= gap for c in cuts):
+                cuts.append(i)
+        cuts.sort()
+    return cuts
 
 
 def split(path, cut_ids, use_seconds=1.0):
     """Map shots to cut ids in order and choose the steadiest window inside each shot."""
     frames, fps = _frames(path)
     n = len(frames)
-    starts = [0] + detect_cuts(path)
+    starts = [0] + detect_cuts(path, len(cut_ids), fps)
     bounds = list(zip(starts, starts[1:] + [n]))
     result = {"path": str(path), "fps": fps, "shots_found": len(bounds), "shots_expected": len(cut_ids), "cuts": {}}
     if len(bounds) != len(cut_ids):
