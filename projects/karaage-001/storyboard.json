@@ -1,0 +1,80 @@
+{
+  "project_id": "karaage-001",
+  "title": "究極の唐揚げASMR",
+  "aspect_ratio": "9:16",
+  "duration_seconds": 70,
+  "language": "ja",
+  "style": "photorealistic premium cooking ASMR, warm cinematic lighting, consistent kitchen and utensils, no logos, no text embedded in generated footage",
+  "scenes": [
+    {
+      "id": "s01",
+      "start_seconds": 0,
+      "end_seconds": 5,
+      "shot": "完成品のフック",
+      "prompt": "Golden Japanese karaage chicken breaking apart in extreme macro close-up, crispy coating shattering, juicy fully cooked interior, cinematic warm lighting, realistic food texture, slow motion, vertical 9:16."
+    },
+    {
+      "id": "s02",
+      "start_seconds": 5,
+      "end_seconds": 12,
+      "shot": "鶏肉の下準備",
+      "prompt": "Raw boneless chicken thigh sliced into bite-sized pieces by a chef's hands on a dark wooden cutting board, realistic knife movement, close-up food cinematography, vertical 9:16."
+    },
+    {
+      "id": "s03",
+      "start_seconds": 12,
+      "end_seconds": 19,
+      "shot": "下味をつける",
+      "prompt": "Fresh chicken thigh pieces mixed with soy sauce, grated ginger and garlic in a stainless steel bowl, hands gently massaging marinade, macro realistic food cinematography, vertical 9:16."
+    },
+    {
+      "id": "s04",
+      "start_seconds": 19,
+      "end_seconds": 26,
+      "shot": "衣をつける",
+      "prompt": "Marinated chicken thigh pieces being thoroughly coated with potato starch, detailed white starch texture, natural hand motions, shallow depth of field, vertical 9:16."
+    },
+    {
+      "id": "s05",
+      "start_seconds": 26,
+      "end_seconds": 35,
+      "shot": "油に入れる",
+      "prompt": "Starch-coated chicken pieces gently lowered into hot oil in a deep frying pan, immediate intense golden bubbles, dynamic extreme macro shot, realistic frying physics, vertical 9:16."
+    },
+    {
+      "id": "s06",
+      "start_seconds": 35,
+      "end_seconds": 43,
+      "shot": "揚がっていく",
+      "prompt": "Chicken karaage slowly turning golden brown while frying, crisp textured surface forming, bubbling oil, controlled slow cinematic camera push-in, vertical 9:16."
+    },
+    {
+      "id": "s07",
+      "start_seconds": 43,
+      "end_seconds": 50,
+      "shot": "油切り",
+      "prompt": "Freshly fried golden karaage lifted out of the pan using a metal strainer and placed on a wire rack, small oil droplets falling, delicate steam rising, vertical 9:16."
+    },
+    {
+      "id": "s08",
+      "start_seconds": 50,
+      "end_seconds": 57,
+      "shot": "断面",
+      "prompt": "Chef's hands gently tear open a fully cooked piece of crispy karaage, exposing steaming juicy cooked chicken with no pink interior, extremely realistic crunch texture, vertical 9:16."
+    },
+    {
+      "id": "s09",
+      "start_seconds": 57,
+      "end_seconds": 64,
+      "shot": "盛り付け",
+      "prompt": "Several pieces of golden karaage arranged on a black ceramic plate with lemon wedge, shredded cabbage and white rice, warm cinematic food styling, vertical 9:16."
+    },
+    {
+      "id": "s10",
+      "start_seconds": 64,
+      "end_seconds": 70,
+      "shot": "完成の余韻",
+      "prompt": "Slow cinematic orbit around a beautiful plate of freshly cooked Japanese karaage, detailed crispy crust, subtle steam, appetizing warm golden lighting, premium food commercial, vertical 9:16."
+    }
+  ]
+}
