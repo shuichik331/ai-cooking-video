@@ -1,0 +1,639 @@
+{
+  "project_id": "chicken-nanban-001",
+  "model_target": "Higgsfield Seedance (availability/version requires verification)",
+  "creative_owner": "ChatGPT",
+  "reference_priority": "storyboard images for look and framing, timestamp and ordering from validated JSON; report contradictions before generating",
+  "global_prompt": "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+  "scenes": [
+    {
+      "id": "s01",
+      "camera": "wide or establishing, as storyboard",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Wide establishing shot of a cozy small Japanese apartment kitchen in morning sunlight, young adult Japanese man with tousled dark hair and a plain white T-shirt. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s01"
+    },
+    {
+      "id": "s02",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Over shoulder view, same man opening his refrigerator. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s02"
+    },
+    {
+      "id": "s03",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close view of the same man taking out a tray of raw chicken thigh. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s03"
+    },
+    {
+      "id": "s04",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Top-down still life of chicken, eggs, onion, rice vinegar, soy sauce and seasonings on wooden counter. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s04"
+    },
+    {
+      "id": "s05",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close hands placing raw chicken on wooden cutting board. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s05"
+    },
+    {
+      "id": "s06",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro knife shot cutting boneless chicken thigh into bite-size pieces. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s06"
+    },
+    {
+      "id": "s07",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro of safely trimming connective tissue from raw chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s07"
+    },
+    {
+      "id": "s08",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Same man sprinkling salt and pepper onto chicken pieces. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s08"
+    },
+    {
+      "id": "s09",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro hands cracking egg into transparent mixing bowl. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s09"
+    },
+    {
+      "id": "s10",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Chopsticks rapidly whisk golden egg in glass bowl. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s10"
+    },
+    {
+      "id": "s11",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close still life of flour arranged on a shallow white dish. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s11"
+    },
+    {
+      "id": "s12",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close hands evenly coating raw chicken pieces with flour. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s12"
+    },
+    {
+      "id": "s13",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Chopsticks dipping flour-coated chicken into beaten egg. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s13"
+    },
+    {
+      "id": "s14",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Extreme macro of egg-coated raw chicken, glossy wet batter. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-01.png",
+      "reference_panel": "s14"
+    },
+    {
+      "id": "s15",
+      "camera": "wide or establishing, as storyboard",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Medium shot of same man pouring cooking oil into dark frying pan. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s15"
+    },
+    {
+      "id": "s16",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro close-up of chopsticks testing preheated frying oil. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s16"
+    },
+    {
+      "id": "s17",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close shot of battered chicken being carefully lowered into hot oil with tongs. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s17"
+    },
+    {
+      "id": "s18",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Extreme macro bubbling golden oil around chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s18"
+    },
+    {
+      "id": "s19",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close hands adding the next chicken pieces with tongs. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s19"
+    },
+    {
+      "id": "s20",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Top-down shot of several pieces of chicken frying in a pan. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s20"
+    },
+    {
+      "id": "s21",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Extreme macro of the golden egg-battered crust puffing and crisping. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s21"
+    },
+    {
+      "id": "s22",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Medium profile shot of same man watching pan attentively. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s22"
+    },
+    {
+      "id": "s23",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Chopsticks carefully turning a piece of frying chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s23"
+    },
+    {
+      "id": "s24",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro of crispy batter gradually turning amber gold. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s24"
+    },
+    {
+      "id": "s25",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Tongs lifting fully cooked golden chicken onto wire rack. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s25"
+    },
+    {
+      "id": "s26",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro oil droplets draining from chicken above a wire rack. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s26"
+    },
+    {
+      "id": "s27",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close shot of remaining battered chicken frying in oil. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s27"
+    },
+    {
+      "id": "s28",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Hero close-up of cooked golden fried chicken cooling on wire rack. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-02.png",
+      "reference_panel": "s28"
+    },
+    {
+      "id": "s29",
+      "camera": "wide or establishing, as storyboard",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Same man pouring clear rice vinegar into small stainless saucepan. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s29"
+    },
+    {
+      "id": "s30",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro dark soy sauce streaming into saucepan. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s30"
+    },
+    {
+      "id": "s31",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro white granulated sugar added to sweet vinegar soy mixture. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s31"
+    },
+    {
+      "id": "s32",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Side shot of saucepan gently heating on stovetop. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s32"
+    },
+    {
+      "id": "s33",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro sweet-and-sour nanban sauce lightly simmering. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s33"
+    },
+    {
+      "id": "s34",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro glossy amber nanban sauce lifted with spoon. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s34"
+    },
+    {
+      "id": "s35",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close shot of two peeled hard-boiled eggs placed in glass bowl. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s35"
+    },
+    {
+      "id": "s36",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro fork mashing boiled eggs into small chunks. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s36"
+    },
+    {
+      "id": "s37",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Same man finely dicing onion on wooden cutting board. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s37"
+    },
+    {
+      "id": "s38",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Mayonnaise squeezed into mashed egg and chopped onion. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s38"
+    },
+    {
+      "id": "s39",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Hands mixing chunky creamy tartar sauce with spoon. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s39"
+    },
+    {
+      "id": "s40",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro of creamy pale egg tartar sauce with chopped onion. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s40"
+    },
+    {
+      "id": "s41",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Same man tasting a cooled drop of sauce safely from a spoon. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s41"
+    },
+    {
+      "id": "s42",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Two glass bowls of glossy brown nanban sauce and creamy egg tartar side by side. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-03.png",
+      "reference_panel": "s42"
+    },
+    {
+      "id": "s43",
+      "camera": "wide or establishing, as storyboard",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro crisp golden fried chicken resting on rack. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s43"
+    },
+    {
+      "id": "s44",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Tongs dipping cooked golden chicken into prepared nanban sauce in glass bowl. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s44"
+    },
+    {
+      "id": "s45",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close chopsticks gently tossing cooked chicken in sauce. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s45"
+    },
+    {
+      "id": "s46",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Extreme macro of glossy nanban-coated chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s46"
+    },
+    {
+      "id": "s47",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Same man scooping white rice into striped ceramic bowl. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s47"
+    },
+    {
+      "id": "s48",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close shot of shredded cabbage placed on serving plate. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s48"
+    },
+    {
+      "id": "s49",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Tongs arranging glazed chicken next to shredded cabbage on plate. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s49"
+    },
+    {
+      "id": "s50",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro adding more glazed pieces into inviting mound. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s50"
+    },
+    {
+      "id": "s51",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close shot of shiny nanban sauce drizzled over plated chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s51"
+    },
+    {
+      "id": "s52",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Chunky cream-colored homemade tartar sauce spooned atop chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s52"
+    },
+    {
+      "id": "s53",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Fresh chopped parsley falling over tartar. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s53"
+    },
+    {
+      "id": "s54",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Top-down finished chicken nanban platter, tartar, cabbage garnish. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s54"
+    },
+    {
+      "id": "s55",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Same man carrying finished plate to wooden dining table. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s55"
+    },
+    {
+      "id": "s56",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Same man sitting at table, hands together saying itadakimasu, chicken nanban and rice. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-04.png",
+      "reference_panel": "s56"
+    },
+    {
+      "id": "s57",
+      "camera": "wide or establishing, as storyboard",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Chopsticks lifting a piece of chicken nanban topped with tartar. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s57"
+    },
+    {
+      "id": "s58",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Extreme macro chunky tartar and golden fried crust. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s58"
+    },
+    {
+      "id": "s59",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Same man taking a single bite with chopsticks. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s59"
+    },
+    {
+      "id": "s60",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Macro cross section of fully cooked white chicken and crisp golden coating. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s60"
+    },
+    {
+      "id": "s61",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close portrait, same man eyes closed enjoying flavorful bite. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s61"
+    },
+    {
+      "id": "s62",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Same man eating white rice from ceramic bowl. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s62"
+    },
+    {
+      "id": "s63",
+      "camera": "close-up or macro matching panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Extreme macro of glossy chicken nanban sauce and tartar. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s63"
+    },
+    {
+      "id": "s64",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Spoon lifting chunky fresh egg tartar from bowl. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s64"
+    },
+    {
+      "id": "s65",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Same man drinking water from clear glass. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s65"
+    },
+    {
+      "id": "s66",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Wide kitchen dining shot with same man enjoying his home-cooked dinner. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s66"
+    },
+    {
+      "id": "s67",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Close partly eaten chicken nanban plate, remaining cabbage and sauce. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s67"
+    },
+    {
+      "id": "s68",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Chopsticks picking up the last bite of chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s68"
+    },
+    {
+      "id": "s69",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Same man leaning back with a satisfied relaxed breath. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s69"
+    },
+    {
+      "id": "s70",
+      "camera": "match exact framing of storyboard panel",
+      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
+      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
+      "higgsfield_prompt": "Cinematic hero shot of finished chicken nanban with tartar, shredded cabbage and tomatoes. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "reference_page": "storyboard-pages/page-05.png",
+      "reference_panel": "s70"
+    }
+  ]
+}
