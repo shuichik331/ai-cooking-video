@@ -64,7 +64,7 @@ def collect_clips(project, use_manifest=False, allow_unapproved=False):
         if not allow_unapproved and not allowed_for_render(entry, False):
             problems.append(f"{sid}: not approved")
             continue
-        clips.append((scene, path, entry.get("trim_in_seconds")))
+        clips.append((scene, path, entry.get("trim_in_seconds"), entry.get("stretch_factor") or 1.0))
     if problems:
         raise RenderError("cannot render:\n  " + "\n  ".join(problems))
     return clips
@@ -104,14 +104,16 @@ def render(project, output, fit="pad", trim_anchor="start", audio=True,
     tmp = Path(tempfile.mkdtemp(prefix="render-"))
     try:
         video_segments, audio_segments = [], []
-        for idx, (scene, path, explicit_in) in enumerate(clips):
+        for idx, (scene, path, explicit_in, stretch) in enumerate(clips):
             use = scene["end_seconds"] - scene["start_seconds"]
             info = probe(path)
-            start = _trim_in(info["duration"], use, trim_anchor, explicit_in)
+            # a stretched cut reads use/stretch seconds of source and slows it to `use`
+            start = _trim_in(info["duration"], use / stretch, trim_anchor, explicit_in)
             stem = tmp / f"{idx:03d}_{scene['id']}"
             # Exact frame count per scene keeps the cut points on the storyboard timeline.
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{start:.3f}", "-i", str(path),
-                            "-map", "0:v:0", "-vf", vf, "-frames:v", str(round(use * fps)),
+                            "-map", "0:v:0", "-vf", (f"setpts={stretch}*PTS," if stretch != 1.0 else "") + vf,
+                            "-frames:v", str(round(use * fps)),
                             "-c:v", settings["video_codec"], "-preset", "medium", "-crf", "18", "-an",
                             f"{stem}.mp4"], check=True)
             video_segments.append(f"{stem}.mp4")
@@ -120,7 +122,8 @@ def render(project, output, fit="pad", trim_anchor="start", audio=True,
                 src = ["-ss", f"{start:.3f}", "-i", str(path), "-map", "0:a:0"] if info["audio"] else \
                       ["-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo"]
                 subprocess.run(["ffmpeg", "-v", "error", "-y", *src,
-                                "-af", f"aresample=48000,apad,atrim=0:{use},afade=t=in:d=0.01,afade=t=out:st={use - 0.01}:d=0.01",
+                                "-af", (f"atempo={1 / stretch:.4f}," if stretch != 1.0 and info["audio"] else "")
+                                + f"aresample=48000,apad,atrim=0:{use},afade=t=in:d=0.01,afade=t=out:st={use - 0.01}:d=0.01",
                                 "-ac", "2", "-t", f"{use}",
                                 "-c:a", "pcm_s16le", f"{stem}.wav"], check=True)
                 audio_segments.append(f"{stem}.wav")

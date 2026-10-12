@@ -33,5 +33,9 @@ for cid, c in res["cuts"].items():
     status.set_scene(p, cid, "generated", asset_path=clip, note=f"{a.tag}: {notes.get(cid, 'visual check passed')}")
     e["trim_in_seconds"] = c["trim_in_seconds"]
     e["selected_cut"] = {"source": clip, "frames": c["frames"], "tight": bool(c.get("tight")), "mean_motion": c["mean_motion"]}
+    if c.get("stretch_factor"):
+        e["stretch_factor"] = c["stretch_factor"]
+    else:
+        e.pop("stretch_factor", None)
     print(cid, "ok trim", c["trim_in_seconds"])
 write_json(p.status_path, p.status)

@@ -1464,6 +1464,65 @@
       "credits": 18.0,
       "note": "resubmitted after 429 (no charge for the rejected attempt; balance 860.73->665.73 matches ledger 195)",
       "submitted_at": "2026-10-12T23:46:33+00:00"
+    },
+    {
+      "group": "G13",
+      "job_id": "5ebf0c4d-aa05-4587-b710-e6ed60f3620b",
+      "credits": 18.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:49:13+00:00"
+    },
+    {
+      "group": "G14",
+      "job_id": "502b4f64-af47-4147-a08f-5f5deb2c5443",
+      "credits": 18.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:49:13+00:00"
+    },
+    {
+      "group": "G15",
+      "job_id": "c4353f72-7120-40ac-a262-723b31f9dd89",
+      "credits": 18.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:49:13+00:00"
+    },
+    {
+      "group": "G16",
+      "job_id": "ee140f61-8c92-400c-8300-1cbf3354413e",
+      "credits": 12.0,
+      "note": "resubmitted after 429",
+      "submitted_at": "2026-10-12T23:50:37+00:00"
+    },
+    {
+      "group": "G17",
+      "job_id": "4c828030-1e72-4c22-9864-7a827b3595b1",
+      "credits": 18.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:50:37+00:00"
+    },
+    {
+      "group": "G18",
+      "job_id": "78ba91ab-2e10-41bc-b5b6-6c42c3a3f553",
+      "credits": 18.0,
+      "note": "",
+      "submitted_at": "2026-10-12T23:51:35+00:00"
+    }
+  ],
+  "retake_queue": [
+    {
+      "cut": "s23",
+      "reason": "framing wider than storyboard (man facing camera) and face drift without identity ref",
+      "fallback": "G07_a1"
+    },
+    {
+      "cut": "s32",
+      "reason": "man added; storyboard shows the saucepan only",
+      "fallback": "G10_a1"
+    },
+    {
+      "cut": "s28",
+      "reason": "0.71 s shot and an unscripted man; storyboard shows chicken on the rack only",
+      "fallback": null
     }
   ]
 }

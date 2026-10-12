@@ -338,19 +338,86 @@
       }
     },
     "s12": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G04_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "82a98837-e3fb-4e38-837e-61ef57e07600",
+          "group_attempt": "G04_a1",
+          "shot_seconds": [
+            0.0,
+            2.583
+          ]
+        }
+      ],
+      "note": "G04_a1: visual check passed",
+      "updated_at": "2026-10-12T23:48:03+00:00",
+      "trim_in_seconds": 1.458,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G04_a1.mp4",
+        "frames": [
+          35,
+          58
+        ],
+        "tight": false,
+        "mean_motion": 3.05
+      }
     },
     "s13": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G04_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "82a98837-e3fb-4e38-837e-61ef57e07600",
+          "group_attempt": "G04_a1",
+          "shot_seconds": [
+            2.583,
+            4.167
+          ]
+        }
+      ],
+      "note": "G04_a1: visual check passed",
+      "updated_at": "2026-10-12T23:48:03+00:00",
+      "trim_in_seconds": 3.083,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G04_a1.mp4",
+        "frames": [
+          74,
+          97
+        ],
+        "tight": false,
+        "mean_motion": 2.538
+      }
     },
     "s14": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G04_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "82a98837-e3fb-4e38-837e-61ef57e07600",
+          "group_attempt": "G04_a1",
+          "shot_seconds": [
+            4.167,
+            5.042
+          ]
+        }
+      ],
+      "note": "G04_a1: 0.88s shot slowed x1.14 to 1.0s (near-static macro, no new content)",
+      "updated_at": "2026-10-12T23:48:03+00:00",
+      "trim_in_seconds": 4.167,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G04_a1.mp4",
+        "frames": [
+          100,
+          120
+        ],
+        "tight": false,
+        "mean_motion": 0.444
+      },
+      "stretch_factor": 1.1429
     },
     "s15": {
       "status": "generated",
@@ -569,104 +636,534 @@
       }
     },
     "s23": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G07_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "1f92b5a5-e928-4c0d-924c-262b51fe3838",
+          "group_attempt": "G07_a1",
+          "shot_seconds": [
+            0.0,
+            2.542
+          ]
+        }
+      ],
+      "note": "G07_a1: FALLBACK - framing wider than panel (man facing camera instead of chopsticks close-up), face drift; single-cut retake queued",
+      "updated_at": "2026-10-12T23:49:49+00:00",
+      "trim_in_seconds": 0.083,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G07_a1.mp4",
+        "frames": [
+          2,
+          25
+        ],
+        "tight": false,
+        "mean_motion": 3.124
+      }
     },
     "s24": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G07_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "1f92b5a5-e928-4c0d-924c-262b51fe3838",
+          "group_attempt": "G07_a1",
+          "shot_seconds": [
+            2.542,
+            3.958
+          ]
+        }
+      ],
+      "note": "G07_a1: visual check passed",
+      "updated_at": "2026-10-12T23:49:49+00:00",
+      "trim_in_seconds": 2.625,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G07_a1.mp4",
+        "frames": [
+          63,
+          86
+        ],
+        "tight": false,
+        "mean_motion": 7.852
+      }
     },
     "s25": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G07_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "1f92b5a5-e928-4c0d-924c-262b51fe3838",
+          "group_attempt": "G07_a1",
+          "shot_seconds": [
+            3.958,
+            5.042
+          ]
+        }
+      ],
+      "note": "G07_a1: long chopsticks over pan toward rack (creative decision)",
+      "updated_at": "2026-10-12T23:49:49+00:00",
+      "trim_in_seconds": 4.0,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G07_a1.mp4",
+        "frames": [
+          96,
+          119
+        ],
+        "tight": true,
+        "mean_motion": 9.819
+      }
     },
     "s26": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G08_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "7ddf96f0-3ac9-4f9e-b74e-fc7655c16900",
+          "group_attempt": "G08_a1",
+          "shot_seconds": [
+            0.0,
+            2.583
+          ]
+        }
+      ],
+      "note": "G08_a1: visual check passed",
+      "updated_at": "2026-10-12T23:50:57+00:00",
+      "trim_in_seconds": 1.5,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G08_a1.mp4",
+        "frames": [
+          36,
+          59
+        ],
+        "tight": false,
+        "mean_motion": 0.77
+      }
     },
     "s27": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G08_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "7ddf96f0-3ac9-4f9e-b74e-fc7655c16900",
+          "group_attempt": "G08_a1",
+          "shot_seconds": [
+            2.583,
+            4.333
+          ]
+        }
+      ],
+      "note": "G08_a1: visual check passed",
+      "updated_at": "2026-10-12T23:50:57+00:00",
+      "trim_in_seconds": 2.667,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G08_a1.mp4",
+        "frames": [
+          64,
+          87
+        ],
+        "tight": false,
+        "mean_motion": 3.107
+      }
     },
     "s28": {
-      "status": "pending",
+      "status": "rejected",
       "asset_path": null,
-      "approved": false
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "7ddf96f0-3ac9-4f9e-b74e-fc7655c16900",
+          "group_attempt": "G08_a1",
+          "shot_seconds": [
+            4.333,
+            5.042
+          ]
+        }
+      ],
+      "note": "G08_a1: shot 0.71s and an unscripted man (face drift) in a panel that shows only chicken on the rack",
+      "updated_at": "2026-10-12T23:50:57+00:00"
     },
     "s29": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G09_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "50f49fbd-3fd1-4662-8cc1-c0ec14c13797",
+          "group_attempt": "G09_a1",
+          "shot_seconds": [
+            0.0,
+            1.792
+          ]
+        }
+      ],
+      "note": "G09_a1: visual check passed",
+      "updated_at": "2026-10-12T23:50:57+00:00",
+      "trim_in_seconds": 0.458,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G09_a1.mp4",
+        "frames": [
+          11,
+          34
+        ],
+        "tight": false,
+        "mean_motion": 0.519
+      }
     },
     "s30": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G09_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "50f49fbd-3fd1-4662-8cc1-c0ec14c13797",
+          "group_attempt": "G09_a1",
+          "shot_seconds": [
+            1.792,
+            3.75
+          ]
+        }
+      ],
+      "note": "G09_a1: visual check passed",
+      "updated_at": "2026-10-12T23:50:57+00:00",
+      "trim_in_seconds": 2.542,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G09_a1.mp4",
+        "frames": [
+          61,
+          84
+        ],
+        "tight": false,
+        "mean_motion": 1.912
+      }
     },
     "s31": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G09_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "50f49fbd-3fd1-4662-8cc1-c0ec14c13797",
+          "group_attempt": "G09_a1",
+          "shot_seconds": [
+            3.75,
+            5.042
+          ]
+        }
+      ],
+      "note": "G09_a1: visual check passed",
+      "updated_at": "2026-10-12T23:50:57+00:00",
+      "trim_in_seconds": 3.833,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G09_a1.mp4",
+        "frames": [
+          92,
+          115
+        ],
+        "tight": false,
+        "mean_motion": 4.761
+      }
     },
     "s32": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G10_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "776c3be1-137a-4fa7-ba2b-87c2befea57e",
+          "group_attempt": "G10_a1",
+          "shot_seconds": [
+            0.0,
+            1.708
+          ]
+        }
+      ],
+      "note": "G10_a1: FALLBACK - man added behind the saucepan (panel shows pan only); single-cut retake queued",
+      "updated_at": "2026-10-12T23:49:49+00:00",
+      "trim_in_seconds": 0.583,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G10_a1.mp4",
+        "frames": [
+          14,
+          37
+        ],
+        "tight": false,
+        "mean_motion": 0.211
+      }
     },
     "s33": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G10_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "776c3be1-137a-4fa7-ba2b-87c2befea57e",
+          "group_attempt": "G10_a1",
+          "shot_seconds": [
+            1.708,
+            3.667
+          ]
+        }
+      ],
+      "note": "G10_a1: visual check passed",
+      "updated_at": "2026-10-12T23:49:49+00:00",
+      "trim_in_seconds": 2.333,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G10_a1.mp4",
+        "frames": [
+          56,
+          79
+        ],
+        "tight": false,
+        "mean_motion": 0.859
+      }
     },
     "s34": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G10_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "776c3be1-137a-4fa7-ba2b-87c2befea57e",
+          "group_attempt": "G10_a1",
+          "shot_seconds": [
+            3.667,
+            5.042
+          ]
+        }
+      ],
+      "note": "G10_a1: visual check passed",
+      "updated_at": "2026-10-12T23:49:49+00:00",
+      "trim_in_seconds": 3.917,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G10_a1.mp4",
+        "frames": [
+          94,
+          117
+        ],
+        "tight": false,
+        "mean_motion": 5.56
+      }
     },
     "s35": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G11_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "5612ea39-e6dd-4586-b9e5-164f9c96e768",
+          "group_attempt": "G11_a1",
+          "shot_seconds": [
+            0.0,
+            1.542
+          ]
+        }
+      ],
+      "note": "G11_a1: visual check passed",
+      "updated_at": "2026-10-12T23:49:49+00:00",
+      "trim_in_seconds": 0.458,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G11_a1.mp4",
+        "frames": [
+          11,
+          34
+        ],
+        "tight": false,
+        "mean_motion": 3.136
+      }
     },
     "s36": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G11_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "5612ea39-e6dd-4586-b9e5-164f9c96e768",
+          "group_attempt": "G11_a1",
+          "shot_seconds": [
+            1.542,
+            2.958
+          ]
+        }
+      ],
+      "note": "G11_a1: visual check passed",
+      "updated_at": "2026-10-12T23:49:49+00:00",
+      "trim_in_seconds": 1.708,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G11_a1.mp4",
+        "frames": [
+          41,
+          64
+        ],
+        "tight": false,
+        "mean_motion": 10.541
+      }
     },
     "s37": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G11_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "5612ea39-e6dd-4586-b9e5-164f9c96e768",
+          "group_attempt": "G11_a1",
+          "shot_seconds": [
+            2.958,
+            4.708
+          ]
+        }
+      ],
+      "note": "G11_a1: visual check passed",
+      "updated_at": "2026-10-12T23:49:49+00:00",
+      "trim_in_seconds": 3.167,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G11_a1.mp4",
+        "frames": [
+          76,
+          99
+        ],
+        "tight": false,
+        "mean_motion": 3.667
+      }
     },
     "s38": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G11_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "5612ea39-e6dd-4586-b9e5-164f9c96e768",
+          "group_attempt": "G11_a1",
+          "shot_seconds": [
+            4.708,
+            6.042
+          ]
+        }
+      ],
+      "note": "G11_a1: visual check passed",
+      "updated_at": "2026-10-12T23:49:49+00:00",
+      "trim_in_seconds": 4.792,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G11_a1.mp4",
+        "frames": [
+          115,
+          138
+        ],
+        "tight": false,
+        "mean_motion": 1.303
+      }
     },
     "s39": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G12_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "7a498967-aa4a-4968-b064-b1c4d9bf6569",
+          "group_attempt": "G12_a1",
+          "shot_seconds": [
+            0.0,
+            1.792
+          ]
+        }
+      ],
+      "note": "G12_a1: visual check passed",
+      "updated_at": "2026-10-12T23:51:45+00:00",
+      "trim_in_seconds": 0.167,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G12_a1.mp4",
+        "frames": [
+          4,
+          27
+        ],
+        "tight": false,
+        "mean_motion": 4.038
+      }
     },
     "s40": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G12_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "7a498967-aa4a-4968-b064-b1c4d9bf6569",
+          "group_attempt": "G12_a1",
+          "shot_seconds": [
+            1.792,
+            3.083
+          ]
+        }
+      ],
+      "note": "G12_a1: visual check passed",
+      "updated_at": "2026-10-12T23:51:45+00:00",
+      "trim_in_seconds": 2.0,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G12_a1.mp4",
+        "frames": [
+          48,
+          71
+        ],
+        "tight": false,
+        "mean_motion": 0.031
+      }
     },
     "s41": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G12_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "7a498967-aa4a-4968-b064-b1c4d9bf6569",
+          "group_attempt": "G12_a1",
+          "shot_seconds": [
+            3.083,
+            4.875
+          ]
+        }
+      ],
+      "note": "G12_a1: tasting from spoon matches; the small saucepan in the panel is missing (minor prop difference)",
+      "updated_at": "2026-10-12T23:51:45+00:00",
+      "trim_in_seconds": 3.5,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G12_a1.mp4",
+        "frames": [
+          84,
+          107
+        ],
+        "tight": false,
+        "mean_motion": 2.495
+      }
     },
     "s42": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G12_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "7a498967-aa4a-4968-b064-b1c4d9bf6569",
+          "group_attempt": "G12_a1",
+          "shot_seconds": [
+            4.875,
+            6.042
+          ]
+        }
+      ],
+      "note": "G12_a1: visual check passed",
+      "updated_at": "2026-10-12T23:51:45+00:00",
+      "trim_in_seconds": 4.958,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G12_a1.mp4",
+        "frames": [
+          119,
+          142
+        ],
+        "tight": false,
+        "mean_motion": 0.022
+      }
     },
     "s43": {
       "status": "pending",

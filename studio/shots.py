@@ -7,6 +7,7 @@ from .render import probe
 
 CUT_SCORE = 0.3      # ffmpeg scene score that counts as a hard cut
 EDGE_MARGIN = 0.08   # seconds kept away from each cut (blend/transition frames)
+MIN_STRETCH_SHOT = 0.75  # shorter shots (>= this) are slowed to fill the cut instead of regenerated
 
 
 def _frames(path, width=160):
@@ -65,8 +66,14 @@ def split(path, cut_ids, use_seconds=1.0):
             # shot only just long enough: use it without the edge margin
             lo, hi = a + max(0, (b - a - win) // 2), a + max(0, (b - a - win) // 2)
             entry["tight"] = True
+        if hi < lo and b - a >= round(MIN_STRETCH_SHOT * fps):
+            # slightly short shot: use all of it, slowed down to fill the cut (edit only, no new content)
+            entry.update(trim_in_seconds=round(a / fps, 3), frames=[a, b - 1], stretch_factor=round(win / (b - a), 4),
+                         mean_motion=round(float(motion[a + 1:b].mean()), 3))
+            result["cuts"][cid] = entry
+            continue
         if hi < lo:
-            entry["problem"] = f"shot is {(b - a) / fps:.2f}s, shorter than {use_seconds}s plus margins"
+            entry["problem"] = f"shot is {(b - a) / fps:.2f}s, shorter than {MIN_STRETCH_SHOT}s"
         else:
             best = min(range(lo, hi + 1), key=lambda s: motion[s + 1:s + win].mean())
             entry.update(trim_in_seconds=round(best / fps, 3), frames=[best, best + win - 1],
