@@ -1,0 +1,27 @@
+{
+  "provider": "higgsfield",
+  "model": "seedance_2_5",
+  "model_constraints": {
+    "min_duration_seconds": 4,
+    "max_duration_seconds": 30,
+    "aspect_ratios": ["9:16"],
+    "resolutions": ["480p", "720p", "1080p"],
+    "media_roles": ["start_image", "end_image", "image_references"]
+  },
+  "observed_credits_per_second": {
+    "480p": 3,
+    "720p": 7,
+    "1080p": 12,
+    "_source": "Higgsfield get_cost preflight on 2026-10-12 (4s and 7s, 9:16). Prices can change; always re-quote before submitting."
+  },
+  "pending_decisions": {
+    "resolution": null,
+    "generate_audio": null,
+    "trim_anchor": null,
+    "fit": null
+  },
+  "defaults_until_decided": {
+    "trim_anchor": "start",
+    "fit": "pad"
+  }
+}

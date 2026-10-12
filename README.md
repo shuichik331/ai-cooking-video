@@ -10,10 +10,12 @@ ChatGPT → GitHub → Claude Code → Higgsfield → FFmpeg → TikTok / YouTub
 
 ## Start
 ```bash
-python3 scripts/validate_storyboard.py projects/karaage-001/storyboard.json
-python3 scripts/render_video.py projects/karaage-001/manifest.json --output output/karaage-001.mp4
+python3 scripts/studio.py list                       # projects waiting for production
+python3 scripts/studio.py validate                   # all projects (errors / blockers / warnings)
+python3 scripts/studio.py sheet chicken-nanban-001   # Seedance generation sheet (verbatim)
+python3 -m unittest discover -s tests                # tests (FFmpeg tests skip if not installed)
 ```
-The renderer requires installed FFmpeg and existing scene assets. There are no generated video assets in the repo.
+Rendering needs FFmpeg and approved scene clips stored outside Git. See `docs/production-pipeline.md` for statuses, files and commands, and `docs/higgsfield-integration.md` for the generation and spend-approval flow.
 
 ## Workflow
 1. ChatGPT commits a storyboard JSON under `projects/<id>/`.

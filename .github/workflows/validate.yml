@@ -1,9 +1,12 @@
-name: Validate storyboards
+name: Validate projects
 on:
   push:
     paths:
-      - "projects/**/storyboard.json"
-      - "scripts/validate_storyboard.py"
+      - "projects/**"
+      - "studio/**"
+      - "scripts/**"
+      - "tests/**"
+      - "config/**"
       - ".github/workflows/validate.yml"
   pull_request:
 jobs:
@@ -14,7 +17,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: |
-          for f in projects/*/storyboard.json; do
-            python scripts/validate_storyboard.py "$f"
-          done
+      - name: Install FFmpeg
+        run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Validate projects (fails on contract errors; blockers are reported)
+        run: python scripts/studio.py validate
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
