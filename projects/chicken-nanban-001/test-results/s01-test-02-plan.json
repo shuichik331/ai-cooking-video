@@ -1,0 +1,68 @@
+{
+  "project_id": "chicken-nanban-001",
+  "test": "s01-test-02",
+  "status": "awaiting_user_approval",
+  "previous_test": "s01-test-01 (job 6c4335a4, rejected; clip kept at media/chicken-nanban-001/clips/s01_test_480p.mp4)",
+  "prompt_source": "prompts.json scenes[s01].higgsfield_prompt (commit 56ba4ac), used verbatim; global_prompt NOT appended",
+  "request": {
+    "tool": "generate_video",
+    "params": {
+      "model": "seedance_2_5",
+      "mode": "omni_reference",
+      "prompt": "SINGLE CONTINUOUS ESTABLISHING SHOT, 5 seconds, NO CUTS. Use the supplied s01 storyboard panel as the exact START FRAME and preserve its layout: a wide view of a compact Japanese apartment kitchen in soft warm morning light. A young Japanese man with tousled black hair and a plain white T-shirt stands calmly at the counter. Only subtle natural breathing, a tiny posture shift and gentle daylight movement; locked camera, no zoom, no pan, no reframing. Keep the same hand-drawn semi-realistic anime look, ink outlines, warm watercolor-marker shading, wooden countertop, refrigerator, shelves and utensils from the reference frame. Keep the face and hairstyle consistent with the separate s03 cropped face-and-shoulders identity reference. Do not bring the s03 shot's chicken tray or hands into this scene. Absolutely no food preparation, cutting, eggs, frying, pouring sauce, plating, eating, scene transitions, montage, inserts, temporal jumps, extra people, overlay text, logos or watermarks. Remain on this one kitchen-wide composition for all five seconds. Vertical 9:16.",
+      "duration": 5,
+      "resolution": "480p",
+      "aspect_ratio": "9:16",
+      "generate_audio": false,
+      "count": 1,
+      "medias": [
+        {
+          "role": "start_image",
+          "value": "<s01 start image media_id: option A or B>"
+        },
+        {
+          "role": "image_references",
+          "value": "0e722b28-105b-483a-bc45-1024d3c90329"
+        }
+      ]
+    }
+  },
+  "role_mapping_note": "prompts.json lists s03_face role 'image'; seedance_2_5 accepts start_image/end_image/image_references, so it is sent as image_references.",
+  "start_image_options": {
+    "A": {
+      "file": "media/chicken-nanban-001/panels/s01@4x.png",
+      "media_id": "edb0e9df-1c31-4194-b8e6-a111e834d447",
+      "size": "984x808 (landscape)",
+      "note": "Full panel. Output is 9:16, so Seedance must crop or reframe it itself; result is unpredictable."
+    },
+    "B": {
+      "file": "media/chicken-nanban-001/panels/s01_start_9x16_crop.png",
+      "media_id": null,
+      "size": "454x808 (9:16)",
+      "note": "9:16 crop of the same panel centred on the protagonist (page-01 x≈110–223). Keeps counter, shelves, lamp, table and chair; drops refrigerator (right) and window/plant (left). Needs a free upload."
+    }
+  },
+  "quote": {
+    "credits": 15,
+    "taken_at": "2026-10-12",
+    "with": "start_image = option A media, image_references = s03 face",
+    "balance_before": 875.73,
+    "note": "Cost depends on duration/resolution only; re-quoted with the final media right before submitting."
+  },
+  "one_second_selection": {
+    "method": [
+      "extract all 121 frames",
+      "reject any window containing a cut (ffmpeg scene score) or an artifact (hands, face, warping)",
+      "score each 1 s window (24 frames) by similarity to the storyboard panel and by motion stability",
+      "visual check of the top candidates"
+    ],
+    "output": "trim_in_seconds recorded on s01 in production-status.json; 1 s cut rendered to media/chicken-nanban-001/clips/s01_cut.mp4 (not in Git)"
+  },
+  "acceptance": [
+    "one continuous shot for all 5 s (no cuts)",
+    "kitchen-wide composition held",
+    "no cooking/food action",
+    "protagonist matches s03 face reference",
+    "storyboard illustration style"
+  ]
+}
