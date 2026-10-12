@@ -1,0 +1,1286 @@
+{
+  "project_id": "chicken-nanban-001",
+  "groups": [
+    {
+      "group": "G01",
+      "stage": "prep: fridge to board",
+      "cuts": [
+        "s02",
+        "s03",
+        "s04",
+        "s05"
+      ],
+      "shot_seconds": [
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "generate_seconds": 6,
+      "estimated_credits": 18,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s02_start_9x16.png",
+          "for": "s02"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03@4x.png",
+          "for": "s03"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s04@4x.png",
+          "for": "s04"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s05@4x.png",
+          "for": "s05"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/review/s01_accepted_frame.png",
+          "for": "environment"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s02): Over shoulder view, same man opening his refrigerator. Shot 2 (1.50-3.00s, storyboard s03): Close view of the same man taking out a tray of raw chicken thigh. Shot 3 (3.00-4.50s, storyboard s04): Top-down still life of chicken, eggs, onion, rice vinegar, soy sauce and seasonings on wooden counter. Shot 4 (4.50-6.00s, storyboard s05): Close hands placing raw chicken on wooden cutting board. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Keep the room identical to the separate kitchen environment reference. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s02": "Over shoulder view, same man opening his refrigerator.",
+          "s03": "Close view of the same man taking out a tray of raw chicken thigh.",
+          "s04": "Top-down still life of chicken, eggs, onion, rice vinegar, soy sauce and seasonings on wooden counter.",
+          "s05": "Close hands placing raw chicken on wooden cutting board."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G02",
+      "stage": "prep: cutting and seasoning",
+      "cuts": [
+        "s06",
+        "s07",
+        "s08"
+      ],
+      "shot_seconds": [
+        1.67,
+        1.67,
+        1.66
+      ],
+      "generate_seconds": 5,
+      "estimated_credits": 15,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s06_start_9x16.png",
+          "for": "s06"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s07@4x.png",
+          "for": "s07"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s08@4x.png",
+          "for": "s08"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s06): Macro knife shot cutting boneless chicken thigh into bite-size pieces. Shot 2 (1.67-3.34s, storyboard s07): Macro of safely trimming connective tissue from raw chicken. Shot 3 (3.34-5.00s, storyboard s08): Same man sprinkling salt and pepper onto chicken pieces. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s06": "Macro knife shot cutting boneless chicken thigh into bite-size pieces.",
+          "s07": "Macro of safely trimming connective tissue from raw chicken.",
+          "s08": "Same man sprinkling salt and pepper onto chicken pieces."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G03",
+      "stage": "batter: egg and flour",
+      "cuts": [
+        "s09",
+        "s10",
+        "s11"
+      ],
+      "shot_seconds": [
+        1.67,
+        1.67,
+        1.66
+      ],
+      "generate_seconds": 5,
+      "estimated_credits": 15,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s09_start_9x16.png",
+          "for": "s09"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s10@4x.png",
+          "for": "s10"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s11@4x.png",
+          "for": "s11"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s09): Macro hands cracking egg into transparent mixing bowl. Shot 2 (1.67-3.34s, storyboard s10): Chopsticks rapidly whisk golden egg in glass bowl. Shot 3 (3.34-5.00s, storyboard s11): Close still life of flour arranged on a shallow white dish. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s09": "Macro hands cracking egg into transparent mixing bowl.",
+          "s10": "Chopsticks rapidly whisk golden egg in glass bowl.",
+          "s11": "Close still life of flour arranged on a shallow white dish."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G04",
+      "stage": "batter: coating",
+      "cuts": [
+        "s12",
+        "s13",
+        "s14"
+      ],
+      "shot_seconds": [
+        1.67,
+        1.67,
+        1.66
+      ],
+      "generate_seconds": 5,
+      "estimated_credits": 15,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s12_start_9x16.png",
+          "for": "s12"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s13@4x.png",
+          "for": "s13"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s14@4x.png",
+          "for": "s14"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s12): Close hands evenly coating raw chicken pieces with flour. Shot 2 (1.67-3.34s, storyboard s13): Chopsticks dipping flour-coated chicken into beaten egg. Shot 3 (3.34-5.00s, storyboard s14): Extreme macro of egg-coated raw chicken, glossy wet batter. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s12": "Close hands evenly coating raw chicken pieces with flour.",
+          "s13": "Chopsticks dipping flour-coated chicken into beaten egg.",
+          "s14": "Extreme macro of egg-coated raw chicken, glossy wet batter."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G05",
+      "stage": "fry: oil and first piece",
+      "cuts": [
+        "s15",
+        "s16",
+        "s17",
+        "s18"
+      ],
+      "shot_seconds": [
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "generate_seconds": 6,
+      "estimated_credits": 18,
+      "blocked_by": {
+        "s17": "Image: bare fingers lower a flour-coated piece into the oil. prompts.json: 'battered chicken being carefully lowered into hot oil with tongs'. Utensil (and batter look) differ."
+      },
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s15_start_9x16.png",
+          "for": "s15"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s16@4x.png",
+          "for": "s16"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s17@4x.png",
+          "for": "s17"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s18@4x.png",
+          "for": "s18"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s15): Medium shot of same man pouring cooking oil into dark frying pan. Shot 2 (1.50-3.00s, storyboard s16): Macro close-up of chopsticks testing preheated frying oil. Shot 3 (3.00-4.50s, storyboard s17): Close shot of battered chicken being carefully lowered into hot oil with tongs. Shot 4 (4.50-6.00s, storyboard s18): Extreme macro bubbling golden oil around chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s15": "Medium shot of same man pouring cooking oil into dark frying pan.",
+          "s16": "Macro close-up of chopsticks testing preheated frying oil.",
+          "s17": "Close shot of battered chicken being carefully lowered into hot oil with tongs.",
+          "s18": "Extreme macro bubbling golden oil around chicken."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G06",
+      "stage": "fry: more pieces",
+      "cuts": [
+        "s19",
+        "s20",
+        "s21",
+        "s22"
+      ],
+      "shot_seconds": [
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "generate_seconds": 6,
+      "estimated_credits": 18,
+      "blocked_by": {
+        "s19": "Image: bare fingers add pieces to the hot oil. prompts.json: 'Close hands adding the next chicken pieces with tongs'. Utensil differs (also a hand-safety concern)."
+      },
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s19_start_9x16.png",
+          "for": "s19"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s20@4x.png",
+          "for": "s20"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s21@4x.png",
+          "for": "s21"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s22@4x.png",
+          "for": "s22"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s19): Close hands adding the next chicken pieces with tongs. Shot 2 (1.50-3.00s, storyboard s20): Top-down shot of several pieces of chicken frying in a pan. Shot 3 (3.00-4.50s, storyboard s21): Extreme macro of the golden egg-battered crust puffing and crisping. Shot 4 (4.50-6.00s, storyboard s22): Medium profile shot of same man watching pan attentively. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s19": "Close hands adding the next chicken pieces with tongs.",
+          "s20": "Top-down shot of several pieces of chicken frying in a pan.",
+          "s21": "Extreme macro of the golden egg-battered crust puffing and crisping.",
+          "s22": "Medium profile shot of same man watching pan attentively."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G07",
+      "stage": "fry: turning and lifting",
+      "cuts": [
+        "s23",
+        "s24",
+        "s25"
+      ],
+      "shot_seconds": [
+        1.67,
+        1.67,
+        1.66
+      ],
+      "generate_seconds": 5,
+      "estimated_credits": 15,
+      "blocked_by": {
+        "s25": "Image: chopsticks lift a piece above the frying pan, no rack in frame. prompts.json: 'Tongs lifting fully cooked golden chicken onto wire rack'. Utensil and destination differ."
+      },
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s23_start_9x16.png",
+          "for": "s23"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s24@4x.png",
+          "for": "s24"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s25@4x.png",
+          "for": "s25"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s23): Chopsticks carefully turning a piece of frying chicken. Shot 2 (1.67-3.34s, storyboard s24): Macro of crispy batter gradually turning amber gold. Shot 3 (3.34-5.00s, storyboard s25): Tongs lifting fully cooked golden chicken onto wire rack. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s23": "Chopsticks carefully turning a piece of frying chicken.",
+          "s24": "Macro of crispy batter gradually turning amber gold.",
+          "s25": "Tongs lifting fully cooked golden chicken onto wire rack."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G08",
+      "stage": "fry: draining and second batch",
+      "cuts": [
+        "s26",
+        "s27",
+        "s28"
+      ],
+      "shot_seconds": [
+        1.67,
+        1.67,
+        1.66
+      ],
+      "generate_seconds": 5,
+      "estimated_credits": 15,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s26_start_9x16.png",
+          "for": "s26"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s27@4x.png",
+          "for": "s27"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s28@4x.png",
+          "for": "s28"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s26): Macro oil droplets draining from chicken above a wire rack. Shot 2 (1.67-3.34s, storyboard s27): Close shot of remaining battered chicken frying in oil. Shot 3 (3.34-5.00s, storyboard s28): Hero close-up of cooked golden fried chicken cooling on wire rack. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s26": "Macro oil droplets draining from chicken above a wire rack.",
+          "s27": "Close shot of remaining battered chicken frying in oil.",
+          "s28": "Hero close-up of cooked golden fried chicken cooling on wire rack."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G09",
+      "stage": "sauce: pouring",
+      "cuts": [
+        "s29",
+        "s30",
+        "s31"
+      ],
+      "shot_seconds": [
+        1.67,
+        1.67,
+        1.66
+      ],
+      "generate_seconds": 5,
+      "estimated_credits": 15,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s29_start_9x16.png",
+          "for": "s29"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s30@4x.png",
+          "for": "s30"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s31@4x.png",
+          "for": "s31"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s29): Same man pouring clear rice vinegar into small stainless saucepan. Shot 2 (1.67-3.34s, storyboard s30): Macro dark soy sauce streaming into saucepan. Shot 3 (3.34-5.00s, storyboard s31): Macro white granulated sugar added to sweet vinegar soy mixture. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s29": "Same man pouring clear rice vinegar into small stainless saucepan.",
+          "s30": "Macro dark soy sauce streaming into saucepan.",
+          "s31": "Macro white granulated sugar added to sweet vinegar soy mixture."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G10",
+      "stage": "sauce: heating",
+      "cuts": [
+        "s32",
+        "s33",
+        "s34"
+      ],
+      "shot_seconds": [
+        1.67,
+        1.67,
+        1.66
+      ],
+      "generate_seconds": 5,
+      "estimated_credits": 15,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s32_start_9x16.png",
+          "for": "s32"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s33@4x.png",
+          "for": "s33"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s34@4x.png",
+          "for": "s34"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s32): Side shot of saucepan gently heating on stovetop. Shot 2 (1.67-3.34s, storyboard s33): Macro sweet-and-sour nanban sauce lightly simmering. Shot 3 (3.34-5.00s, storyboard s34): Macro glossy amber nanban sauce lifted with spoon. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s32": "Side shot of saucepan gently heating on stovetop.",
+          "s33": "Macro sweet-and-sour nanban sauce lightly simmering.",
+          "s34": "Macro glossy amber nanban sauce lifted with spoon."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G11",
+      "stage": "tartar: eggs, onion, mayo",
+      "cuts": [
+        "s35",
+        "s36",
+        "s37",
+        "s38"
+      ],
+      "shot_seconds": [
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "generate_seconds": 6,
+      "estimated_credits": 18,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s35_start_9x16.png",
+          "for": "s35"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s36@4x.png",
+          "for": "s36"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s37@4x.png",
+          "for": "s37"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s38@4x.png",
+          "for": "s38"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s35): Close shot of two peeled hard-boiled eggs placed in glass bowl. Shot 2 (1.50-3.00s, storyboard s36): Macro fork mashing boiled eggs into small chunks. Shot 3 (3.00-4.50s, storyboard s37): Same man finely dicing onion on wooden cutting board. Shot 4 (4.50-6.00s, storyboard s38): Mayonnaise squeezed into mashed egg and chopped onion. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s35": "Close shot of two peeled hard-boiled eggs placed in glass bowl.",
+          "s36": "Macro fork mashing boiled eggs into small chunks.",
+          "s37": "Same man finely dicing onion on wooden cutting board.",
+          "s38": "Mayonnaise squeezed into mashed egg and chopped onion."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G12",
+      "stage": "tartar: mixing and tasting",
+      "cuts": [
+        "s39",
+        "s40",
+        "s41",
+        "s42"
+      ],
+      "shot_seconds": [
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "generate_seconds": 6,
+      "estimated_credits": 18,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s39_start_9x16.png",
+          "for": "s39"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s40@4x.png",
+          "for": "s40"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s41@4x.png",
+          "for": "s41"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s42@4x.png",
+          "for": "s42"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s39): Hands mixing chunky creamy tartar sauce with spoon. Shot 2 (1.50-3.00s, storyboard s40): Macro of creamy pale egg tartar sauce with chopped onion. Shot 3 (3.00-4.50s, storyboard s41): Same man tasting a cooled drop of sauce safely from a spoon. Shot 4 (4.50-6.00s, storyboard s42): Two glass bowls of glossy brown nanban sauce and creamy egg tartar side by side. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s39": "Hands mixing chunky creamy tartar sauce with spoon.",
+          "s40": "Macro of creamy pale egg tartar sauce with chopped onion.",
+          "s41": "Same man tasting a cooled drop of sauce safely from a spoon.",
+          "s42": "Two glass bowls of glossy brown nanban sauce and creamy egg tartar side by side."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G13",
+      "stage": "coating in sauce",
+      "cuts": [
+        "s43",
+        "s44",
+        "s45",
+        "s46"
+      ],
+      "shot_seconds": [
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "generate_seconds": 6,
+      "estimated_credits": 18,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s43_start_9x16.png",
+          "for": "s43"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s44@4x.png",
+          "for": "s44"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s45@4x.png",
+          "for": "s45"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s46@4x.png",
+          "for": "s46"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s43): Macro crisp golden fried chicken resting on rack. Shot 2 (1.50-3.00s, storyboard s44): Tongs dipping cooked golden chicken into prepared nanban sauce in glass bowl. Shot 3 (3.00-4.50s, storyboard s45): Close chopsticks gently tossing cooked chicken in sauce. Shot 4 (4.50-6.00s, storyboard s46): Extreme macro of glossy nanban-coated chicken. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s43": "Macro crisp golden fried chicken resting on rack.",
+          "s44": "Tongs dipping cooked golden chicken into prepared nanban sauce in glass bowl.",
+          "s45": "Close chopsticks gently tossing cooked chicken in sauce.",
+          "s46": "Extreme macro of glossy nanban-coated chicken."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G14",
+      "stage": "plating: rice, cabbage, chicken",
+      "cuts": [
+        "s47",
+        "s48",
+        "s49",
+        "s50"
+      ],
+      "shot_seconds": [
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "generate_seconds": 6,
+      "estimated_credits": 18,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s47_start_9x16.png",
+          "for": "s47"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s48@4x.png",
+          "for": "s48"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s49@4x.png",
+          "for": "s49"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s50@4x.png",
+          "for": "s50"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s47): Same man scooping white rice into striped ceramic bowl. Shot 2 (1.50-3.00s, storyboard s48): Close shot of shredded cabbage placed on serving plate. Shot 3 (3.00-4.50s, storyboard s49): Tongs arranging glazed chicken next to shredded cabbage on plate. Shot 4 (4.50-6.00s, storyboard s50): Macro adding more glazed pieces into inviting mound. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s47": "Same man scooping white rice into striped ceramic bowl.",
+          "s48": "Close shot of shredded cabbage placed on serving plate.",
+          "s49": "Tongs arranging glazed chicken next to shredded cabbage on plate.",
+          "s50": "Macro adding more glazed pieces into inviting mound."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G15",
+      "stage": "plating: sauce, tartar, parsley",
+      "cuts": [
+        "s51",
+        "s52",
+        "s53",
+        "s54"
+      ],
+      "shot_seconds": [
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "generate_seconds": 6,
+      "estimated_credits": 18,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s51_start_9x16.png",
+          "for": "s51"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s52@4x.png",
+          "for": "s52"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s53@4x.png",
+          "for": "s53"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s54@4x.png",
+          "for": "s54"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s51): Close shot of shiny nanban sauce drizzled over plated chicken. Shot 2 (1.50-3.00s, storyboard s52): Chunky cream-colored homemade tartar sauce spooned atop chicken. Shot 3 (3.00-4.50s, storyboard s53): Fresh chopped parsley falling over tartar. Shot 4 (4.50-6.00s, storyboard s54): Top-down finished chicken nanban platter, tartar, cabbage garnish. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s51": "Close shot of shiny nanban sauce drizzled over plated chicken.",
+          "s52": "Chunky cream-colored homemade tartar sauce spooned atop chicken.",
+          "s53": "Fresh chopped parsley falling over tartar.",
+          "s54": "Top-down finished chicken nanban platter, tartar, cabbage garnish."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G16",
+      "stage": "to the table",
+      "cuts": [
+        "s55",
+        "s56"
+      ],
+      "shot_seconds": [
+        2.0,
+        2.0
+      ],
+      "generate_seconds": 4,
+      "estimated_credits": 12,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s55_start_9x16.png",
+          "for": "s55"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s56@4x.png",
+          "for": "s56"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/review/s01_accepted_frame.png",
+          "for": "environment"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 2 shots in 4.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-2.00s, storyboard s55): Same man carrying finished plate to wooden dining table. Shot 2 (2.00-4.00s, storyboard s56): Same man sitting at table, hands together saying itadakimasu, chicken nanban and rice. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Keep the room identical to the separate kitchen environment reference. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s55": "Same man carrying finished plate to wooden dining table.",
+          "s56": "Same man sitting at table, hands together saying itadakimasu, chicken nanban and rice."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G17",
+      "stage": "eating: first bite",
+      "cuts": [
+        "s57",
+        "s58",
+        "s59",
+        "s60"
+      ],
+      "shot_seconds": [
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "generate_seconds": 6,
+      "estimated_credits": 18,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s57_start_9x16.png",
+          "for": "s57"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s58@4x.png",
+          "for": "s58"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s59@4x.png",
+          "for": "s59"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s60@4x.png",
+          "for": "s60"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s57): Chopsticks lifting a piece of chicken nanban topped with tartar. Shot 2 (1.50-3.00s, storyboard s58): Extreme macro chunky tartar and golden fried crust. Shot 3 (3.00-4.50s, storyboard s59): Same man taking a single bite with chopsticks. Shot 4 (4.50-6.00s, storyboard s60): Macro cross section of fully cooked white chicken and crisp golden coating. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s57": "Chopsticks lifting a piece of chicken nanban topped with tartar.",
+          "s58": "Extreme macro chunky tartar and golden fried crust.",
+          "s59": "Same man taking a single bite with chopsticks.",
+          "s60": "Macro cross section of fully cooked white chicken and crisp golden coating."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G18",
+      "stage": "eating: reactions",
+      "cuts": [
+        "s61",
+        "s62",
+        "s63",
+        "s64"
+      ],
+      "shot_seconds": [
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "generate_seconds": 6,
+      "estimated_credits": 18,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s61_start_9x16.png",
+          "for": "s61"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s62@4x.png",
+          "for": "s62"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s63@4x.png",
+          "for": "s63"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s64@4x.png",
+          "for": "s64"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 4 shots in 6.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.50s, storyboard s61): Close portrait, same man eyes closed enjoying flavorful bite. Shot 2 (1.50-3.00s, storyboard s62): Same man eating white rice from ceramic bowl. Shot 3 (3.00-4.50s, storyboard s63): Extreme macro of glossy chicken nanban sauce and tartar. Shot 4 (4.50-6.00s, storyboard s64): Spoon lifting chunky fresh egg tartar from bowl. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s61": "Close portrait, same man eyes closed enjoying flavorful bite.",
+          "s62": "Same man eating white rice from ceramic bowl.",
+          "s63": "Extreme macro of glossy chicken nanban sauce and tartar.",
+          "s64": "Spoon lifting chunky fresh egg tartar from bowl."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G19",
+      "stage": "eating: water and table",
+      "cuts": [
+        "s65",
+        "s66",
+        "s67"
+      ],
+      "shot_seconds": [
+        1.67,
+        1.67,
+        1.66
+      ],
+      "generate_seconds": 5,
+      "estimated_credits": 15,
+      "blocked_by": {},
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s65_start_9x16.png",
+          "for": "s65"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s66@4x.png",
+          "for": "s66"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s67@4x.png",
+          "for": "s67"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/review/s01_accepted_frame.png",
+          "for": "environment"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s65): Same man drinking water from clear glass. Shot 2 (1.67-3.34s, storyboard s66): Wide kitchen dining shot with same man enjoying his home-cooked dinner. Shot 3 (3.34-5.00s, storyboard s67): Close partly eaten chicken nanban plate, remaining cabbage and sauce. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Keep the room identical to the separate kitchen environment reference. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s65": "Same man drinking water from clear glass.",
+          "s66": "Wide kitchen dining shot with same man enjoying his home-cooked dinner.",
+          "s67": "Close partly eaten chicken nanban plate, remaining cabbage and sauce."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    },
+    {
+      "group": "G20",
+      "stage": "finish",
+      "cuts": [
+        "s68",
+        "s69",
+        "s70"
+      ],
+      "shot_seconds": [
+        1.67,
+        1.67,
+        1.66
+      ],
+      "generate_seconds": 5,
+      "estimated_credits": 15,
+      "blocked_by": {
+        "s70": "Image and prompt both show tomatoes, but no tomato appears in the plating sequence s48–s54 or in s67. Continuity question for the creative lead."
+      },
+      "references": [
+        {
+          "role": "start_image",
+          "file": "media/chicken-nanban-001/panels/s68_start_9x16.png",
+          "for": "s68"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s69@4x.png",
+          "for": "s69"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s70@4x.png",
+          "for": "s70"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/panels/s03_face@4x.png",
+          "for": "identity",
+          "media_id": "0e722b28-105b-483a-bc45-1024d3c90329"
+        },
+        {
+          "role": "image_references",
+          "file": "media/chicken-nanban-001/review/s01_accepted_frame.png",
+          "for": "environment"
+        }
+      ],
+      "draft_prompt": "MULTI-SHOT SEQUENCE: exactly 3 shots in 5.0 seconds, hard cut between shots, no other shots. Shot 1 starts from the supplied start frame; each later shot matches the next reference panel in order. Each shot is one continuous take showing only its own action. Shot 1 (0.00-1.67s, storyboard s68): Chopsticks picking up the last bite of chicken. Shot 2 (1.67-3.34s, storyboard s69): Same man leaning back with a satisfied relaxed breath. Shot 3 (3.34-5.00s, storyboard s70): Cinematic hero shot of finished chicken nanban with tartar, shredded cabbage and tomatoes. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel. Keep the young man's face and hairstyle consistent with the separate face-and-shoulders identity reference; do not copy that image's tray or hands. Keep the room identical to the separate kitchen environment reference. Natural cooking sounds only, no music, no speech. Absolutely no cooking stages other than the shots listed, no extra shots, inserts, temporal jumps, extra people, overlay text, logos or watermarks.",
+      "prompt_diff": {
+        "kept_verbatim_per_cut": {
+          "s68": "Chopsticks picking up the last bite of chicken.",
+          "s69": "Same man leaning back with a satisfied relaxed breath.",
+          "s70": "Cinematic hero shot of finished chicken nanban with tartar, shredded cabbage and tomatoes."
+        },
+        "kept_verbatim_from_global_prompt": [
+          "Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing.",
+          "A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils.",
+          "Vertical 9:16.",
+          "No captions, no watermarks.",
+          "Maintain continuity with the attached storyboard reference panel."
+        ],
+        "removed": [
+          "Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting."
+        ],
+        "added": "multi-shot / single-shot contract, shot timing labels, identity / environment lines, audio line, exclusions"
+      }
+    }
+  ],
+  "generations": 20,
+  "generate_seconds": 109,
+  "base_credits": 327,
+  "cuts": 69,
+  "cost": {
+    "rate_480p_per_second": 3,
+    "quotes_2026_10_12": {
+      "4s": 12,
+      "5s": 15,
+      "audio_extra": 0,
+      "multi_reference_extra": 0
+    },
+    "base": {
+      "generations": 20,
+      "seconds": 109,
+      "credits": 327
+    },
+    "expected_with_retakes": {
+      "credits": 417,
+      "assumption": "6 group retakes at ~15"
+    },
+    "upper_cap_requested": {
+      "credits": 537,
+      "assumption": "+10 single-cut fixes at 12"
+    },
+    "fallback_all_individual": {
+      "generations": 69,
+      "credits": 828,
+      "note": "if multi-shot grouping fails the G01 check; no retake margin left"
+    },
+    "balance": 860.73
+  },
+  "blocked_groups": [
+    "G05",
+    "G06",
+    "G07",
+    "G20"
+  ],
+  "execution_order": [
+    "G01 first as the multi-shot check (fridge, face s03, ingredients, board); stop and report if shots do not follow the 4 panels",
+    "then G02-G20 one at a time, each split, checked and recorded before the next",
+    "groups blocked by open discrepancies wait for ChatGPT's decision: G05, G06, G07, G20"
+  ]
+}

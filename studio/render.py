@@ -61,7 +61,7 @@ def collect_clips(project, use_manifest=False, allow_unapproved=False):
         if not path.is_file():
             problems.append(f"{sid}: file not found {path}")
             continue
-        if not allow_unapproved and not entry.get("approved"):
+        if not allow_unapproved and not allowed_for_render(entry, False):
             problems.append(f"{sid}: not approved")
             continue
         clips.append((scene, path, entry.get("trim_in_seconds")))
@@ -88,11 +88,13 @@ def _concat_input(listfile, files):
 
 
 def render(project, output, fit="pad", trim_anchor="start", audio=True,
-           use_manifest=False, allow_unapproved=False, settings=None, keep_temp=False):
+           use_manifest=False, allow_unapproved=False, settings=None, keep_temp=False, size=None):
     require_ffmpeg()
     if fit not in FIT_FILTERS:
         raise RenderError(f"unknown fit {fit!r}")
-    settings = settings or load_json(VIDEO_SETTINGS)
+    settings = dict(settings or load_json(VIDEO_SETTINGS))
+    if size:  # e.g. (480, 854) for a native 480p master
+        settings["width"], settings["height"] = size
     w, h, fps = settings["width"], settings["height"], settings["fps"]
     clips = collect_clips(project, use_manifest, allow_unapproved)
     vf = FIT_FILTERS[fit].format(w=w, h=h) + f",fps={fps},setsar=1,format=yuv420p"
@@ -118,12 +120,15 @@ def render(project, output, fit="pad", trim_anchor="start", audio=True,
                 src = ["-ss", f"{start:.3f}", "-i", str(path), "-map", "0:a:0"] if info["audio"] else \
                       ["-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo"]
                 subprocess.run(["ffmpeg", "-v", "error", "-y", *src,
-                                "-af", f"aresample=48000,apad,atrim=0:{use}", "-ac", "2", "-t", f"{use}",
+                                "-af", f"aresample=48000,apad,atrim=0:{use},afade=t=in:d=0.01,afade=t=out:st={use - 0.01}:d=0.01",
+                                "-ac", "2", "-t", f"{use}",
                                 "-c:a", "pcm_s16le", f"{stem}.wav"], check=True)
                 audio_segments.append(f"{stem}.wav")
         cmd = ["ffmpeg", "-v", "error", "-y", *_concat_input(tmp / "video.txt", video_segments)]
         if audio:
+            # 10 ms fades per cut avoid clicks; loudness normalised for short-video platforms.
             cmd += [*_concat_input(tmp / "audio.txt", audio_segments), "-map", "0:v", "-map", "1:a",
+                    "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000",
                     "-c:a", settings["audio_codec"], "-b:a", "192k", "-shortest"]
         cmd += ["-c:v", "copy", "-movflags", "+faststart", str(output)]
         subprocess.run(cmd, check=True)
@@ -131,6 +136,10 @@ def render(project, output, fit="pad", trim_anchor="start", audio=True,
         if not keep_temp:
             shutil.rmtree(tmp, ignore_errors=True)
     return verify(output, project, settings, expect_audio=audio)
+
+
+def allowed_for_render(entry, include_provisional):
+    return entry.get("approved") or (include_provisional and entry.get("status") == "provisional")
 
 
 def verify(path, project=None, settings=None, expect_audio=None, tolerance=0.15):

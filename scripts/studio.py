@@ -143,8 +143,9 @@ def cmd_register_clip(args):
 def cmd_render(args):
     p = _project(args.project)
     try:
+        size = tuple(int(v) for v in args.size.split("x")) if args.size else None
         result = render.render(p, args.output, fit=args.fit, trim_anchor=args.trim_anchor, audio=not args.no_audio,
-                               use_manifest=args.manifest, allow_unapproved=args.draft)
+                               use_manifest=args.manifest, allow_unapproved=args.draft, size=size)
     except render.RenderError as exc:
         sys.exit(str(exc))
     print(json.dumps(result, ensure_ascii=False, indent=2))
@@ -221,6 +222,7 @@ def main(argv=None):
     s.add_argument("--no-audio", action="store_true")
     s.add_argument("--manifest", action="store_true", help="take clip paths from manifest.json")
     s.add_argument("--draft", action="store_true", help="allow unapproved clips (preview only, never recorded)")
+    s.add_argument("--size", help="WxH override, e.g. 480x854 for the 480p master")
     s.add_argument("--record", action="store_true"); s.set_defaults(fn=cmd_render)
     s = sub.add_parser("verify"); s.add_argument("video"); s.add_argument("--project")
     s.add_argument("--audio", choices=["yes", "no"]); s.set_defaults(fn=cmd_verify)

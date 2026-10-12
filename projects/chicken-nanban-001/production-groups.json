@@ -1,0 +1,29 @@
+{
+  "project_id": "chicken-nanban-001",
+  "note": "Production grouping by Claude Code (no creative change): consecutive cuts of the same cooking stage share one multi-shot generation; storyboard order and per-cut content are unchanged. s01 reuses the provisionally accepted clip.",
+  "reused": {"s01": "media/chicken-nanban-001/clips/s01_test02_480p.mp4 (trim_in 1.5 s)"},
+  "face_visible": ["s03", "s08", "s15", "s22", "s29", "s37", "s41", "s47", "s55", "s56", "s59", "s61", "s62", "s65", "s66", "s69"],
+  "environment_shots": ["s02", "s55", "s56", "s66", "s69"],
+  "groups": [
+    {"id": "G01", "stage": "prep: fridge to board", "cuts": ["s02", "s03", "s04", "s05"]},
+    {"id": "G02", "stage": "prep: cutting and seasoning", "cuts": ["s06", "s07", "s08"]},
+    {"id": "G03", "stage": "batter: egg and flour", "cuts": ["s09", "s10", "s11"]},
+    {"id": "G04", "stage": "batter: coating", "cuts": ["s12", "s13", "s14"]},
+    {"id": "G05", "stage": "fry: oil and first piece", "cuts": ["s15", "s16", "s17", "s18"]},
+    {"id": "G06", "stage": "fry: more pieces", "cuts": ["s19", "s20", "s21", "s22"]},
+    {"id": "G07", "stage": "fry: turning and lifting", "cuts": ["s23", "s24", "s25"]},
+    {"id": "G08", "stage": "fry: draining and second batch", "cuts": ["s26", "s27", "s28"]},
+    {"id": "G09", "stage": "sauce: pouring", "cuts": ["s29", "s30", "s31"]},
+    {"id": "G10", "stage": "sauce: heating", "cuts": ["s32", "s33", "s34"]},
+    {"id": "G11", "stage": "tartar: eggs, onion, mayo", "cuts": ["s35", "s36", "s37", "s38"]},
+    {"id": "G12", "stage": "tartar: mixing and tasting", "cuts": ["s39", "s40", "s41", "s42"]},
+    {"id": "G13", "stage": "coating in sauce", "cuts": ["s43", "s44", "s45", "s46"]},
+    {"id": "G14", "stage": "plating: rice, cabbage, chicken", "cuts": ["s47", "s48", "s49", "s50"]},
+    {"id": "G15", "stage": "plating: sauce, tartar, parsley", "cuts": ["s51", "s52", "s53", "s54"]},
+    {"id": "G16", "stage": "to the table", "cuts": ["s55", "s56"]},
+    {"id": "G17", "stage": "eating: first bite", "cuts": ["s57", "s58", "s59", "s60"]},
+    {"id": "G18", "stage": "eating: reactions", "cuts": ["s61", "s62", "s63", "s64"]},
+    {"id": "G19", "stage": "eating: water and table", "cuts": ["s65", "s66", "s67"]},
+    {"id": "G20", "stage": "finish", "cuts": ["s68", "s69", "s70"]}
+  ]
+}
