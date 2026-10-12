@@ -1,0 +1,367 @@
+{
+  "project_id": "chicken-nanban-001",
+  "overall_status": "not_started",
+  "last_verified_at": null,
+  "blockers": [
+    "storyboard image files need upload",
+    "image s26 timecode needs correction/approval",
+    "Higgsfield Seedance integration and price unverified"
+  ],
+  "scenes": {
+    "s01": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s02": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s03": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s04": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s05": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s06": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s07": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s08": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s09": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s10": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s11": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s12": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s13": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s14": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s15": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s16": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s17": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s18": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s19": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s20": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s21": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s22": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s23": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s24": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s25": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s26": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s27": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s28": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s29": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s30": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s31": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s32": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s33": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s34": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s35": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s36": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s37": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s38": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s39": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s40": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s41": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s42": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s43": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s44": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s45": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s46": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s47": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s48": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s49": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s50": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s51": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s52": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s53": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s54": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s55": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s56": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s57": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s58": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s59": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s60": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s61": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s62": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s63": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s64": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s65": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s66": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s67": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s68": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s69": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s70": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    }
+  },
+  "publication": {
+    "approved": false,
+    "tiktok_url": null,
+    "youtube_url": null
+  }
+}
