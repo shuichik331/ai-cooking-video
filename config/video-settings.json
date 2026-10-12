@@ -1,0 +1,15 @@
+{
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "format": "mp4",
+  "video_codec": "libx264",
+  "audio_codec": "aac",
+  "generation": "manual_higgsfield_mvp",
+  "human_review_required": true,
+  "platforms": [
+    "tiktok",
+    "youtube_shorts"
+  ]
+}
