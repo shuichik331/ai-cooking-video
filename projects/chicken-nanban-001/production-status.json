@@ -11,9 +11,35 @@
   ],
   "scenes": {
     "s01": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "rejected",
+      "asset_path": "media/chicken-nanban-001/clips/s01_test_480p.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "6c4335a4-b957-41ed-bbda-de7dbd7aefb1",
+          "backend": "mcp",
+          "credits": 15,
+          "resolution": "480p",
+          "submitted_at": "2026-10-12T07:07:57+00:00",
+          "purpose": "5s test (omni_reference, refs: s01 panel + s03 face)",
+          "reference_media_ids": [
+            "edb0e9df-1c31-4194-b8e6-a111e834d447",
+            "0e722b28-105b-483a-bc45-1024d3c90329"
+          ],
+          "quoted_credits": 15,
+          "status": "completed",
+          "charged_credits_expected": 15,
+          "result_file": "media/chicken-nanban-001/clips/s01_test_480p.mp4"
+        }
+      ],
+      "updated_at": "2026-10-12T07:12:48+00:00",
+      "probe": {
+        "duration_seconds": 5.042,
+        "width": 480,
+        "height": 854,
+        "audio": false
+      },
+      "note": "5s test 6c4335a4: model produced a 4-cut recipe montage (egg dip / frying / sauce / eating), no kitchen establishing shot; not usable for s01. See projects/chicken-nanban-001/test-results/s01-test-01.md"
     },
     "s02": {
       "status": "pending",

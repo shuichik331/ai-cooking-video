@@ -1,0 +1,23 @@
+{
+  "approved_by": "shuichik331 (chat instruction)",
+  "approved_at": "2026-10-12",
+  "scope": "single 5-second Seedance 2.5 proof for s01 only",
+  "scene_ids": [
+    "s01"
+  ],
+  "resolution": "480p",
+  "duration_seconds": 5,
+  "max_credits": 15,
+  "references": {
+    "s01": "media/chicken-nanban-001/panels/s01@4x.png (storyboard panel s01, picture area)",
+    "s03_face": "media/chicken-nanban-001/panels/s03_face@4x.png (protagonist face reference, upper part of panel s03)"
+  },
+  "condition": "Stop without generating if the live quote with the uploaded references exceeds max_credits.",
+  "instruction": "正面のコマを加えて、なおかつ 480p で5秒間で作ってほしいです。",
+  "consumed": {
+    "job_id": "6c4335a4-b957-41ed-bbda-de7dbd7aefb1",
+    "credits": 15,
+    "at": "2026-10-12",
+    "note": "Approval used in full; a new approval is required for any further generation."
+  }
+}

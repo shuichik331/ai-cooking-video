@@ -1,17 +1,44 @@
 {
   "project_id": "chicken-nanban-001",
-  "page_size": [1055, 1491],
+  "page_size": [
+    1055,
+    1491
+  ],
   "layout_observed": "Each page: three rows of 4 panels (number/time header, picture, caption) and a final row of 2 wide panels. Column positions differ between rows, so boxes are measured per panel.",
   "box_format": "[left, top, right, bottom] in page pixels; picture area only, 1-2 px inside the frame line",
   "pages": {
     "storyboard-pages/page-01.png": {
       "boxes": {
-        "s01": [28, 187, 274, 389]
+        "s01": [
+          28,
+          187,
+          274,
+          389
+        ],
+        "s03": [
+          539,
+          187,
+          778,
+          389
+        ]
       },
       "measured": {
-        "s01": "frame lines x=24-25 / 276-277, header line y=184, caption line y=391-392 (dark-pixel profile), checked visually"
+        "s01": "frame lines x=24-25 / 276-277, header line y=184, caption line y=391-392 (dark-pixel profile), checked visually",
+        "s03": "frame lines x=536-537 / 779-780, header line y=184-185, caption line y=391-392 (dark-pixel profile), checked visually"
       }
     }
   },
-  "pending": "Boxes for the other 69 panels are measured when those scenes are scheduled."
+  "pending": "Boxes for the other 69 panels are measured when those scenes are scheduled.",
+  "character_references": {
+    "s03_face": {
+      "page": "storyboard-pages/page-01.png",
+      "box": [
+        569,
+        187,
+        749,
+        293
+      ],
+      "purpose": "protagonist face/hair/T-shirt reference for the s01 test; upper part of panel s03 only, above the hand and the raw-chicken tray so no ingredient is carried into s01"
+    }
+  }
 }
