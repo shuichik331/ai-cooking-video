@@ -54,7 +54,7 @@ def main():
             member=Path(item.filename)
             if member.is_absolute() or ".." in member.parts: ap.error("Unsafe ZIP member")
             b=zf.read(item)
-            if not b.startswith(b"\\x89PNG\\r\\n\\x1a\\n".decode("unicode_escape").encode("latin1")):
+            if not b.startswith(bytes([137,80,78,71,13,10,26,10])):
                 ap.error(f"Not a PNG: {name}")
             (out/name).write_bytes(b)
             digests[name]=hashlib.sha256(b).hexdigest()
