@@ -1,0 +1,641 @@
+{
+  "project_id": "chicken-nanban-001",
+  "title": "一人暮らし男子のチキン南蛮",
+  "duration_seconds": 70,
+  "aspect_ratio": "9:16",
+  "fps": 30,
+  "style": "warm semi-realistic anime watercolor-marker illustration, matching storyboard images",
+  "cuts_per_second": 1,
+  "scenes": [
+    {
+      "id": "s01",
+      "start_seconds": 0,
+      "end_seconds": 1,
+      "duration_seconds": 1,
+      "shot": "小さなキッチン全景",
+      "page": 1,
+      "frame_number": 1
+    },
+    {
+      "id": "s02",
+      "start_seconds": 1,
+      "end_seconds": 2,
+      "duration_seconds": 1,
+      "shot": "冷蔵庫を開ける",
+      "page": 1,
+      "frame_number": 2
+    },
+    {
+      "id": "s03",
+      "start_seconds": 2,
+      "end_seconds": 3,
+      "duration_seconds": 1,
+      "shot": "鶏もも肉を取り出す",
+      "page": 1,
+      "frame_number": 3
+    },
+    {
+      "id": "s04",
+      "start_seconds": 3,
+      "end_seconds": 4,
+      "duration_seconds": 1,
+      "shot": "材料を並べる",
+      "page": 1,
+      "frame_number": 4
+    },
+    {
+      "id": "s05",
+      "start_seconds": 4,
+      "end_seconds": 5,
+      "duration_seconds": 1,
+      "shot": "まな板に鶏肉を置く",
+      "page": 1,
+      "frame_number": 5
+    },
+    {
+      "id": "s06",
+      "start_seconds": 5,
+      "end_seconds": 6,
+      "duration_seconds": 1,
+      "shot": "鶏肉を一口大に切る",
+      "page": 1,
+      "frame_number": 6
+    },
+    {
+      "id": "s07",
+      "start_seconds": 6,
+      "end_seconds": 7,
+      "duration_seconds": 1,
+      "shot": "鶏肉の筋を切る",
+      "page": 1,
+      "frame_number": 7
+    },
+    {
+      "id": "s08",
+      "start_seconds": 7,
+      "end_seconds": 8,
+      "duration_seconds": 1,
+      "shot": "塩こしょうを振る",
+      "page": 1,
+      "frame_number": 8
+    },
+    {
+      "id": "s09",
+      "start_seconds": 8,
+      "end_seconds": 9,
+      "duration_seconds": 1,
+      "shot": "ボウルに卵を割る",
+      "page": 1,
+      "frame_number": 9
+    },
+    {
+      "id": "s10",
+      "start_seconds": 9,
+      "end_seconds": 10,
+      "duration_seconds": 1,
+      "shot": "卵を溶く",
+      "page": 1,
+      "frame_number": 10
+    },
+    {
+      "id": "s11",
+      "start_seconds": 10,
+      "end_seconds": 11,
+      "duration_seconds": 1,
+      "shot": "小麦粉を用意",
+      "page": 1,
+      "frame_number": 11
+    },
+    {
+      "id": "s12",
+      "start_seconds": 11,
+      "end_seconds": 12,
+      "duration_seconds": 1,
+      "shot": "鶏肉に粉をまぶす",
+      "page": 1,
+      "frame_number": 12
+    },
+    {
+      "id": "s13",
+      "start_seconds": 12,
+      "end_seconds": 13,
+      "duration_seconds": 1,
+      "shot": "卵液にくぐらせる",
+      "page": 1,
+      "frame_number": 13
+    },
+    {
+      "id": "s14",
+      "start_seconds": 13,
+      "end_seconds": 14,
+      "duration_seconds": 1,
+      "shot": "衣をまとった鶏肉の寄り",
+      "page": 1,
+      "frame_number": 14
+    },
+    {
+      "id": "s15",
+      "start_seconds": 14,
+      "end_seconds": 15,
+      "duration_seconds": 1,
+      "shot": "フライパンに油を注ぐ",
+      "page": 2,
+      "frame_number": 15
+    },
+    {
+      "id": "s16",
+      "start_seconds": 15,
+      "end_seconds": 16,
+      "duration_seconds": 1,
+      "shot": "油温を確かめる",
+      "page": 2,
+      "frame_number": 16
+    },
+    {
+      "id": "s17",
+      "start_seconds": 16,
+      "end_seconds": 17,
+      "duration_seconds": 1,
+      "shot": "鶏肉を油に入れる",
+      "page": 2,
+      "frame_number": 17
+    },
+    {
+      "id": "s18",
+      "start_seconds": 17,
+      "end_seconds": 18,
+      "duration_seconds": 1,
+      "shot": "泡立つ油の寄り",
+      "page": 2,
+      "frame_number": 18
+    },
+    {
+      "id": "s19",
+      "start_seconds": 18,
+      "end_seconds": 19,
+      "duration_seconds": 1,
+      "shot": "鶏肉を追加する",
+      "page": 2,
+      "frame_number": 19
+    },
+    {
+      "id": "s20",
+      "start_seconds": 19,
+      "end_seconds": 20,
+      "duration_seconds": 1,
+      "shot": "真上の揚げる全景",
+      "page": 2,
+      "frame_number": 20
+    },
+    {
+      "id": "s21",
+      "start_seconds": 20,
+      "end_seconds": 21,
+      "duration_seconds": 1,
+      "shot": "膨らむ衣のアップ",
+      "page": 2,
+      "frame_number": 21
+    },
+    {
+      "id": "s22",
+      "start_seconds": 21,
+      "end_seconds": 22,
+      "duration_seconds": 1,
+      "shot": "男性がコンロを見守る",
+      "page": 2,
+      "frame_number": 22
+    },
+    {
+      "id": "s23",
+      "start_seconds": 22,
+      "end_seconds": 23,
+      "duration_seconds": 1,
+      "shot": "菜箸で返す",
+      "page": 2,
+      "frame_number": 23
+    },
+    {
+      "id": "s24",
+      "start_seconds": 23,
+      "end_seconds": 24,
+      "duration_seconds": 1,
+      "shot": "黄金色に変わる衣",
+      "page": 2,
+      "frame_number": 24
+    },
+    {
+      "id": "s25",
+      "start_seconds": 24,
+      "end_seconds": 25,
+      "duration_seconds": 1,
+      "shot": "鶏肉を網に上げる",
+      "page": 2,
+      "frame_number": 25
+    },
+    {
+      "id": "s26",
+      "start_seconds": 25,
+      "end_seconds": 26,
+      "duration_seconds": 1,
+      "shot": "油を切る",
+      "page": 2,
+      "frame_number": 26
+    },
+    {
+      "id": "s27",
+      "start_seconds": 26,
+      "end_seconds": 27,
+      "duration_seconds": 1,
+      "shot": "残りの鶏肉を揚げる",
+      "page": 2,
+      "frame_number": 27
+    },
+    {
+      "id": "s28",
+      "start_seconds": 27,
+      "end_seconds": 28,
+      "duration_seconds": 1,
+      "shot": "揚がった鶏肉を並べる",
+      "page": 2,
+      "frame_number": 28
+    },
+    {
+      "id": "s29",
+      "start_seconds": 28,
+      "end_seconds": 29,
+      "duration_seconds": 1,
+      "shot": "小鍋に酢を注ぐ",
+      "page": 3,
+      "frame_number": 29
+    },
+    {
+      "id": "s30",
+      "start_seconds": 29,
+      "end_seconds": 30,
+      "duration_seconds": 1,
+      "shot": "醤油を注ぐ",
+      "page": 3,
+      "frame_number": 30
+    },
+    {
+      "id": "s31",
+      "start_seconds": 30,
+      "end_seconds": 31,
+      "duration_seconds": 1,
+      "shot": "砂糖を加える",
+      "page": 3,
+      "frame_number": 31
+    },
+    {
+      "id": "s32",
+      "start_seconds": 31,
+      "end_seconds": 32,
+      "duration_seconds": 1,
+      "shot": "鍋を加熱する",
+      "page": 3,
+      "frame_number": 32
+    },
+    {
+      "id": "s33",
+      "start_seconds": 32,
+      "end_seconds": 33,
+      "duration_seconds": 1,
+      "shot": "南蛮だれが煮立つ",
+      "page": 3,
+      "frame_number": 33
+    },
+    {
+      "id": "s34",
+      "start_seconds": 33,
+      "end_seconds": 34,
+      "duration_seconds": 1,
+      "shot": "タレの艶のアップ",
+      "page": 3,
+      "frame_number": 34
+    },
+    {
+      "id": "s35",
+      "start_seconds": 34,
+      "end_seconds": 35,
+      "duration_seconds": 1,
+      "shot": "ゆで卵を置く",
+      "page": 3,
+      "frame_number": 35
+    },
+    {
+      "id": "s36",
+      "start_seconds": 35,
+      "end_seconds": 36,
+      "duration_seconds": 1,
+      "shot": "ゆで卵をつぶす",
+      "page": 3,
+      "frame_number": 36
+    },
+    {
+      "id": "s37",
+      "start_seconds": 36,
+      "end_seconds": 37,
+      "duration_seconds": 1,
+      "shot": "玉ねぎをみじん切り",
+      "page": 3,
+      "frame_number": 37
+    },
+    {
+      "id": "s38",
+      "start_seconds": 37,
+      "end_seconds": 38,
+      "duration_seconds": 1,
+      "shot": "マヨネーズを加える",
+      "page": 3,
+      "frame_number": 38
+    },
+    {
+      "id": "s39",
+      "start_seconds": 38,
+      "end_seconds": 39,
+      "duration_seconds": 1,
+      "shot": "タルタルを混ぜる",
+      "page": 3,
+      "frame_number": 39
+    },
+    {
+      "id": "s40",
+      "start_seconds": 39,
+      "end_seconds": 40,
+      "duration_seconds": 1,
+      "shot": "タルタルソース完成",
+      "page": 3,
+      "frame_number": 40
+    },
+    {
+      "id": "s41",
+      "start_seconds": 40,
+      "end_seconds": 41,
+      "duration_seconds": 1,
+      "shot": "南蛮だれを味見する",
+      "page": 3,
+      "frame_number": 41
+    },
+    {
+      "id": "s42",
+      "start_seconds": 41,
+      "end_seconds": 42,
+      "duration_seconds": 1,
+      "shot": "南蛮だれとタルタルを並べる",
+      "page": 3,
+      "frame_number": 42
+    },
+    {
+      "id": "s43",
+      "start_seconds": 42,
+      "end_seconds": 43,
+      "duration_seconds": 1,
+      "shot": "揚げた鶏肉の寄り",
+      "page": 4,
+      "frame_number": 43
+    },
+    {
+      "id": "s44",
+      "start_seconds": 43,
+      "end_seconds": 44,
+      "duration_seconds": 1,
+      "shot": "鶏肉を南蛮だれに入れる",
+      "page": 4,
+      "frame_number": 44
+    },
+    {
+      "id": "s45",
+      "start_seconds": 44,
+      "end_seconds": 45,
+      "duration_seconds": 1,
+      "shot": "南蛮だれを絡める",
+      "page": 4,
+      "frame_number": 45
+    },
+    {
+      "id": "s46",
+      "start_seconds": 45,
+      "end_seconds": 46,
+      "duration_seconds": 1,
+      "shot": "艶やかな鶏肉アップ",
+      "page": 4,
+      "frame_number": 46
+    },
+    {
+      "id": "s47",
+      "start_seconds": 46,
+      "end_seconds": 47,
+      "duration_seconds": 1,
+      "shot": "ご飯を茶碗によそう",
+      "page": 4,
+      "frame_number": 47
+    },
+    {
+      "id": "s48",
+      "start_seconds": 47,
+      "end_seconds": 48,
+      "duration_seconds": 1,
+      "shot": "千切りキャベツを皿に盛る",
+      "page": 4,
+      "frame_number": 48
+    },
+    {
+      "id": "s49",
+      "start_seconds": 48,
+      "end_seconds": 49,
+      "duration_seconds": 1,
+      "shot": "鶏肉を盛り付ける",
+      "page": 4,
+      "frame_number": 49
+    },
+    {
+      "id": "s50",
+      "start_seconds": 49,
+      "end_seconds": 50,
+      "duration_seconds": 1,
+      "shot": "鶏肉を高く盛る",
+      "page": 4,
+      "frame_number": 50
+    },
+    {
+      "id": "s51",
+      "start_seconds": 50,
+      "end_seconds": 51,
+      "duration_seconds": 1,
+      "shot": "南蛮だれを回しかける",
+      "page": 4,
+      "frame_number": 51
+    },
+    {
+      "id": "s52",
+      "start_seconds": 51,
+      "end_seconds": 52,
+      "duration_seconds": 1,
+      "shot": "タルタルソースをのせる",
+      "page": 4,
+      "frame_number": 52
+    },
+    {
+      "id": "s53",
+      "start_seconds": 52,
+      "end_seconds": 53,
+      "duration_seconds": 1,
+      "shot": "パセリを散らす",
+      "page": 4,
+      "frame_number": 53
+    },
+    {
+      "id": "s54",
+      "start_seconds": 53,
+      "end_seconds": 54,
+      "duration_seconds": 1,
+      "shot": "完成皿の真上ショット",
+      "page": 4,
+      "frame_number": 54
+    },
+    {
+      "id": "s55",
+      "start_seconds": 54,
+      "end_seconds": 55,
+      "duration_seconds": 1,
+      "shot": "料理をテーブルに運ぶ",
+      "page": 4,
+      "frame_number": 55
+    },
+    {
+      "id": "s56",
+      "start_seconds": 55,
+      "end_seconds": 56,
+      "duration_seconds": 1,
+      "shot": "男性が座っていただきます",
+      "page": 4,
+      "frame_number": 56
+    },
+    {
+      "id": "s57",
+      "start_seconds": 56,
+      "end_seconds": 57,
+      "duration_seconds": 1,
+      "shot": "箸で鶏肉を持ち上げる",
+      "page": 5,
+      "frame_number": 57
+    },
+    {
+      "id": "s58",
+      "start_seconds": 57,
+      "end_seconds": 58,
+      "duration_seconds": 1,
+      "shot": "タルタルの寄り",
+      "page": 5,
+      "frame_number": 58
+    },
+    {
+      "id": "s59",
+      "start_seconds": 58,
+      "end_seconds": 59,
+      "duration_seconds": 1,
+      "shot": "男性が一口かじる",
+      "page": 5,
+      "frame_number": 59
+    },
+    {
+      "id": "s60",
+      "start_seconds": 59,
+      "end_seconds": 60,
+      "duration_seconds": 1,
+      "shot": "鶏肉の断面アップ",
+      "page": 5,
+      "frame_number": 60
+    },
+    {
+      "id": "s61",
+      "start_seconds": 60,
+      "end_seconds": 61,
+      "duration_seconds": 1,
+      "shot": "男性の満足した表情",
+      "page": 5,
+      "frame_number": 61
+    },
+    {
+      "id": "s62",
+      "start_seconds": 61,
+      "end_seconds": 62,
+      "duration_seconds": 1,
+      "shot": "男性がご飯を食べる",
+      "page": 5,
+      "frame_number": 62
+    },
+    {
+      "id": "s63",
+      "start_seconds": 62,
+      "end_seconds": 63,
+      "duration_seconds": 1,
+      "shot": "鶏肉の艶アップ",
+      "page": 5,
+      "frame_number": 63
+    },
+    {
+      "id": "s64",
+      "start_seconds": 63,
+      "end_seconds": 64,
+      "duration_seconds": 1,
+      "shot": "タルタルをすくう",
+      "page": 5,
+      "frame_number": 64
+    },
+    {
+      "id": "s65",
+      "start_seconds": 64,
+      "end_seconds": 65,
+      "duration_seconds": 1,
+      "shot": "男性が水を飲む",
+      "page": 5,
+      "frame_number": 65
+    },
+    {
+      "id": "s66",
+      "start_seconds": 65,
+      "end_seconds": 66,
+      "duration_seconds": 1,
+      "shot": "食卓の引きショット",
+      "page": 5,
+      "frame_number": 66
+    },
+    {
+      "id": "s67",
+      "start_seconds": 66,
+      "end_seconds": 67,
+      "duration_seconds": 1,
+      "shot": "食べ進んだ皿",
+      "page": 5,
+      "frame_number": 67
+    },
+    {
+      "id": "s68",
+      "start_seconds": 67,
+      "end_seconds": 68,
+      "duration_seconds": 1,
+      "shot": "最後の一個を持ち上げる",
+      "page": 5,
+      "frame_number": 68
+    },
+    {
+      "id": "s69",
+      "start_seconds": 68,
+      "end_seconds": 69,
+      "duration_seconds": 1,
+      "shot": "男性が満足して息をつく",
+      "page": 5,
+      "frame_number": 69
+    },
+    {
+      "id": "s70",
+      "start_seconds": 69,
+      "end_seconds": 70,
+      "duration_seconds": 1,
+      "shot": "完成皿のヒーローショット",
+      "page": 5,
+      "frame_number": 70
+    }
+  ]
+}
