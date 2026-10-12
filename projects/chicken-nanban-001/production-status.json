@@ -68,24 +68,112 @@
       }
     },
     "s02": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G01_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "30173a05-ecbe-4898-b943-eb7921a55859",
+          "group_attempt": "G01_a1",
+          "shot_seconds": [
+            0.0,
+            2.125
+          ]
+        }
+      ],
+      "note": "G01_a1: visual check passed",
+      "updated_at": "2026-10-12T23:37:49+00:00",
+      "trim_in_seconds": 1.042,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G01_a1.mp4",
+        "frames": [
+          25,
+          48
+        ],
+        "tight": false,
+        "mean_motion": 3.729
+      }
     },
     "s03": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G01_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "30173a05-ecbe-4898-b943-eb7921a55859",
+          "group_attempt": "G01_a1",
+          "shot_seconds": [
+            2.125,
+            3.792
+          ]
+        }
+      ],
+      "note": "G01_a1: visual check passed",
+      "updated_at": "2026-10-12T23:37:49+00:00",
+      "trim_in_seconds": 2.375,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G01_a1.mp4",
+        "frames": [
+          57,
+          80
+        ],
+        "tight": false,
+        "mean_motion": 3.565
+      }
     },
     "s04": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G01_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "30173a05-ecbe-4898-b943-eb7921a55859",
+          "group_attempt": "G01_a1",
+          "shot_seconds": [
+            3.792,
+            5.042
+          ]
+        }
+      ],
+      "note": "G01_a1: visual check passed",
+      "updated_at": "2026-10-12T23:37:49+00:00",
+      "trim_in_seconds": 3.958,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G01_a1.mp4",
+        "frames": [
+          95,
+          118
+        ],
+        "tight": false,
+        "mean_motion": 0.252
+      }
     },
     "s05": {
-      "status": "pending",
-      "asset_path": null,
-      "approved": false
+      "status": "generated",
+      "asset_path": "media/chicken-nanban-001/clips/G01_a1.mp4",
+      "approved": false,
+      "jobs": [
+        {
+          "job_id": "30173a05-ecbe-4898-b943-eb7921a55859",
+          "group_attempt": "G01_a1",
+          "shot_seconds": [
+            5.042,
+            6.042
+          ]
+        }
+      ],
+      "note": "G01_a1: visual check passed",
+      "updated_at": "2026-10-12T23:37:49+00:00",
+      "trim_in_seconds": 5.042,
+      "selected_cut": {
+        "source": "media/chicken-nanban-001/clips/G01_a1.mp4",
+        "frames": [
+          121,
+          144
+        ],
+        "tight": true,
+        "mean_motion": 4.978
+      }
     },
     "s06": {
       "status": "pending",

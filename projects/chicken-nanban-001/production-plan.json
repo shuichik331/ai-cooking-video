@@ -1305,5 +1305,13 @@
       "no SNS publishing"
     ]
   },
-  "ledger": []
+  "ledger": [
+    {
+      "group": "G01",
+      "job_id": "30173a05-ecbe-4898-b943-eb7921a55859",
+      "credits": 18.0,
+      "note": "G01 feasibility gate",
+      "submitted_at": "2026-10-12T23:33:13+00:00"
+    }
+  ]
 }

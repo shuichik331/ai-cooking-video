@@ -44,6 +44,10 @@ def split(path, cut_ids, use_seconds=1.0):
     for cid, (a, b) in zip(cut_ids, bounds):
         lo, hi = a + margin, b - margin - win
         entry = {"shot_seconds": [round(a / fps, 3), round(b / fps, 3)]}
+        if hi < lo and b - a >= win:
+            # shot only just long enough: use it without the edge margin
+            lo, hi = a + max(0, (b - a - win) // 2), a + max(0, (b - a - win) // 2)
+            entry["tight"] = True
         if hi < lo:
             entry["problem"] = f"shot is {(b - a) / fps:.2f}s, shorter than {use_seconds}s plus margins"
         else:
