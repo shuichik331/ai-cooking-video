@@ -7,12 +7,27 @@
   "scenes": [
     {
       "id": "s01",
-      "camera": "wide or establishing, as storyboard",
-      "motion": "Subtle physically plausible movement of the described action; no new actions; no implied cut",
-      "continuity": "Same protagonist, plain white T-shirt, apartment kitchen and cookware; preserve ingredient state, hand anatomy and lighting across neighboring shots.",
-      "higgsfield_prompt": "Wide establishing shot of a cozy small Japanese apartment kitchen in morning sunlight, young adult Japanese man with tousled dark hair and a plain white T-shirt. Warm hand-drawn semi-realistic anime food illustration, ink outlines, subtle watercolor/marker shading, cinematic framing. A single consistent young Japanese man in his twenties with tousled black hair wearing a plain white T-shirt, the same cozy compact apartment kitchen with wooden countertops, warm daylight and consistent utensils. Chicken nanban cooked from raw chicken thigh through egg batter frying, sweet-sour nanban sauce, egg-onion tartar sauce, plating and tasting. Vertical 9:16. No captions, no watermarks. Maintain continuity with the attached storyboard reference panel.",
+      "camera": "Locked wide establishing shot, precisely match s01 panel as start frame; no camera movement or cut.",
+      "motion": "Single continuous 5-second shot: breathing and slight shift only; no cooking actions.",
+      "continuity": "s01 panel is start image for composition. s03 face/shoulders is identity reference only. Exclude chicken tray. No later recipe stages.",
+      "higgsfield_prompt": "SINGLE CONTINUOUS ESTABLISHING SHOT, 5 seconds, NO CUTS. Use the supplied s01 storyboard panel as the exact START FRAME and preserve its layout: a wide view of a compact Japanese apartment kitchen in soft warm morning light. A young Japanese man with tousled black hair and a plain white T-shirt stands calmly at the counter. Only subtle natural breathing, a tiny posture shift and gentle daylight movement; locked camera, no zoom, no pan, no reframing. Keep the same hand-drawn semi-realistic anime look, ink outlines, warm watercolor-marker shading, wooden countertop, refrigerator, shelves and utensils from the reference frame. Keep the face and hairstyle consistent with the separate s03 cropped face-and-shoulders identity reference. Do not bring the s03 shot's chicken tray or hands into this scene. Absolutely no food preparation, cutting, eggs, frying, pouring sauce, plating, eating, scene transitions, montage, inserts, temporal jumps, extra people, overlay text, logos or watermarks. Remain on this one kitchen-wide composition for all five seconds. Vertical 9:16.",
       "reference_page": "storyboard-pages/page-01.png",
-      "reference_panel": "s01"
+      "reference_panel": "s01",
+      "test_generation": {
+        "duration_seconds": 5,
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "aspect_ratio": "9:16",
+        "resolution": "480p",
+        "generate_audio": false,
+        "reference_roles": {
+          "s01": "start_image",
+          "s03_face": "image"
+        },
+        "max_approved_credits": 0,
+        "requires_new_approval": true,
+        "cut_usage": "Select approximately one approved second from the 5-second output for s01"
+      }
     },
     {
       "id": "s02",
