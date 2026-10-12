@@ -4,9 +4,25 @@
   "model_constraints": {
     "min_duration_seconds": 4,
     "max_duration_seconds": 30,
-    "aspect_ratios": ["9:16"],
-    "resolutions": ["480p", "720p", "1080p"],
-    "media_roles": ["start_image", "end_image", "image_references"]
+    "aspect_ratios": [
+      "9:16"
+    ],
+    "resolutions": [
+      "480p",
+      "720p",
+      "1080p"
+    ],
+    "media_roles": [
+      "start_image",
+      "end_image",
+      "image_references"
+    ],
+    "modes": [
+      "t2v",
+      "omni_reference",
+      "video_edit",
+      "video_extension"
+    ]
   },
   "observed_credits_per_second": {
     "480p": 3,
@@ -23,5 +39,13 @@
   "defaults_until_decided": {
     "trim_anchor": "start",
     "fit": "pad"
+  },
+  "test_generation": {
+    "mode": "omni_reference",
+    "duration_seconds": 5,
+    "resolution": "720p",
+    "generate_audio": false,
+    "reference_role": "image_references",
+    "quote_note": "Read-only Higgsfield preflight 2026-10-12: seedance_2_5, 5s, 9:16, 720p, omni_reference, generate_audio false = 35 credits (docs/seedance-test-plan.md). Estimate only; re-quote with the uploaded reference before submitting."
   }
 }

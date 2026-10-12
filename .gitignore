@@ -12,3 +12,8 @@ assets/generated/
 *.wav
 *.mp3
 .DS_Store
+# Google / OAuth credentials must never be committed
+token*.json
+credentials*.json
+client_secret*.json
+*.oauth

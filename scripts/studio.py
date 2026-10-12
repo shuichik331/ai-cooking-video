@@ -12,6 +12,8 @@
   register-clip PROJECT SCENE PATH     attach a generated/uploaded clip (probed, not approved)
   render PROJECT --output OUT          assemble approved clips with FFmpeg and verify
   verify VIDEO [--project P]           ffprobe check against delivery spec and storyboard
+  crop-panels PROJECT [--scenes ...]   crop storyboard panels to media/<project>/panels (needs panel-layout.json)
+  test-plan PROJECT --scene S          write seedance-test-plan.json for one 5-second proof (no submission)
 """
 import argparse
 import json
@@ -20,7 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from studio import higgsfield, render, scene_sheet, status  # noqa: E402
+from studio import higgsfield, panels, render, scene_sheet, status, test_plan  # noqa: E402
 from studio.project import ACTIONABLE_STATUSES, PROJECTS_DIR, discover_projects, load_project, write_json  # noqa: E402
 from studio.validate import validate_project  # noqa: E402
 
@@ -158,6 +160,25 @@ def cmd_verify(args):
     sys.exit(0 if result["verified"] else 1)
 
 
+def cmd_crop_panels(args):
+    p = _project(args.project)
+    try:
+        crops = panels.crop_panels(p, scene_ids=args.scenes)
+        sheet = panels.contact_sheet(crops, panels.CROP_DIR / p.id / "panels" / "_contact-sheet.png")
+    except panels.PanelError as exc:
+        sys.exit(str(exc))
+    print(f"{len(crops)} panel(s) cropped; check mapping in {sheet}")
+
+
+def cmd_test_plan(args):
+    p = _project(args.project)
+    plan = test_plan.build_test_plan(p, args.scene)
+    write_json(p.root / test_plan.PLAN_FILE, plan)
+    print(f"wrote {p.root / test_plan.PLAN_FILE}: {plan['status']}, ~{plan['cost']['estimated_credits']} credits")
+    for b in plan["blockers"]:
+        print(f"  BLOCKER {b}")
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -193,6 +214,11 @@ def main(argv=None):
     s.add_argument("--record", action="store_true"); s.set_defaults(fn=cmd_render)
     s = sub.add_parser("verify"); s.add_argument("video"); s.add_argument("--project")
     s.add_argument("--audio", choices=["yes", "no"]); s.set_defaults(fn=cmd_verify)
+
+    s = sub.add_parser("crop-panels"); s.add_argument("project"); s.add_argument("--scenes", nargs="*")
+    s.set_defaults(fn=cmd_crop_panels)
+    s = sub.add_parser("test-plan"); s.add_argument("project"); s.add_argument("--scene", required=True)
+    s.set_defaults(fn=cmd_test_plan)
 
     args = ap.parse_args(argv)
     args.fn(args)

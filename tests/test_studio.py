@@ -9,7 +9,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
 
-from studio import higgsfield, render, scene_sheet, status  # noqa: E402
+from studio import higgsfield, panels, render, scene_sheet, status, test_plan  # noqa: E402
 from studio.project import discover_projects, load_project, write_json  # noqa: E402
 from studio.validate import validate_project  # noqa: E402
 
@@ -289,6 +289,58 @@ class RenderTest(TempDirTest):
         self.assertFalse(result["verified"])
         self.assertTrue(any("size" in p for p in result["problems"]))
         self.assertTrue(any("duration" in p for p in result["problems"]))
+
+
+@unittest.skipUnless(HAS_FFMPEG, "ffmpeg not installed")
+class PanelTest(TempDirTest):
+    def setUp(self):
+        super().setUp()
+        self.root = make_project(self.tmp, n=4)
+        # 2x2 page, each 200x300 cell a different solid colour
+        page = self.root / "storyboard-pages" / "page-01.png"
+        colors = ["red", "green", "blue", "yellow"]
+        inputs = []
+        for c in colors:
+            inputs += ["-f", "lavfi", "-i", f"color=c={c}:s=200x300:d=1"]
+        subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex",
+                        "[0][1]hstack[t];[2][3]hstack[b];[t][b]vstack", "-frames:v", "1", str(page)], check=True)
+        self.project = load_project(self.root)
+
+    def test_missing_layout_refused(self):
+        with self.assertRaises(panels.PanelError):
+            panels.crop_panels(self.project, Path(self.tmp) / "crops")
+
+    def test_grid_crop_maps_scenes_in_reading_order(self):
+        write_json(self.root / panels.LAYOUT_FILE, {"pages": {"storyboard-pages/page-01.png": {
+            "grid": {"rows": 2, "cols": 2}, "panel_inset": {"left": 0.1, "top": 0.1, "right": 0.1, "bottom": 0.2}}}})
+        crops = panels.crop_panels(load_project(self.root), Path(self.tmp) / "crops")
+        self.assertEqual(list(crops), ["s01", "s02", "s03", "s04"])
+        expected = {"s01": (255, 0, 0), "s02": (0, 128, 0), "s03": (0, 0, 255), "s04": (255, 255, 0)}
+        for sid, path in crops.items():
+            info = render.probe(path)["video"]
+            self.assertEqual((info["width"], info["height"]), (160, 210))
+            rgb = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-vf", "scale=1:1", "-f", "rawvideo",
+                                  "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
+            for got, want in zip(rgb, expected[sid]):
+                self.assertAlmostEqual(got, want, delta=12)
+        self.assertTrue(panels.contact_sheet(crops, Path(self.tmp) / "sheet.png").is_file())
+
+    def test_grid_too_small(self):
+        with self.assertRaises(panels.PanelError):
+            panels.panel_boxes(400, 600, {"grid": {"rows": 1, "cols": 2}}, 4)
+
+
+class TestPlanTest(TempDirTest):
+    def test_plan_is_blocked_and_verbatim(self):
+        project = load_project(make_project(self.tmp))
+        plan = test_plan.build_test_plan(project, "s02")
+        self.assertEqual(plan["status"], "blocked")
+        params = plan["request"]["params"]
+        self.assertEqual(params["prompt"], f"Scene s02. {GLOBAL}")
+        self.assertEqual((params["duration"], params["resolution"], params["mode"]), (5, "720p", "omni_reference"))
+        self.assertFalse(params["generate_audio"])
+        self.assertEqual(plan["cost"]["estimated_credits"], 35)
+        self.assertTrue(any("approval" in b for b in plan["blockers"]))
 
 
 class RealProjectsTest(unittest.TestCase):
