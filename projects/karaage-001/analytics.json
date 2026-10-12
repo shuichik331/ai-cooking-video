@@ -1,0 +1,19 @@
+{
+  "project_id": "karaage-001",
+  "platforms": {
+    "tiktok": {
+      "video_url": null,
+      "views": null,
+      "average_watch_seconds": null,
+      "qualified_views": null,
+      "revenue_yen": null
+    },
+    "youtube": {
+      "video_url": null,
+      "views": null,
+      "average_watch_seconds": null,
+      "estimated_revenue_yen": null
+    }
+  },
+  "last_updated_at": null
+}
