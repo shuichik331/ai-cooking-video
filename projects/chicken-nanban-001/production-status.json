@@ -1,9 +1,12 @@
 {
   "project_id": "chicken-nanban-001",
   "overall_status": "not_started",
-  "last_verified_at": "2026-10-12T05:35:33+00:00",
+  "last_verified_at": "2026-10-12T06:20:58+00:00",
   "blockers": [
-    "storyboard-pages: 5 of 5 image(s) not in repo: storyboard-pages/page-01.png, storyboard-pages/page-02.png, storyboard-pages/page-03.png, storyboard-pages/page-04.png, storyboard-pages/page-05.png",
+    "discrepancy s17: Image: bare fingers lower a flour-coated piece into the oil. prompts.json: 'battered chicken being carefully lowered into hot oil with tongs'. Utensil (and batter look) differ. (awaiting creative decision)",
+    "discrepancy s19: Image: bare fingers add pieces to the hot oil. prompts.json: 'Close hands adding the next chicken pieces with tongs'. Utensil differs (also a hand-safety concern). (awaiting creative decision)",
+    "discrepancy s25: Image: chopsticks lift a piece above the frying pan, no rack in frame. prompts.json: 'Tongs lifting fully cooked golden chicken onto wire rack'. Utensil and destination differ. (awaiting creative decision)",
+    "discrepancy s70: Image and prompt both show tomatoes, but no tomato appears in the plating sequence s48–s54 or in s67. Continuity question for the creative lead. (awaiting creative decision)",
     "generation: no generation-approval.json (paid Higgsfield generation not approved)"
   ],
   "scenes": {
@@ -367,19 +370,69 @@
     {
       "scene": "s26",
       "source": "pages.json",
-      "issue": "storyboard-pages/page-02.png cut 26 shows end time 0:22; storyboard.json has 25–26s. Original image not yet corrected.",
+      "issue": "page-02.png panel 26 header reads '0:25 - 0:22' (end time 0:22); storyboard.json has 25–26s. Confirmed on the downloaded image.",
       "resolution": "Use storyboard.json timing 0:25–0:26 (start 25s, end 26s). Image text left as-is; corrected image still requested from ChatGPT.",
       "decided_by": "user instruction 2026-10-12",
-      "recorded_at": "2026-10-12T05:31:22+00:00"
+      "recorded_at": "2026-10-12T06:20:58+00:00"
+    },
+    {
+      "scene": "s17",
+      "source": "image-vs-prompts.json",
+      "issue": "Image: bare fingers lower a flour-coated piece into the oil. prompts.json: 'battered chicken being carefully lowered into hot oil with tongs'. Utensil (and batter look) differ.",
+      "resolution": null,
+      "decided_by": null,
+      "recorded_at": "2026-10-12T06:20:58+00:00"
+    },
+    {
+      "scene": "s19",
+      "source": "image-vs-prompts.json",
+      "issue": "Image: bare fingers add pieces to the hot oil. prompts.json: 'Close hands adding the next chicken pieces with tongs'. Utensil differs (also a hand-safety concern).",
+      "resolution": null,
+      "decided_by": null,
+      "recorded_at": "2026-10-12T06:20:58+00:00"
+    },
+    {
+      "scene": "s25",
+      "source": "image-vs-prompts.json",
+      "issue": "Image: chopsticks lift a piece above the frying pan, no rack in frame. prompts.json: 'Tongs lifting fully cooked golden chicken onto wire rack'. Utensil and destination differ.",
+      "resolution": null,
+      "decided_by": null,
+      "recorded_at": "2026-10-12T06:20:58+00:00"
+    },
+    {
+      "scene": "s70",
+      "source": "image-vs-prompts.json",
+      "issue": "Image and prompt both show tomatoes, but no tomato appears in the plating sequence s48–s54 or in s67. Continuity question for the creative lead.",
+      "resolution": null,
+      "decided_by": null,
+      "recorded_at": "2026-10-12T06:20:58+00:00"
     }
   ],
   "validation": {
-    "checked_at": "2026-10-12T05:35:33+00:00",
+    "checked_at": "2026-10-12T06:20:58+00:00",
     "result": "blocked",
     "errors": [],
     "blockers": [
-      "[BLOCKER] storyboard-pages: 5 of 5 image(s) not in repo: storyboard-pages/page-01.png, storyboard-pages/page-02.png, storyboard-pages/page-03.png, storyboard-pages/page-04.png, storyboard-pages/page-05.png"
+      "[BLOCKER] discrepancy s17: Image: bare fingers lower a flour-coated piece into the oil. prompts.json: 'battered chicken being carefully lowered into hot oil with tongs'. Utensil (and batter look) differ. (awaiting creative decision)",
+      "[BLOCKER] discrepancy s19: Image: bare fingers add pieces to the hot oil. prompts.json: 'Close hands adding the next chicken pieces with tongs'. Utensil differs (also a hand-safety concern). (awaiting creative decision)",
+      "[BLOCKER] discrepancy s25: Image: chopsticks lift a piece above the frying pan, no rack in frame. prompts.json: 'Tongs lifting fully cooked golden chicken onto wire rack'. Utensil and destination differ. (awaiting creative decision)",
+      "[BLOCKER] discrepancy s70: Image and prompt both show tomatoes, but no tomato appears in the plating sequence s48–s54 or in s67. Continuity question for the creative lead. (awaiting creative decision)"
     ],
-    "warnings": 1
+    "warnings": 2
+  },
+  "image_verification": {
+    "status": "verified",
+    "checked_at": "2026-10-12T06:20:58+00:00",
+    "checked_by": "Claude Code (visual review of all 5 pages)",
+    "source": "Google Drive folder chicken-nanban-001 via Drive connector; sizes match Drive metadata",
+    "page_sha256": {
+      "storyboard-pages/page-01.png": "49154343889a17197616b44cbd324193419c397a425181bb6d1e9eee73640bf8",
+      "storyboard-pages/page-02.png": "eccc04ff379fe0835c569f595579bfb3d4bd34c7bb1211559a70d8082dcdbe82",
+      "storyboard-pages/page-03.png": "3f3b5898f09f3cf24fa42f1dd511681180731a005c03017baa6b3be629dfad5e",
+      "storyboard-pages/page-04.png": "93f322990a760607033ed114246a3d341450583da65f82a29968c42a8bacc920",
+      "storyboard-pages/page-05.png": "8d7729833844d91bc6bca4fb53cac1614515d14d57b740e6bcf697bdcc76474a"
+    },
+    "result": "70/70 panels present; numbering, order and page ranges match storyboard.json/pages.json; all timecodes match except s26; image-vs-prompt conflicts recorded in discrepancies",
+    "report": "projects/chicken-nanban-001/storyboard-crosscheck.md"
   }
 }

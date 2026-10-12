@@ -172,7 +172,7 @@ def cmd_crop_panels(args):
 
 def cmd_test_plan(args):
     p = _project(args.project)
-    plan = test_plan.build_test_plan(p, args.scene)
+    plan = test_plan.build_test_plan(p, args.scene, selected_by=args.selected_by, objectives=args.objective)
     write_json(p.root / test_plan.PLAN_FILE, plan)
     print(f"wrote {p.root / test_plan.PLAN_FILE}: {plan['status']}, ~{plan['cost']['estimated_credits']} credits")
     for b in plan["blockers"]:
@@ -218,6 +218,7 @@ def main(argv=None):
     s = sub.add_parser("crop-panels"); s.add_argument("project"); s.add_argument("--scenes", nargs="*")
     s.set_defaults(fn=cmd_crop_panels)
     s = sub.add_parser("test-plan"); s.add_argument("project"); s.add_argument("--scene", required=True)
+    s.add_argument("--selected-by"); s.add_argument("--objective", action="append")
     s.set_defaults(fn=cmd_test_plan)
 
     args = ap.parse_args(argv)

@@ -189,6 +189,10 @@ def _check_pages(project, report):
     if not missing and verification != "verified":
         report.add("blocker", "storyboard-pages", "images present but image/JSON cross-check not yet recorded as verified")
 
+    for d in project.status.get("discrepancies", []):
+        if d.get("source") != "pages.json" and not d.get("resolution"):
+            report.add("blocker", f"discrepancy {d.get('scene')}", f"{d.get('issue')} (awaiting creative decision)")
+
     resolved = {(d.get("scene"), d.get("source")) for d in project.status.get("discrepancies", []) if d.get("resolution")}
     for issue in project.pages.get("known_reference_issues", []):
         key = (issue.get("scene"), "pages.json")

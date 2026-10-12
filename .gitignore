@@ -17,3 +17,6 @@ token*.json
 credentials*.json
 client_secret*.json
 *.oauth
+
+# Storyboard pages stay in private Google Drive (fetch with the Drive connector or scripts/fetch_drive_storyboards.py)
+projects/*/storyboard-pages/*.png

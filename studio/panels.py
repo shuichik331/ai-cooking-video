@@ -16,6 +16,13 @@ looking at the real pages; nothing here guesses it. Example:
 area: the region holding the grid, as fractions of the page.
 panel_inset: fractions of each cell to drop (borders, caption/timecode bars).
 Panels are read left-to-right, top-to-bottom and matched to pages.json scene_ids in order.
+
+Pages whose panels are not a uniform grid use measured pixel boxes per scene instead
+(picture area only: no number/time header, caption or frame line):
+
+  "storyboard-pages/page-01.png": {"boxes": {"s01": [28, 187, 274, 389]}}   # left, top, right, bottom
+
+With "boxes", only the listed scenes can be cropped.
 """
 import subprocess
 from pathlib import Path
@@ -60,6 +67,13 @@ def panel_boxes(width, height, spec, count):
     return boxes
 
 
+def _box_from_ltrb(box, video, sid):
+    left, top, right, bottom = box
+    if not (0 <= left < right <= video["width"] and 0 <= top < bottom <= video["height"]):
+        raise PanelError(f"{sid}: box {box} outside the {video['width']}x{video['height']} page")
+    return left, top, right - left, bottom - top
+
+
 def crop_panels(project, out_dir=None, scene_ids=None):
     """Write <out_dir>/<scene>.png for each panel; returns {scene_id: path}."""
     layout = load_layout(project)
@@ -67,6 +81,8 @@ def crop_panels(project, out_dir=None, scene_ids=None):
     out_dir.mkdir(parents=True, exist_ok=True)
     written = {}
     for page in (project.pages or {}).get("pages", []):
+        if scene_ids and not set(scene_ids) & set(page["scene_ids"]):
+            continue
         image = project.root / page["file"]
         if not image.is_file():
             raise PanelError(f"{page['file']} not found")
@@ -74,14 +90,20 @@ def crop_panels(project, out_dir=None, scene_ids=None):
         if spec is None:
             raise PanelError(f"{LAYOUT_FILE} has no entry for {page['file']}")
         video = probe(image)["video"]
-        boxes = panel_boxes(video["width"], video["height"], spec, len(page["scene_ids"]))
-        for sid, (x, y, w, h) in zip(page["scene_ids"], boxes):
+        if "boxes" in spec:
+            boxes = {sid: _box_from_ltrb(spec["boxes"][sid], video, sid)
+                     for sid in page["scene_ids"] if sid in spec["boxes"]}
+        else:
+            boxes = dict(zip(page["scene_ids"], panel_boxes(video["width"], video["height"], spec, len(page["scene_ids"]))))
+        for sid, (x, y, w, h) in boxes.items():
             if scene_ids and sid not in scene_ids:
                 continue
             dest = out_dir / f"{sid}.png"
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(image),
                             "-vf", f"crop={w}:{h}:{x}:{y}", "-frames:v", "1", str(dest)], check=True)
             written[sid] = dest
+    if scene_ids and set(scene_ids) - set(written):
+        raise PanelError(f"no measured box for {sorted(set(scene_ids) - set(written))}")
     return written
 
 

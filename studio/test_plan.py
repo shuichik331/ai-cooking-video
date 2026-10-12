@@ -17,7 +17,7 @@ REVIEW_CHECKLIST = [
 ]
 
 
-def build_test_plan(project, scene_id, config=None):
+def build_test_plan(project, scene_id, config=None, selected_by=None, objectives=None):
     config = config or load_generation_config()
     test = config["test_generation"]
     report = validate_project(project)
@@ -26,9 +26,14 @@ def build_test_plan(project, scene_id, config=None):
     if scene is None:
         raise ValueError(f"unknown scene {scene_id}")
     crop = CROP_DIR / project.id / "panels" / f"{scene_id}.png"
+    upscaled = crop.with_name(f"{scene_id}@4x.png")
     rate = config["observed_credits_per_second"][test["resolution"]]
 
-    blockers = [f"{i.where}: {i.message}" for i in report.errors + report.blockers]
+    def relevant(issue):
+        # Discrepancies about other scenes do not block a single-scene proof.
+        return not issue.where.startswith("discrepancy ") or issue.where == f"discrepancy {scene_id}"
+
+    blockers = [f"{i.where}: {i.message}" for i in report.errors + report.blockers if relevant(i)]
     if not (project.root / LAYOUT_FILE).is_file():
         blockers.append(f"{LAYOUT_FILE} missing: panel grid not confirmed from the real pages")
     if not crop.is_file():
@@ -43,7 +48,8 @@ def build_test_plan(project, scene_id, config=None):
         "created_at": now_iso(),
         "status": "blocked" if blockers else "ready_for_approval",
         "purpose": "One paid 5-second proof before any batch generation.",
-        "scene_selection": "proposal; the user/ChatGPT confirm which scene is tested",
+        "scene_selection": selected_by or "proposal; the user/ChatGPT confirm which scene is tested",
+        "objectives": objectives or [],
         "scene": {k: scene[k] for k in ("scene_id", "start_seconds", "end_seconds", "duration_seconds", "shot",
                                         "visual_description", "camera", "motion", "continuity", "discrepancies")},
         "reference": {
@@ -51,6 +57,9 @@ def build_test_plan(project, scene_id, config=None):
             "panel": scene["reference"]["panel"],
             "crop_path": str(crop.relative_to(CROP_DIR.parent)),
             "crop_exists": crop.is_file(),
+            "upload_candidate": str(upscaled.relative_to(CROP_DIR.parent)),
+            "upload_candidate_exists": upscaled.is_file(),
+            "upscale": "4x Lanczos (local, free) because storyboard panels are ~250 px wide",
             "higgsfield_media_id": None,
             "role": test["reference_role"],
         },
