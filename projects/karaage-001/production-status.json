@@ -1,0 +1,62 @@
+{
+  "project_id": "karaage-001",
+  "overall_status": "not_started",
+  "last_verified_at": null,
+  "scenes": {
+    "s01": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s02": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s03": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s04": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s05": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s06": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s07": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s08": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s09": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    },
+    "s10": {
+      "status": "pending",
+      "asset_path": null,
+      "approved": false
+    }
+  },
+  "publication": {
+    "approved": false,
+    "tiktok_url": null,
+    "youtube_url": null
+  }
+}
