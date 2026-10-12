@@ -1,0 +1,19 @@
+{
+  "provider": "google_drive",
+  "root_folder_id": "1aaFZNwaCAPVZO6lBx66UHiZhaS5KXjIO",
+  "root_folder_url": "https://drive.google.com/drive/folders/1aaFZNwaCAPVZO6lBx66UHiZhaS5KXjIO",
+  "projects": {
+    "chicken-nanban-001": {
+      "folder_id": "1PpfpfckKvY7Qk7E1lzr67lO2MbL90dCZ",
+      "folder_url": "https://drive.google.com/drive/folders/1PpfpfckKvY7Qk7E1lzr67lO2MbL90dCZ",
+      "expected_images": [
+        "page-01.png",
+        "page-02.png",
+        "page-03.png",
+        "page-04.png",
+        "page-05.png"
+      ],
+      "upload_status": "pending"
+    }
+  }
+}
