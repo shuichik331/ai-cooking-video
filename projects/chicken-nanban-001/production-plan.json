@@ -1541,33 +1541,57 @@
       "credits": 12.0,
       "note": "single-cut retake",
       "submitted_at": "2026-10-12T23:55:51+00:00"
+    },
+    {
+      "group": "R-s48",
+      "job_id": "3a579a20-32bd-4b90-8a28-7ab91116276f",
+      "credits": 12.0,
+      "note": "single-cut retake",
+      "submitted_at": "2026-10-12T23:56:52+00:00"
+    },
+    {
+      "group": "R-s43",
+      "job_id": "7d1f2531-c003-409d-b5ce-a42c1b8ae9b1",
+      "credits": 12.0,
+      "note": "single-cut retake",
+      "submitted_at": "2026-10-12T23:57:35+00:00"
     }
   ],
   "retake_queue": [
     {
       "cut": "s23",
       "reason": "framing wider than storyboard (man facing camera) and face drift without identity ref",
-      "fallback": "G07_a1"
+      "fallback": "G07_a1",
+      "outcome": "accepted",
+      "retake": "R-s23_a1"
     },
     {
       "cut": "s32",
       "reason": "man added; storyboard shows the saucepan only",
-      "fallback": "G10_a1"
+      "fallback": "G10_a1",
+      "outcome": "accepted",
+      "retake": "R-s32_a1"
     },
     {
       "cut": "s28",
       "reason": "0.71 s shot and an unscripted man; storyboard shows chicken on the rack only",
-      "fallback": null
+      "fallback": null,
+      "outcome": "accepted",
+      "retake": "R-s28_a1"
     },
     {
       "cut": "s43",
       "reason": "unscripted man behind the rack; storyboard shows chicken only",
-      "fallback": "G13_a1"
+      "fallback": "G13_a1",
+      "outcome": "rejected - G13_a1 fallback kept; no further retake (repeat failure)",
+      "retake": "R-s43_a1"
     },
     {
       "cut": "s48",
       "reason": "cabbage grated onto plate (action differs from storyboard: placed with tongs)",
-      "fallback": "G14_a1"
+      "fallback": "G14_a1",
+      "outcome": "accepted",
+      "retake": "R-s48_a1"
     }
   ]
 }

@@ -1,0 +1,66 @@
+{
+  "path": "/home/user/ai-cooking-video/media/chicken-nanban-001/clips/G18_a1.mp4",
+  "fps": 24.0,
+  "shots_found": 4,
+  "shots_expected": 4,
+  "cuts": {
+    "s61": {
+      "shot_seconds": [
+        0.0,
+        2.333
+      ],
+      "trim_in_seconds": 1.25,
+      "frames": [
+        30,
+        53
+      ],
+      "mean_motion": 0.798
+    },
+    "s62": {
+      "shot_seconds": [
+        2.333,
+        3.625
+      ],
+      "trim_in_seconds": 2.458,
+      "frames": [
+        59,
+        82
+      ],
+      "mean_motion": 2.452
+    },
+    "s63": {
+      "shot_seconds": [
+        3.625,
+        5.042
+      ],
+      "trim_in_seconds": 3.958,
+      "frames": [
+        95,
+        118
+      ],
+      "mean_motion": 0.025
+    },
+    "s64": {
+      "shot_seconds": [
+        5.042,
+        6.042
+      ],
+      "tight": true,
+      "trim_in_seconds": 5.042,
+      "frames": [
+        121,
+        144
+      ],
+      "mean_motion": 3.746
+    }
+  },
+  "group": "G18",
+  "attempt": 1,
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DG2LxoqactZoOnt8BEez3KgjFh/hf_20261012_235128_78ba91ab-2e10-41bc-b5b6-6c42c3a3f553.mp4",
+  "duration": 6.08,
+  "size": [
+    480,
+    854
+  ],
+  "audio": true
+}

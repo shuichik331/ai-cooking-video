@@ -1,0 +1,55 @@
+{
+  "path": "media/chicken-nanban-001/clips/G19_a1.mp4",
+  "fps": 24.0,
+  "shots_found": 3,
+  "shots_expected": 3,
+  "cuts": {
+    "s65": {
+      "shot_seconds": [
+        0.0,
+        3.042
+      ],
+      "trim_in_seconds": 1.917,
+      "frames": [
+        46,
+        69
+      ],
+      "mean_motion": 1.064
+    },
+    "s66": {
+      "shot_seconds": [
+        3.042,
+        4.542
+      ],
+      "trim_in_seconds": 3.458,
+      "frames": [
+        83,
+        106
+      ],
+      "mean_motion": 1.417
+    },
+    "s67": {
+      "shot_seconds": [
+        4.542,
+        5.042
+      ],
+      "trim_in_seconds": 4.542,
+      "frames": [
+        109,
+        120
+      ],
+      "stretch_factor": 2.0,
+      "mean_motion": 0.15,
+      "note": "0.50 s near-static shot (mean motion 0.15) slowed x2; allowed below the 0.75 s default because nothing moves"
+    }
+  },
+  "group": "G19",
+  "attempt": 1,
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DG2LxoqactZoOnt8BEez3KgjFh/hf_20261012_235325_9d9479d0-c680-4ac7-92ef-a5fa79c73076.mp4",
+  "duration": 5.056,
+  "size": [
+    480,
+    854
+  ],
+  "audio": true
+}

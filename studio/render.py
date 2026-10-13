@@ -46,7 +46,7 @@ def _fps(stream):
 
 
 def collect_clips(project, use_manifest=False, allow_unapproved=False):
-    """[(scene, clip_path, trim_in)] in storyboard order, or raise listing every problem."""
+    """[(scene, clip_path, trim_in, stretch, audio_fill)] in storyboard order, or raise listing every problem."""
     problems, clips = [], []
     scene_status = project.status.get("scenes", {})
     manifest = (project.manifest or {}).get("scenes", {})
@@ -64,7 +64,13 @@ def collect_clips(project, use_manifest=False, allow_unapproved=False):
         if not allow_unapproved and not allowed_for_render(entry, False):
             problems.append(f"{sid}: not approved")
             continue
-        clips.append((scene, path, entry.get("trim_in_seconds"), entry.get("stretch_factor") or 1.0))
+        fill = entry.get("audio_fill")  # audio-only substitute for a clip generated without sound
+        if fill:
+            fill = {**fill, "path": resolve_asset(fill["path"])}
+            if not fill["path"].is_file():
+                problems.append(f"{sid}: audio_fill file not found {fill['path']}")
+                continue
+        clips.append((scene, path, entry.get("trim_in_seconds"), entry.get("stretch_factor") or 1.0, fill))
     if problems:
         raise RenderError("cannot render:\n  " + "\n  ".join(problems))
     return clips
@@ -87,6 +93,19 @@ def _concat_input(listfile, files):
     return ["-f", "concat", "-safe", "0", "-i", str(listfile)]
 
 
+LOUDNORM = "loudnorm=I=-14:TP=-1.5:LRA=11"
+
+
+def _loudnorm(listfile):
+    """Second-pass loudnorm filter using values measured from the concatenated audio."""
+    err = subprocess.run(["ffmpeg", "-hide_banner", "-f", "concat", "-safe", "0", "-i", str(listfile),
+                          "-af", LOUDNORM + ":print_format=json", "-f", "null", "-"],
+                         capture_output=True, text=True, check=True).stderr
+    m = json.loads(err[err.rindex("{"):err.rindex("}") + 1])
+    return (f"{LOUDNORM}:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
+            f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
+
+
 def render(project, output, fit="pad", trim_anchor="start", audio=True,
            use_manifest=False, allow_unapproved=False, settings=None, keep_temp=False, size=None):
     require_ffmpeg()
@@ -104,7 +123,7 @@ def render(project, output, fit="pad", trim_anchor="start", audio=True,
     tmp = Path(tempfile.mkdtemp(prefix="render-"))
     try:
         video_segments, audio_segments = [], []
-        for idx, (scene, path, explicit_in, stretch) in enumerate(clips):
+        for idx, (scene, path, explicit_in, stretch, fill) in enumerate(clips):
             use = scene["end_seconds"] - scene["start_seconds"]
             info = probe(path)
             # a stretched cut reads use/stretch seconds of source and slows it to `use`
@@ -119,19 +138,24 @@ def render(project, output, fit="pad", trim_anchor="start", audio=True,
             video_segments.append(f"{stem}.mp4")
             if audio:
                 # PCM segments concatenate sample-exactly; AAC is encoded once at the end.
-                src = ["-ss", f"{start:.3f}", "-i", str(path), "-map", "0:a:0"] if info["audio"] else \
-                      ["-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo"]
+                if fill:
+                    src, tempo = ["-ss", f"{float(fill['start']):.3f}", "-i", str(fill["path"]), "-map", "0:a:0"], ""
+                elif info["audio"]:
+                    src = ["-ss", f"{start:.3f}", "-i", str(path), "-map", "0:a:0"]
+                    tempo = f"atempo={1 / stretch:.4f}," if stretch != 1.0 else ""
+                else:
+                    src, tempo = ["-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo"], ""
                 subprocess.run(["ffmpeg", "-v", "error", "-y", *src,
-                                "-af", (f"atempo={1 / stretch:.4f}," if stretch != 1.0 and info["audio"] else "")
+                                "-af", tempo
                                 + f"aresample=48000,apad,atrim=0:{use},afade=t=in:d=0.01,afade=t=out:st={use - 0.01}:d=0.01",
                                 "-ac", "2", "-t", f"{use}",
                                 "-c:a", "pcm_s16le", f"{stem}.wav"], check=True)
                 audio_segments.append(f"{stem}.wav")
         cmd = ["ffmpeg", "-v", "error", "-y", *_concat_input(tmp / "video.txt", video_segments)]
         if audio:
-            # 10 ms fades per cut avoid clicks; loudness normalised for short-video platforms.
+            # 10 ms fades per cut avoid clicks; two-pass loudness normalisation for short-video platforms.
             cmd += [*_concat_input(tmp / "audio.txt", audio_segments), "-map", "0:v", "-map", "1:a",
-                    "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000",
+                    "-af", _loudnorm(tmp / "audio.txt") + ",aresample=48000,alimiter=limit=0.7:level=false", "-ar", "48000",
                     "-c:a", settings["audio_codec"], "-b:a", "192k", "-shortest"]
         cmd += ["-c:v", "copy", "-movflags", "+faststart", str(output)]
         subprocess.run(cmd, check=True)

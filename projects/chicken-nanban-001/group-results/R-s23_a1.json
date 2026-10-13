@@ -1,0 +1,29 @@
+{
+  "path": "/home/user/ai-cooking-video/media/chicken-nanban-001/clips/R-s23_a1.mp4",
+  "fps": 24.0,
+  "shots_found": 1,
+  "shots_expected": 1,
+  "cuts": {
+    "s23": {
+      "shot_seconds": [
+        0.0,
+        4.042
+      ],
+      "trim_in_seconds": 1.5,
+      "frames": [
+        36,
+        59
+      ],
+      "mean_motion": 2.766
+    }
+  },
+  "group": "R-s23",
+  "attempt": 1,
+  "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DG2LxoqactZoOnt8BEez3KgjFh/hf_20261012_235541_2edeaa74-ff6b-4f42-a549-e558cefaa730.mp4",
+  "duration": 4.064,
+  "size": [
+    480,
+    854
+  ],
+  "audio": true
+}
